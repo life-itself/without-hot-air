@@ -20,13 +20,15 @@
       {
         "name": "Climate inquiry",
         "href": "https://climate.lifeitself.org"
-      },
-      {
-        "name": "GitHub",
-        "href": "https://github.com/life-itself/without-hot-air"
       }
     ]
   },
+  "social": [
+    {
+      "label": "github",
+      "href": "https://github.com/life-itself/without-hot-air"
+    }
+  ],
   "contentExclude": [
     "/docs",
     "/scripts",
@@ -41,10 +43,6 @@
           {
             "name": "About this edition",
             "href": "/about"
-          },
-          {
-            "name": "Source on GitHub",
-            "href": "https://github.com/life-itself/without-hot-air"
           },
           {
             "name": "Suggest a correction",
