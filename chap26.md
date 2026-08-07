@@ -1,3 +1,7 @@
+---
+title: "26 Fluctuations and storage"
+---
+
 # 26 Fluctuations and storage
 
 > *The wind, as a direct motive power, is wholly inapplicable to a system of machine labour, for during a calm season the whole business of the country would be thrown out of gear. Before the era of steam-engines, windmills were tried for draining mines; but though they were powerful machines, they were very irregular, so that in a long tract of calm weather the mines were drowned, and all the workmen thrown idle.*

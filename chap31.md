@@ -1,3 +1,7 @@
+---
+title: "31 The last thing we should talk about"
+---
+
 # 31 The last thing we should talk about
 
 ![](/assets/figure434.gif)

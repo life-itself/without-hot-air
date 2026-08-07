@@ -1,3 +1,7 @@
+---
+title: "The author"
+---
+
 # The author
 
 *Sustainable Energy – without the hot air*

@@ -1,3 +1,7 @@
+---
+title: "32 Saying yes"
+---
+
 # 32 Saying yes
 
 Because Britain currently gets 90% of its energy from fossil fuels, it’s no surprise that getting off fossil fuels requires big, big changes – a total change in the transport fleet; a complete change of most building heating systems; and a 10- or 20-fold increase in green power.

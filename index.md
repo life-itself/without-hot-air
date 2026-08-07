@@ -1,10 +1,14 @@
 ---
-title: Sustainable Energy without the Hot Air (Revised, Community Edition)
+title: Sustainable Energy — Without the Hot Air
+description: A community edition of David MacKay's book — the original text, opened up so it can be updated.
 ---
 
-David MacKay's *Sustainable Energy - Without the Hot Air* (http://withouthotair.com). **Reusable and revised.**
+David MacKay's *Sustainable Energy — Without the Hot Air*, as a **community edition**.
 
-More on [why we are creating this version](#why-this-project).
+> This is **not** the official edition. MacKay's original book and website are at
+> [withouthotair.com](https://withouthotair.com). This edition reproduces his 2008
+> text unchanged, in an open and editable form, so that it *can* be corrected and
+> updated — collaboratively, in the open. See [[about|About this edition]].
 
 ![cover](/assets/cover.jpg)
 
@@ -78,25 +82,13 @@ More on [why we are creating this version](#why-this-project).
 
 ## Why this project
 
-David MacKay tragically passed away in 2016. His wonderful book (and website) were first published in 2008. The material is still of great value. However, is has not been updated since publication and now won't be (at least by David). David made his book available in machine readable formats and licensed the book (semi-)openly meaning it can be modified and redistributed.
+MacKay died in 2016, so the book will not be revised by him. It remains a go-to
+reference, but its numbers have dated and its original format is not easy to edit
+or collaborate on. So we converted it to markdown, put it in a public repository,
+and archived the original — which makes a collaborative revised edition possible.
 
-The book remains a go-to reference and extremely useful. However it is getting out of date -- e.g. solar situation in 2020 is dramatically different from a decade earlier.[^1] Its current format is not easily editable nor is in a repository where it can be collaboratively worked on. Finally, there is the risk the book and site could one day disappear.
-
-In this project we have:
-
-* Created a source form in markdown which is much easier to edit, reuse and publish
-* Put it in a public [git(hub) repo][git] which makes it easy for others to collaborate
-* Archived original material so that it is preserved
-
-What this makes possible
-
-* Creating a revised edition collaboratively to bring it up to date
-* Easier reuse and referencing by others
-* Adding additional functionality (e.g. annotation, search etc)
-
-[git]: https://github.com/life-itself/without-hot-air
-
-[^1]: See this 2017 article on Carbon Commentary with concrete suggestions https://www.carboncommentary.com/blog/2017/3/30/l6qcqgoedse1wmjjz87t09usoq6jva and associated thread on ycombinator: https://news.ycombinator.com/item?id=14009057
+Full reasoning, what we have deliberately *not* changed, and how to help:
+[[about|About this edition]].
 
 ## Contribute
 

@@ -1,5 +1,8 @@
-# <span class="smallfont">*Part IV*</span>
-<span class="lightblue">Useful data</span>
+---
+title: "Part IV: Useful data"
+---
+
+# Part IV: Useful data
 
 ![](/assets/partpage.gif)
 

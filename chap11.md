@@ -1,4 +1,6 @@
-
+---
+title: "11 Gadgets"
+---
 
 ![](/assets/figure78.gif)
 

@@ -1,5 +1,8 @@
-# <span class="smallfont">*Part I*</span>
-<span class="lightblue">Numbers, not adjectives</span>
+---
+title: "Part I: Numbers, not adjectives"
+---
+
+# Part I: Numbers, not adjectives
 
 ![](/assets/partpage.gif)
 

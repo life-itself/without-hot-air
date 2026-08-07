@@ -1,4 +1,6 @@
-
+---
+title: "7 Heating and cooling"
+---
 
 ![](/assets/figure53.gif)
 

@@ -1,4 +1,6 @@
-
+---
+title: "16 Geothermal"
+---
 
 ![](/assets/figure116.gif)
 

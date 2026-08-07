@@ -1,3 +1,7 @@
+---
+title: "Acknowledgments"
+---
+
 # Acknowledgments
 
 For leading me into environmentalism, I thank Robert MacKay, Gale Ryba, and Mary Archer.

@@ -1,3 +1,7 @@
+---
+title: "H Stuff II"
+---
+
 # H Stuff II
 
 ## Imported energy

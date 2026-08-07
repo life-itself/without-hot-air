@@ -1,3 +1,7 @@
+---
+title: "2 The balance sheet"
+---
+
 # 2 The balance sheet
 
 ![](/assets/figure324.gif)

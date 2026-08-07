@@ -1,4 +1,6 @@
-
+---
+title: "C Planes II"
+---
 
 ![](/assets/figure270.gif)
 

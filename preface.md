@@ -1,3 +1,7 @@
+---
+title: "Preface"
+---
+
 # Preface
 
 ## What’s this book about?

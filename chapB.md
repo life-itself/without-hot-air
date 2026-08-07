@@ -1,3 +1,7 @@
+---
+title: "B Wind II"
+---
+
 # B Wind II
 
 ## The physics of wind power

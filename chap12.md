@@ -1,4 +1,6 @@
-
+---
+title: "12 Wave"
+---
 
 ![](/assets/figure84.gif)
 

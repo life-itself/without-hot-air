@@ -1,3 +1,7 @@
+---
+title: "30 Energy plans for Europe, America, and the World"
+---
+
 # 30 Energy plans for Europe, America, and the World
 
 Figure 30.1 shows the power consumptions of lots of countries or regions, versus their gross domestic products (GDPs). It is a widely held assumption that human development and growth are good things, so when sketching world plans for sustainable energy I am going to assume that all the countries with low GDP per capita are going to progress rightwards in figure 30.1. And as their GDPs increase, it’s inevitable that their power consumptions will increase too. It’s not clear what consumption we should plan for, but I think that the average European level (125 kWh per day per person) seems a reasonable assumption; alternatively, we could assume that efficiency measures, like those envisaged in Cartoon Britain in Chapters 19–28, allow all countries to attain a European standard of living with a lower power consumption. In the consumption plan in [chapter 27](../Text/chap27.xhtml#fig27.1), Cartoon Britain’s consumption fell to about <span class="red">68 kWh/d/p</span>. Bearing in mind that Cartoon Britain doesn’t have much industrial activity, perhaps it would be sensible to assume a slightly higher target, such as Hong Kong’s <span class="red">80 kWh/d/p</span>.

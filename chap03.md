@@ -1,4 +1,6 @@
-
+---
+title: "3 Cars"
+---
 
 ![](/assets/figure19.gif)
 

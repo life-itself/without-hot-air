@@ -1,17 +1,29 @@
 {
-  "title": "Sustainable Energy — Without the Hot Air",
-  "description": "David MacKay's Sustainable Energy — Without the Hot Air. Preserved, converted, and open to revision.",
+  "title": "Sustainable Energy — Without the Hot Air (Community Edition)",
+  "description": "David MacKay's Sustainable Energy — Without the Hot Air. A community edition: the original text, opened up so it can be updated.",
   "favicon": "🔥",
   "theme": "lessflowery",
   "showSidebar": true,
   "showToc": true,
   "showBacklinks": true,
   "nav": {
-    "title": "Without the Hot Air",
+    "title": "Without the Hot Air — Community Edition",
     "links": [
       {
         "name": "Contents",
         "href": "/"
+      },
+      {
+        "name": "About this edition",
+        "href": "/about"
+      },
+      {
+        "name": "Climate inquiry",
+        "href": "https://climate.lifeitself.org"
+      },
+      {
+        "name": "GitHub",
+        "href": "https://github.com/life-itself/without-hot-air"
       }
     ]
   },
@@ -20,5 +32,43 @@
     "/scripts",
     "/README",
     "/CLAUDE"
-  ]
+  ],
+  "footer": {
+    "navigation": [
+      {
+        "title": "This edition",
+        "links": [
+          {
+            "name": "About this edition",
+            "href": "/about"
+          },
+          {
+            "name": "Source on GitHub",
+            "href": "https://github.com/life-itself/without-hot-air"
+          },
+          {
+            "name": "Suggest a correction",
+            "href": "https://github.com/life-itself/without-hot-air/issues"
+          }
+        ]
+      },
+      {
+        "title": "Elsewhere",
+        "links": [
+          {
+            "name": "The original: withouthotair.com",
+            "href": "https://withouthotair.com"
+          },
+          {
+            "name": "Life Itself climate inquiry",
+            "href": "https://climate.lifeitself.org"
+          },
+          {
+            "name": "Life Itself",
+            "href": "https://lifeitself.org/"
+          }
+        ]
+      }
+    ]
+  }
 }

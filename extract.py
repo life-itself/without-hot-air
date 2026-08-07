@@ -1,4 +1,5 @@
 import os
+import sys
 import shutil
 from distutils.dir_util import copy_tree
 
@@ -246,5 +247,91 @@ Bjørn Lomborg’s *The Skeptical Environmentalist* (2001).
     assert out == exp
 
 
+# Page titles
+#
+# Flowershow takes a page's title from frontmatter, falling back to a level-1
+# heading only when it leads the file. Many chapters open with a figure before
+# their heading, so without this the site navigation read "chap03", "chap04"...
+# The part dividers additionally carry raw HTML in their heading, which rendered
+# as visible markup.
+#
+# Idempotent: safe to re-run over already-titled files.
+
+TITLE_OVERRIDES = {
+    'dedication': 'Dedication',
+    'titlepage': 'Title page',
+}
+
+SKIP_TITLING = ('index.md', 'README.md', 'CLAUDE.md')
+
+
+def _clean(text):
+    """Strip HTML tags and markdown emphasis from a heading."""
+    text = re.sub(r'<[^>]*>', '', text)
+    text = re.sub(r'[*_]{1,3}(.+?)[*_]{1,3}', r'\g<1>', text)
+    return ' '.join(text.split())
+
+
+def page_title(path, body):
+    """Derive a display title for one markdown file."""
+    stem = os.path.splitext(os.path.basename(path))[0]
+    if stem in TITLE_OVERRIDES:
+        return TITLE_OVERRIDES[stem]
+
+    lines = body.split('\n')
+    for i, line in enumerate(lines):
+        if not line.startswith('# '):
+            continue
+        title = _clean(line[2:])
+        # Part dividers put their subtitle on the next line:
+        #   # <span class="smallfont">*Part I*</span>
+        #   <span class="lightblue">Numbers, not adjectives</span>
+        # Keyed on the smallfont marker rather than the word "part", so a re-run
+        # over an already-cleaned heading does not swallow the following line.
+        if 'smallfont' in line and i + 1 < len(lines):
+            subtitle = _clean(lines[i + 1])
+            if subtitle:
+                title = '%s: %s' % (title, subtitle)
+        return title
+    return stem
+
+
+def clean_part_heading(body, title):
+    """Replace a part divider's raw-HTML heading with plain text."""
+    lines = body.split('\n')
+    for i, line in enumerate(lines):
+        if line.startswith('# ') and 'smallfont' in line:
+            lines[i:i + 2] = ['# ' + title]
+            return '\n'.join(lines)
+    return body
+
+
+def titles(directory=SRC):
+    """Write a frontmatter title into every chapter file."""
+    for name in sorted(os.listdir(directory)):
+        if not name.endswith('.md') or name in SKIP_TITLING:
+            continue
+        path = os.path.join(directory, name)
+        text = open(path, encoding='utf8').read()
+
+        body = text
+        if text.startswith('---\n'):
+            end = text.find('\n---', 3)
+            if end != -1:
+                body = text[end + 4:].lstrip('\n')
+
+        title = page_title(path, body)
+        body = clean_part_heading(body, title)
+        open(path, 'w', encoding='utf8').write(
+            '---\ntitle: "%s"\n---\n\n%s' % (title.replace('"', '\\"'), body)
+        )
+        print('%-20s %s' % (name, title))
+
+
 if __name__ == '__main__':
-    etl()
+    if len(sys.argv) > 1 and sys.argv[1] == 'titles':
+        titles()
+    else:
+        etl()
+        titles()
+

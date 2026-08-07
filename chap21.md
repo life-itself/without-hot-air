@@ -1,4 +1,6 @@
-
+---
+title: "21 Smarter heating"
+---
 
 ![](/assets/figure174.gif)
 

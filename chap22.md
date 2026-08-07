@@ -1,4 +1,6 @@
-
+---
+title: "22 Efficient electricity use"
+---
 
 ![](/assets/figure188.gif)
 

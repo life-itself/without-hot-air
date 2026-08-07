@@ -1,4 +1,6 @@
-
+---
+title: "24 Nuclear?"
+---
 
 ![](/assets/figure192.gif)
 

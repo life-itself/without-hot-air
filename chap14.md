@@ -1,3 +1,7 @@
+---
+title: "14 Tide"
+---
+
 # 14 Tide
 
 The moon and earth are in a whirling, pirouetting dance around the sun. Together they tour the sun once every year, at the same time whirling around each other once every 28 days. The moon also turns around once every 28 days so that she always shows the same face to her dancing partner, the earth. The prima donna earth doesn’t return the compliment; she pirouettes once every day. This dance is held together by the force of gravity: every bit of the earth, moon, and sun is pulled towards every other bit of earth, moon, and sun. The sum of all these forces is *almost* exactly what’s required to keep the whirling dance on course. But there are very slight imbalances between the gravitational forces and the forces required to maintain the dance. It is these imbalances that give rise to the tides.

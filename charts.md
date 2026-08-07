@@ -1,3 +1,7 @@
+---
+title: "Charts"
+---
+
 # Charts
 
 ## Power translation chart

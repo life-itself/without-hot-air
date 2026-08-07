@@ -1,5 +1,8 @@
-# <span class="smallfont">*Part III*</span>
-<span class="lightblue">Technical chapters</span>
+---
+title: "Part III: Technical chapters"
+---
+
+# Part III: Technical chapters
 
 ![](/assets/partpage.gif)
 

@@ -1,3 +1,7 @@
+---
+title: "J Populations and areas"
+---
+
 # J Populations and areas
 
 ## <span id="page338">Population densities</span>

@@ -1,4 +1,6 @@
-
+---
+title: "6 Solar"
+---
 
 ![](/assets/figure33.gif)
 

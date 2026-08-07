@@ -1,3 +1,7 @@
+---
+title: "Bibliography"
+---
+
 # Bibliography
 
   -  <span class="smallcaps"> Aitchison, E.</span> (1996).

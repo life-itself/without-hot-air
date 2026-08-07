@@ -1,4 +1,6 @@
-
+---
+title: "9 Light"
+---
 
 ![](/assets/figure67.gif)
 

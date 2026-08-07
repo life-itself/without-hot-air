@@ -1,5 +1,8 @@
-# <span class="smallfont">*Part II*</span>
-<span class="lightblue">Making a difference</span>
+---
+title: "Part II: Making a difference"
+---
+
+# Part II: Making a difference
 
 ![](/assets/partpage.gif)
 

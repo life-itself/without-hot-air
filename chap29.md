@@ -1,3 +1,7 @@
+---
+title: "29 What to do now"
+---
+
 # 29 What to do now
 
 > *Unless we act now, not some time distant but now, these consequences, disastrous as they are, will be irreversible. So there is nothing more serious, more urgent or more demanding of leadership.*

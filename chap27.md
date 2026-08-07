@@ -1,3 +1,7 @@
+---
+title: "27 Five energy plans for Britain"
+---
+
 # 27 Five energy plans for Britain
 
 If we are to get off our current fossil fuel addiction we need a plan for radical action. And the plan needs to add up. The plan also needs a political and financial roadmap. Politics and economics are not part of this book’s brief, so here I will simply discuss what the technical side of a plan that adds up might look like.

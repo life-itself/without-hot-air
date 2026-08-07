@@ -1,3 +1,7 @@
+---
+title: "25 Living on other countries’ renewables?"
+---
+
 # 25 Living on other countries’ renewables?
 
 > *Whether the Mediterranean becomes an area of cooperation or confrontation in the 21st century will be of strategic importance to our common security.*
