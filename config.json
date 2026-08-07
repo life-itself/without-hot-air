@@ -6,6 +6,7 @@
   "showSidebar": true,
   "showToc": true,
   "showBacklinks": true,
+  "showEditLink": true,
   "nav": {
     "title": "Without the Hot Air — Community Edition",
     "links": [
@@ -43,10 +44,6 @@
           {
             "name": "About this edition",
             "href": "/about"
-          },
-          {
-            "name": "Suggest a correction",
-            "href": "https://github.com/life-itself/without-hot-air/issues"
           }
         ]
       },

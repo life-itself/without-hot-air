@@ -92,8 +92,9 @@ Full reasoning, what we have deliberately *not* changed, and how to help:
 
 ## Contribute
 
-* Suggest or make an edit: Open [an issue](https://github.com/life-itself/without-hot-air/issues) or edit the text directly (coming soon)
-* Make this site better / prettier etc: fork and pull on the [repo](git) or [get in touch][contact]
+* **Fix something on a page:** use the **Edit this page** link at the bottom of any page — it opens the source on GitHub, ready to edit.
+* **Raise something first:** open [an issue](https://github.com/life-itself/without-hot-air/issues).
+* **Make the site itself better:** fork and send a pull request on the [repo][git], or [get in touch][contact].
 
 Full source plus README plus more in the the open github repository here: https://github.com/life-itself/without-hot-air
 

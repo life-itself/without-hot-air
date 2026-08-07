@@ -42,10 +42,13 @@ the numbers going stale.
 
 ## How to help
 
-* **Spot an error, or a number that has dated?** Open [an issue][issues].
-* **Want to fix it?** The whole book is markdown in the [repo][git] — edit and
-  send a pull request.
-* **Want to talk about it first?** [Get in touch](https://lifeitself.org/contact).
+* **Spot an error, or a number that has dated?** Use the **Edit this page**
+  link at the bottom of the page — it opens that chapter's markdown on GitHub,
+  ready to edit, and turns your change into a pull request.
+* **Rather discuss it first?** Open [an issue][issues], or
+  [get in touch](https://lifeitself.org/contact).
+* **Working on something bigger?** The whole book is markdown in the
+  [repo][git]; clone it and send a pull request.
 
 ## Credits and licensing
 

@@ -19,9 +19,20 @@ LFS pointers. `scripts/init.sh` brings a cold checkout to that point.
 
 ## Guard rails
 
-- **The chapter markdown is generated output.** `extract.py` produces it from
-  `without-hot-air.epub`. Fix the script and re-run; never hand-patch a chapter,
-  or the next regeneration silently loses the fix.
+- **Know which kind of change you are making.** `extract.py` produced the
+  chapter markdown from `without-hot-air.epub`, but that was a one-time
+  conversion — the markdown is the source of truth now, which is the whole point
+  of a community edition, and every page carries an "Edit this page" link
+  inviting exactly that.
+  - **Conversion or formatting faults** — mangled markup, a botched figure path,
+    a heading that came through wrong — are bugs in `extract.py`. Fix the script
+    and re-run its relevant stage, so the fix applies everywhere.
+  - **Content corrections and updates** — a wrong number, a dated claim, a typo
+    in MacKay's text — are edited in the markdown directly. They are the work
+    this project exists to enable.
+  - Consequently, **a full re-extraction is now a destructive operation**: it
+    would overwrite accumulated corrections. Treat `etl()` as historical.
+    `python extract.py titles` is safe and idempotent.
 - **Never weaken, skip, or delete a check to make it pass.**
 - **Never rewrite or force-push `main`.**
 - **The licensing is not yours to reword.** MacKay's original text is CC
