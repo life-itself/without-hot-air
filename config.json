@@ -1,13 +1,24 @@
 {
   "title": "Sustainable Energy — Without the Hot Air",
   "description": "David MacKay's Sustainable Energy — Without the Hot Air. Preserved, converted, and open to revision.",
+  "favicon": "🔥",
   "theme": "lessflowery",
   "showSidebar": true,
   "showToc": true,
   "showBacklinks": true,
   "nav": {
     "title": "Without the Hot Air",
-    "links": [{ "name": "Contents", "href": "/" }]
+    "links": [
+      {
+        "name": "Contents",
+        "href": "/"
+      }
+    ]
   },
-  "contentExclude": ["/docs", "/scripts", "/README", "/CLAUDE"]
+  "contentExclude": [
+    "/docs",
+    "/scripts",
+    "/README",
+    "/CLAUDE"
+  ]
 }
