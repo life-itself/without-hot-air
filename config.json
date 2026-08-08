@@ -2,6 +2,7 @@
   "title": "Sustainable Energy — Without the Hot Air (Community Edition)",
   "description": "David MacKay's Sustainable Energy — Without the Hot Air. A community edition: the original text, opened up so it can be updated.",
   "favicon": "🔥",
+  "logo": "assets/cover.jpg",
   "theme": "lessflowery",
   "showSidebar": true,
   "showToc": true,
