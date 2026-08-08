@@ -143,6 +143,29 @@ the site on a hunch that the UX will work — build the cheap version and look a
 Whatever happens: **the book stays markdown.** That is not up for negotiation, it
 is value #2.
 
+**2026-08-08 correction to Path 1:** Flowershow has no mechanism to register a
+custom React/MDX component — `<List>` and `<LineChart>` are its own built-ins,
+not something this repo can add to. But Flowershow pages *do* render raw HTML,
+inline `style=`, and even inline `<script>` directly in a `.md`/`.mdx` file (no
+component registration needed) — the book's own text already relies on this for
+`<span class="red">`/`<span class="green">` highlights. So "render with an MDX
+component" was never viable, but "render with plain HTML in the page" already
+is, no migration required. Path 1 is cheaper than the original framing assumed.
+
+**One-page experiment built and reviewed 2026-08-08:** a mockup of chapter 6
+with three of its audited claims (docs/audit.yaml) actually rewritten — panel
+efficiency and the roof-PV arithmetic that depends on it, the PV-vs-market cost
+comparison, and the world-PV-capacity comparison — shown with inline
+strikethrough-original / highlighted-insert markup and a superscript link to a
+dated, sourced "Updates" section, plus a three-way toggle (2008 original /
+revised with changes shown / revised clean). Not deployed to the live site —
+built and viewed as a standalone mockup per "build the cheap version and look
+at it," using plain HTML/CSS/JS of the kind confirmed above to work directly in
+a Flowershow page. Open finding from building it: MacKay's own text already
+uses `span.red` to highlight important numbers (a different meaning), so an
+"our updates are red" convention collides with his — the prototype uses a
+separate amber/copper tone instead for that reason.
+
 ## Phase 3 — Revise, starting with solar
 
 - [ ] Update solar with the Phase 2 mechanism; ship it as the worked example
