@@ -25,8 +25,15 @@ After deploying, also run the live-site checks:
 node scripts/smoke.mjs
 ```
 
-Driven by `smoke.json`. It catches what `verify.sh` structurally cannot — a page
-that is valid markdown but renders wrongly. Not in the Stop hook: it needs
+and the browser checks:
+
+```
+node scripts/visual.mjs              # add SCREENSHOTS=1 to write screenshots/
+```
+
+Driven by `smoke.json` and `visual.json`. They catch what `verify.sh`
+structurally cannot — a page that is valid markdown but renders wrongly. Both
+are currently red on the maths (#3), which is the point of them. Not in the Stop hook: it needs
 network and would fail spuriously mid-deploy. See `docs/handoff.md` in the
 climate repo.
 
@@ -61,8 +68,10 @@ climate repo.
 
 - Chapters are flat at the repo root; `assets/` holds all 384 figures.
 - Internal links are wikilinks (`[[chap01]]`).
-- Chapters carry no frontmatter — their `# ` heading supplies the title, and
-  adding frontmatter by hand would mean editing generated files.
+- Chapters carry a frontmatter `title`, written by `python extract.py titles`.
+  Do not hand-edit those titles: the stage derives them from the heading
+  wherever it sits in the file, and is idempotent. Flowershow only falls back to
+  a level-1 heading when it leads the file, which most chapters' do not.
 - No Git LFS.
 - Commit messages: `[scope/N][size]: subject`.
 
