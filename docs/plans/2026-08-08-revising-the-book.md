@@ -143,7 +143,7 @@ is value #2.
 - [ ] Review it properly — as a reader, not as an editor — before scaling up
 - [ ] Then work down the priority list
 
-Standing constraints (also in `CLAUDE.md`):
+Standing constraints (also in `AGENTS.md`):
 
 - **Never silently modernise.** MacKay cannot review these edits. Every change is
   visibly ours, dated and sourced.
