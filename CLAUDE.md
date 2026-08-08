@@ -63,3 +63,17 @@ climate repo.
   adding frontmatter by hand would mean editing generated files.
 - No Git LFS.
 - Commit messages: `[scope/N][size]: subject`.
+
+## Current work
+
+**Start here if picking this up cold:**
+`docs/plans/2026-08-08-revising-the-book.md` — the plan for updating MacKay's
+figures, written to be read without context.
+
+Immediate blocker: **#3, the maths does not render.** LaTeX was emitted without
+`$$` delimiters across 14 chapters, so it shows as literal text. It is a
+conversion fault, so it is fixed in `extract.py`. Nothing in the audit phase can
+proceed sensibly until arithmetic is legible.
+
+`text-as-converted-2026-08-08` tags the text before any content revision — the
+diff baseline. Re-cut it once #3 lands.
