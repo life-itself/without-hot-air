@@ -245,7 +245,7 @@ In practice, these two wind shear formulae give similar numerical answers. That�
 
 ### Standard windmill properties
 
-The typical windmill of today has a rotor diameter of around 54 metres centred at a height of 80 metres; such a machine has a "capacity" of 1 MW. The "capacity" or "peak power" is the *maximum* power the windmill can generate in optimal conditions. Usually, wind turbines are designed to start running at wind speeds somewhere around 3 to 5 m/s and to stop if the wind speed reaches gale speeds of 25 m/s. [<span class="darkred">[2]</span>](#chBn02) The actual average power delivered is the "capacity" multiplied by a factor that describes the fraction of the time that wind conditions are near optimal. This factor, sometimes called the "load factor" or "capacity factor," depends on the site; a typical load factor for a good site in the UK is 30%. [<span class="darkred">[3]</span>](#chBn03) In the Netherlands, the typical load factor is 22%; in Germany, it is 19%.
+The typical windmill of today has a rotor diameter of around <del>54 metres centred at a height of 80 metres; such a machine has a "capacity" of 1 MW.</del> <ins style="color:#a3540f;background:#fbeee0;padding:0 3px;border-radius:2px;font-weight:600;">120–160 metres for onshore turbines (2–6 MW capacity); the largest offshore turbines now reach a 236-metre rotor diameter and 15 MW.</ins> [^u1] The "capacity" or "peak power" is the *maximum* power the windmill can generate in optimal conditions. Usually, wind turbines are designed to start running at wind speeds somewhere around 3 to 5 m/s and to stop if the wind speed reaches gale speeds of 25 m/s. [<span class="darkred">[2]</span>](#chBn02) The actual average power delivered is the "capacity" multiplied by a factor that describes the fraction of the time that wind conditions are near optimal. This factor, sometimes called the "load factor" or "capacity factor," depends on the site; a typical load factor for a good site in the UK is 30%. [<span class="darkred">[3]</span>](#chBn03) In the Netherlands, the typical load factor is 22%; in Germany, it is 19%. <ins style="color:#a3540f;background:#fbeee0;padding:0 3px;border-radius:2px;font-weight:600;">Capacity factors across Europe have since risen with taller towers and larger rotors; offshore wind averaged around 41% globally in 2023.</ins> [^u2]
 
 ### Other people’s estimates of wind farm power per unit area
 
@@ -274,6 +274,12 @@ Assuming a windspeed of 6 m/s, which, as I said before, is *above* the average f
 Perhaps the worst windmills in the world are a set in Tsukuba City, Japan, which actually consume more power than they generate. Their installers were so embarrassed by the stationary turbines that they imported power to make them spin so that they looked like they were working\! [[<span class="websitetitle">6bkvbn</span>](http://tinyurl.com/6bkvbn)]
 
 ## Notes and further reading
+
+### Updates, 2026
+
+[^u1]: *Turbine size.* Onshore turbines are now typically 2–6 MW with 120–160 m rotors; the largest offshore turbines (e.g. Vestas V236) reach 15 MW with a 236 m rotor. Source: Vestas / industry turbine spec sheets, 2024.
+
+[^u2]: *Capacity factors.* Global offshore wind averaged around 41% in 2023, well above this chapter's 2008-era country figures. Source: IEA / industry capacity-factor data, 2023–2024.
 
 [^1]: *The maximum fraction of the incoming energy that can be extracted by a disc-like windmill...* There is a nice explanation of this on the Danish Wind Industry Association’s website. [[<span class="websitetitle">yekdaa</span>](http://tinyurl.com/yekdaa)].
 

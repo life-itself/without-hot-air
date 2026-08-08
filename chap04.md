@@ -48,7 +48,7 @@ Let’s be realistic. What fraction of the country can we really imagine coverin
 
 Britain’s onshore wind energy resource may be "huge," but it’s evidently not as huge as our huge consumption. We’ll come to offshore wind later.
 
-I should emphasize how generous an assumption I’m making. Let’s compare this estimate of British wind potential with current installed wind power worldwide. The windmills that would be required to provide the UK with 20 kWh/d per person amount to 50 times the entire wind hardware of Denmark; 7 times all the wind farms of Germany; and double the entire fleet of all wind turbines in the world. [^2]
+I should emphasize how generous an assumption I’m making. Let’s compare this estimate of British wind potential with current installed wind power worldwide. <del>The windmills that would be required to provide the UK with 20 kWh/d per person amount to 50 times the entire wind hardware of Denmark; 7 times all the wind farms of Germany; and double the entire fleet of all wind turbines in the world.</del> <ins style="color:#a3540f;background:#fbeee0;padding:0 3px;border-radius:2px;font-weight:600;">World wind capacity has grown roughly 15-fold since this was written: the 150 GW this scenario needs is now well under, not double, the world's installed wind fleet, and is comparable to a single year or two of current global build.</ins> [^2] [^u1]
 
 Please don’t misunderstand me. Am I saying that we shouldn’t bother building wind farms? Not at all. I’m simply trying to convey a helpful fact, namely that if we want wind power to truly make a difference, the wind farms must cover a very large area.
 
@@ -69,7 +69,7 @@ wind farm
 
 <span class="figurenumber">Table 4.5.</span> Facts worth remembering: population density. See chapter J for more population densities.
 
-The Whitelee wind farm being built near Glasgow in Scotland has 140 turbines with a combined *peak* capacity of 322 MW in an area of 55 km<sup>2</sup>. That’s 6 W/m<sup>2</sup>, *peak*. The average power produced is smaller because the turbines don’t run at peak output all the time. The ratio of the average power to the peak power is called the "load factor" or "capacity factor," and it varies from site to site, and with the choice of hardware plopped on the site; a typical factor for a good site with modern turbines is 30%. If we assume Whitelee has a load factor of 33% then the average power production per unit land area is <span class="green">2 W/m<sup>2</sup></span> – exactly the same as the power density we assumed above.
+The Whitelee wind farm being built near Glasgow in Scotland has 140 turbines with a combined *peak* capacity of 322 MW in an area of 55 km<sup>2</sup>. That’s 6 W/m<sup>2</sup>, *peak*. The average power produced is smaller because the turbines don’t run at peak output all the time. The ratio of the average power to the peak power is called the "load factor" or "capacity factor," and it varies from site to site, and with the choice of hardware plopped on the site; a typical factor for a good site with modern turbines is <del>30%</del> <ins style="color:#a3540f;background:#fbeee0;padding:0 3px;border-radius:2px;font-weight:600;">35-45%</ins>. [^u2] If we assume Whitelee has a load factor of 33% then the average power production per unit land area is <span class="green">2 W/m<sup>2</sup></span> – exactly the same as the power density we assumed above.
 
 ![](/assets/figure28.gif)
 
@@ -86,6 +86,12 @@ Chapter B explains. Bigger wind turbines deliver financial economies of scale, b
 Maybe. We’ll come back to this issue in Chapter 26, where we’ll look at wind’s intermittency and discuss several possible solutions to this problem, including energy storage and demand management.
 
 ## Notes and further reading
+
+### Updates, 2026
+
+[^u1]: *World wind capacity.* Roughly 74 GW at the end of 2006 → roughly 1131 GW by the end of 2024 (1053 GW onshore + 79 GW offshore). Source: IRENA, *Renewable Capacity Statistics 2025*.
+
+[^u2]: *Onshore capacity factor.* Modern onshore wind farms now typically achieve 35–45%, up from the ~30% "good site" figure here, from taller towers and larger rotors relative to generator size. Source: industry capacity-factor data, 2023–2024.
 
 [^1]: *Figure 4.1 and figure 4.6.* Cambridge wind data are from the Digital Technology Group, Computer Laboratory, Cambridge [[<span class="websitetitle">vxhhj</span>](http://tinyurl.com/vxhhj)]. The weather station is on the roof of the Gates building, roughly 10 m high. Wind speeds at a height of 50 m are usually about 25% bigger. Cairngorm data (*figure 4.2*) are from Heriot–Watt University Physics Department [[<span class="websitetitle">tdvml</span>](http://tinyurl.com/tdvml)].
 

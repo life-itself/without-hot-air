@@ -31,7 +31,7 @@ There are several ways to turn plants into liquid fuels. I’ll express the pote
 
 ### Britain’s main biodiesel crop, rape
 
-Typically, rape is sown in September and harvested the following August. Currently 450 000 hectares of oilseed rape are grown in the UK each year. (That’s 2% of the UK.) Fields of rape produce 1200 litres of biodiesel per hectare per year; biodiesel has an energy of 9.8 kWh per litre; [<span class="darkred">[2]</span>](#chDn02) so that’s a power per unit area of <span class="green">0.13 W/m<sup>2</sup></span>.
+Typically, rape is sown in September and harvested the following August. <del>Currently 450 000 hectares of oilseed rape are grown in the UK each year. (That’s 2% of the UK.)</del> <ins style="color:#a3540f;background:#fbeee0;padding:0 3px;border-radius:2px;font-weight:600;">UK oilseed rape area has since fallen to roughly 300 000–350 000 hectares (about 1.3% of the UK), down from a peak of over 600 000 ha around 2012 — flea-beetle damage and crop economics, not less demand for biodiesel.</ins> [^u1] Fields of rape produce 1200 litres of biodiesel per hectare per year; biodiesel has an energy of 9.8 kWh per litre; [<span class="darkred">[2]</span>](#chDn02) so that’s a power per unit area of <span class="green">0.13 W/m<sup>2</sup></span>.
 
 If we used 25% of Britain for oilseed rape, we’d obtain biodiesel with an energy content of <span class="green">3.1 kWh/d per person</span>.
 
@@ -174,6 +174,10 @@ Scaling this idea up, if every borough had one of these, and if everyone sent 1 
 This is similar to the figure estimated above for methane capture at landfill sites. And remember, we can’t have both. More waste incineration means less methane gas leaking out of landfill sites. See [figure 27.2](../Text/chap27.xhtml#fig27.2) and [figure 27.3](../Text/chap27.xhtml#fig27.3), for further data on waste incineration.
 
 ## Notes and further reading
+
+### Updates, 2026
+
+[^u1]: *UK oilseed rape area.* Down to roughly 300,000–350,000 hectares in recent years, from a peak of over 600,000 ha around 2012. Source: UK Defra / AHDB farming statistics, "First estimates of 2023 UK wheat and oilseed rape production."
 
 [^1]: *The power per unit area of using willow, miscanthus, or poplar, for electricity is 0.2 W/m<sup>2</sup>*. Source: Select Committee on Science and Technology Minutes of Evidence – Memorandum from the Biotechnology & Biological Sciences Research Council [[<span class="websitetitle">www.publications.parliament.uk/pa/ld200304/ldselect/ldsctech/126/4032413.htm</span>](http://www.publications.parliament.uk/pa/ld200304/ldselect/ldsctech/126/4032413.htm)]. "Typically a sustainable crop of 10 dry t/ha/y of woody biomass can be produced in Northern Europe... . Thus an area of 1 km<sup>2</sup> will produce 1000 dry t/y – enough for a power output 150 kWe at low conversion efficiencies or 300 kWe at high conversion efficiencies." This means 0.15–0.3 W(e)/m<sup>2</sup>. See also Layzell et al. (2006), [[<span class="websitetitle">3ap7lc</span>](http://tinyurl.com/3ap7lc)].
 
