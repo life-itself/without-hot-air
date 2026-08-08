@@ -1,0 +1,17 @@
+{
+  "base": "https://withouthotair.org",
+  "pages": [
+    { "path": "/", "contains": ["Community Edition", "Part I: Numbers, not adjectives", "3 Cars"] },
+    { "path": "/about", "contains": ["not the official edition"] },
+    { "path": "/chap01", "contains": ["1 Motivations"] },
+    { "path": "/chap03", "contains": ["3 Cars"] },
+    { "path": "/chapB" },
+    { "path": "/chapC" },
+    { "path": "/partI", "contains": ["Part I"] },
+    { "path": "/no-such-page-should-404", "status": 404 }
+  ],
+  "assets": [
+    { "path": "/assets/cover.jpg", "minBytes": 10000 },
+    { "path": "/assets/figure19.gif", "minBytes": 1000, "magic": "47494638" }
+  ]
+}

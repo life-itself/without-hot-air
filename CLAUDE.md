@@ -17,6 +17,17 @@ Exit 0 means the tree is structurally sound: frontmatter parses, links and
 embeds resolve, every referenced figure exists, `config.json` is valid, no Git
 LFS pointers. `scripts/init.sh` brings a cold checkout to that point.
 
+After deploying, also run the live-site checks:
+
+```
+node scripts/smoke.mjs
+```
+
+Driven by `smoke.json`. It catches what `verify.sh` structurally cannot — a page
+that is valid markdown but renders wrongly. Not in the Stop hook: it needs
+network and would fail spuriously mid-deploy. See `docs/handoff.md` in the
+climate repo.
+
 ## Guard rails
 
 - **Know which kind of change you are making.** `extract.py` produced the

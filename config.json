@@ -34,7 +34,8 @@
     "/docs",
     "/scripts",
     "/README",
-    "/CLAUDE"
+    "/CLAUDE",
+    "/smoke"
   ],
   "footer": {
     "navigation": [
