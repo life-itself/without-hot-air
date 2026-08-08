@@ -68,7 +68,7 @@ The average American uses 250 kWh per day. Can we hit that target with renewable
 
 ### Wind
 
-A study by Elliott et al. (1991) assessed the wind energy potential of the USA. The windiest spots are in North Dakota, Wyoming, and Montana. They reckoned that, over the whole country, 435 000 km<sup>2</sup> of windy land could be exploited without raising too many hackles, and that the electricity generated would be 4600 TWh per year, which is <span class="green">42 kWh per day per person</span> if shared between 300 million people. Their calculations assumed an average power density of 1.2 W/m<sup>2</sup>, incidentally – smaller than the 2 W/m<sup>2</sup> we assumed in Chapter 4. The area of these wind farms, 435 000 km<sup>2</sup>, is roughly the same as the area of California. The amount of wind hardware required (assuming a load factor of 20%) would be a capacity of about 2600 GW, which would be a 200-fold increase in wind hardware in the USA.
+A study by Elliott et al. (1991) assessed the wind energy potential of the USA. The windiest spots are in North Dakota, Wyoming, and Montana. They reckoned that, over the whole country, 435 000 km<sup>2</sup> of windy land could be exploited without raising too many hackles, and that the electricity generated would be 4600 TWh per year, which is <span class="green">42 kWh per day per person</span> if shared between 300 million people. Their calculations assumed an average power density of 1.2 W/m<sup>2</sup>, incidentally – smaller than the 2 W/m<sup>2</sup> we assumed in Chapter 4. The area of these wind farms, 435 000 km<sup>2</sup>, is roughly the same as the area of California. The amount of wind hardware required (assuming a load factor of 20%) would be a capacity of about 2600 GW, which <del>would be a 200-fold increase in wind hardware in the USA.</del> <ins style="color:#a3540f;background:#fbeee0;padding:0 3px;border-radius:2px;font-weight:600;">is a much smaller multiple today: US wind capacity grew roughly 20–30-fold between 2008 and the mid-2020s on its own, from a few GW to well over 150 GW.</ins> [^u2]
 
 ### Offshore wind
 
@@ -183,7 +183,7 @@ Let’s estimate a bound on the power that energy crops could deliver for the wh
 
 Solar thermal water heaters are a no-brainer. They will work almost everywhere in the world. China are world leaders in this technology. There’s over 100 GW of solar water heating capacity worldwide, and more than half of it is in China.
 
-Solar photovoltaics were technically feasible for Europe, but I judged them too expensive. I hope I’m wrong, obviously. It will be wonderful if the cost of photovoltaic power drops in the same way that the cost of computer power has dropped over the last forty years.
+Solar photovoltaics were technically feasible for Europe, but I judged them too expensive. I hope I’m wrong, obviously. It will be wonderful if the cost of photovoltaic power drops in the same way that the cost of computer power has dropped over the last forty years. <ins style="color:#a3540f;background:#fbeee0;padding:0 3px;border-radius:2px;font-weight:600;">It did, and then some: solar PV costs fell by roughly 80–90% between 2008 and the mid-2020s (see chapter 6's updates), and unsubsidised utility-scale solar became some of the cheapest electricity in the world. The "too expensive" judgement this plan is built on no longer holds — this is arguably the single most consequential fact in this chapter to revisit.</ins> [^u1]
 
 My guess is that in many regions, the best solar technology for electricity production will be the concentrating solar power that we discussed in [chapter 25](../Text/chap25.xhtml#solar) and earlier this chapter. There we already established that one billion people in Europe and North Africa could be sustained by country-sized solar power facilities in deserts near the Mediterranean; and that half a billion in North America could be sustained by Arizona-sized facilities in the deserts of the USA and Mexico. I’ll leave it as an exercise for the reader to identify appropriate deserts to help out the other 4.5 billion people in the world.
 
@@ -192,6 +192,12 @@ My guess is that in many regions, the best solar technology for electricity prod
 The non-solar numbers add up as follows. Wind: 24 kWh/d/p; hydro: 3.6 kWh/d/p; tide: 0.3 kWh/d/p; wave: 0.5 kWh/d/p; geothermal: 8 kWh/d/p – a total of 36 kWh/d/p. Our target was a post-European consumption of 80 kWh/d per person. We have a clear conclusion: the non-solar renewables may be "huge," but they are not huge enough. To complete a plan that adds up, we must rely on one or more forms of solar power. Or use nuclear power. Or both.
 
 ## Notes and further reading
+
+### Updates, 2026
+
+[^u1]: *Solar PV cost decline.* Unsubsidised utility-scale solar LCOE fell to roughly $61/MWh by 2024, versus $76/MWh for new combined-cycle gas. Source: Lazard, *Levelized Cost of Energy+* (June 2024).
+
+[^u2]: *US wind capacity.* From a few GW in 2008 to well over 150 GW by the mid-2020s. Source: American Clean Power Association / IRENA capacity statistics.
 
 [^1]: *North American offshore wind resources.* [<span class="websitetitle">www.ocean.udel.edu/windpower/ResourceMap/index-wn-dp.html</span>](http://www.ocean.udel.edu/windpower/ResourceMap/index-wn-dp.html)
 
