@@ -170,17 +170,17 @@ Alternatively, you may conclude that we have too high a population density, and 
 
 ## Notes and further reading
 
-### Updates, 2026
+### <span style="color:#a3540f;font-weight:600;">Updates, 2026</span>
 
 These flag where this chapter's plans rest on assumptions that have since moved — they don't re-derive the plans themselves. That's a bigger job than an inline note: every plan in this chapter is a system of interlocking numbers, and revising one input properly means recomputing the whole plan, not patching a footnote. Left for a dedicated pass once the chapters each plan actually draws on (wind, nuclear, fossil fuels, solar) are settled — which, as of this update, they now are.
 
-[^u1]: *UK wind capacity growth.* Roughly 3 GW in 2008 to roughly 28.5 GW by 2024, split roughly evenly between onshore and offshore. Source: RenewableUK, "UK wind 2024 in review."
+[^u1]: <span style="color:#a3540f;font-weight:600;">*UK wind capacity growth.*</span> Roughly 3 GW in 2008 to roughly 28.5 GW by 2024, split roughly evenly between onshore and offshore. Source: RenewableUK, "UK wind 2024 in review."
 
-[^u2]: *UK nuclear capacity.* Roughly 6.5 GW operational in 2024 (~14–15% of UK electricity), down from ~11 GW in 2008 as the AGR fleet has retired; Hinkley Point C (3.2 GW) is the only plant under construction. Source: World Nuclear Association, UK country profile, 2024.
+[^u2]: <span style="color:#a3540f;font-weight:600;">*UK nuclear capacity.*</span> Roughly 6.5 GW operational in 2024 (~14–15% of UK electricity), down from ~11 GW in 2008 as the AGR fleet has retired; Hinkley Point C (3.2 GW) is the only plant under construction. Source: World Nuclear Association, UK country profile, 2024.
 
-[^u3]: *UK coal phase-out.* Last coal-fired power station (Ratcliffe-on-Soar) closed September 2024. Source: National Grid ESO / DESNZ.
+[^u3]: <span style="color:#a3540f;font-weight:600;">*UK coal phase-out.*</span> Last coal-fired power station (Ratcliffe-on-Soar) closed September 2024. Source: National Grid ESO / DESNZ.
 
-[^u4]: *Offshore wind vs. nuclear cost.* 2024 UK CfD auction: offshore wind ~£73–91/MWh; Hinkley Point C nuclear ~£92.50/MWh base price, escalating well above that in current prices. Sources: UK CfD Allocation Round 7 results, 2024; World Nuclear News.
+[^u4]: <span style="color:#a3540f;font-weight:600;">*Offshore wind vs. nuclear cost.*</span> 2024 UK CfD auction: offshore wind ~£73–91/MWh; Hinkley Point C nuclear ~£92.50/MWh base price, escalating well above that in current prices. Sources: UK CfD Allocation Round 7 results, 2024; World Nuclear News.
 
 [^1]: *Incinerating 1 kg of waste yields roughly 0.5 kWh of electricity.* The calorific value of municipal solid waste is about 2.6 kWh per kg; power stations burning waste produce electricity with an efficiency of about 20%. Source: SELCHP tour guide.
 

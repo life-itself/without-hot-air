@@ -275,11 +275,11 @@ Perhaps the worst windmills in the world are a set in Tsukuba City, Japan, which
 
 ## Notes and further reading
 
-### Updates, 2026
+### <span style="color:#a3540f;font-weight:600;">Updates, 2026</span>
 
-[^u1]: *Turbine size.* Onshore turbines are now typically 2–6 MW with 120–160 m rotors; the largest offshore turbines (e.g. Vestas V236) reach 15 MW with a 236 m rotor. Source: Vestas / industry turbine spec sheets, 2024.
+[^u1]: <span style="color:#a3540f;font-weight:600;">*Turbine size.*</span> Onshore turbines are now typically 2–6 MW with 120–160 m rotors; the largest offshore turbines (e.g. Vestas V236) reach 15 MW with a 236 m rotor. Source: Vestas / industry turbine spec sheets, 2024.
 
-[^u2]: *Capacity factors.* Global offshore wind averaged around 41% in 2023, well above this chapter's 2008-era country figures. Source: IEA / industry capacity-factor data, 2023–2024.
+[^u2]: <span style="color:#a3540f;font-weight:600;">*Capacity factors.*</span> Global offshore wind averaged around 41% in 2023, well above this chapter's 2008-era country figures. Source: IEA / industry capacity-factor data, 2023–2024.
 
 [^1]: *The maximum fraction of the incoming energy that can be extracted by a disc-like windmill...* There is a nice explanation of this on the Danish Wind Industry Association’s website. [[<span class="websitetitle">yekdaa</span>](http://tinyurl.com/yekdaa)].
 

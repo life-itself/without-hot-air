@@ -367,11 +367,11 @@ It thus seems to me that the range problem has been solved by the advent of mode
 
 ## Notes and further reading
 
-### Updates, 2026
+### <span style="color:#a3540f;font-weight:600;">Updates, 2026</span>
 
-[^u1]: *EV battery pack energy density.* Commercial lithium-ion EV packs now typically deliver 150–250 Wh/kg (cell-level figures run higher, 250–350 Wh/kg); emerging solid-state cells reach roughly 500 Wh/kg. Source: industry battery density surveys, 2024.
+[^u1]: <span style="color:#a3540f;font-weight:600;">*EV battery pack energy density.*</span> Commercial lithium-ion EV packs now typically deliver 150–250 Wh/kg (cell-level figures run higher, 250–350 Wh/kg); emerging solid-state cells reach roughly 500 Wh/kg. Source: industry battery density surveys, 2024.
 
-[^u2]: *2024 Tesla Model 3 Long Range.* 82 kWh battery pack (~500 kg), EPA-rated range 342 miles (~550 km) at 3.9 mi/kWh. Source: EPA / InsideEVs, 2024 Tesla Model 3 specifications.
+[^u2]: <span style="color:#a3540f;font-weight:600;">*2024 Tesla Model 3 Long Range.*</span> 82 kWh battery pack (~500 kg), EPA-rated range 342 miles (~550 km) at 3.9 mi/kWh. Source: EPA / InsideEVs, 2024 Tesla Model 3 specifications.
 
 ![](/assets/figure259.gif)
 

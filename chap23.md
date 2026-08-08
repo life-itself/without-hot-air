@@ -56,15 +56,15 @@ If Jevons were here today, I am sure he would firmly predict that unless we stee
 
 ## Notes and further reading
 
-### Updates, 2026
+### <span style="color:#a3540f;font-weight:600;">Updates, 2026</span>
 
-[^u1]: *Global coal reserves.* Roughly 1,074 Gt as of the mid-2020s, down about a third from the 1,600 Gt figure this chapter uses. Source: Energy Institute, *Statistical Review of World Energy* (successor to the BP Statistical Review); Our World in Data, "Coal reserves."
+[^u1]: <span style="color:#a3540f;font-weight:600;">*Global coal reserves.*</span> Roughly 1,074 Gt as of the mid-2020s, down about a third from the 1,600 Gt figure this chapter uses. Source: Energy Institute, *Statistical Review of World Energy* (successor to the BP Statistical Review); Our World in Data, "Coal reserves."
 
-[^u2]: *CCS maturity.* 65 CCS facilities in commercial operation globally as of 2024, capturing/storing roughly 57 Mtpa of CO<sub>2</sub>, with 628 projects in the development pipeline. Source: Global CCS Institute, *Global Status of CCS 2024*.
+[^u2]: <span style="color:#a3540f;font-weight:600;">*CCS maturity.*</span> 65 CCS facilities in commercial operation globally as of 2024, capturing/storing roughly 57 Mtpa of CO<sub>2</sub>, with 628 projects in the development pipeline. Source: Global CCS Institute, *Global Status of CCS 2024*.
 
-[^u3]: *Global coal consumption.* A record 8.5 billion tonnes in 2023, up 1.4% on the prior record; the IEA subsequently projected demand to plateau and decline from 2024, driven by Asian demand growth against falling OECD use (Europe −23%, US −21% in 2023 alone). Source: IEA, *Coal 2023*.
+[^u3]: <span style="color:#a3540f;font-weight:600;">*Global coal consumption.*</span> A record 8.5 billion tonnes in 2023, up 1.4% on the prior record; the IEA subsequently projected demand to plateau and decline from 2024, driven by Asian demand growth against falling OECD use (Europe −23%, US −21% in 2023 alone). Source: IEA, *Coal 2023*.
 
-[^u4]: *UK coal phase-out.* The last deep coal mine (Kellingley) closed December 2015; the last coal-fired power station (Ratcliffe-on-Soar) closed September 2024, ending 142 years of UK coal-fired electricity. Source: Our World in Data, "The death of UK coal in five charts."
+[^u4]: <span style="color:#a3540f;font-weight:600;">*UK coal phase-out.*</span> The last deep coal mine (Kellingley) closed December 2015; the last coal-fired power station (Ratcliffe-on-Soar) closed September 2024, ending 142 years of UK coal-fired electricity. Source: Our World in Data, "The death of UK coal in five charts."
 
 [^1]: *1000 years – my arbitrary definition of "sustainable."* As precedent for this sort of choice, Hansen et al. (2007) equate "more than 500 years" with "forever."
 

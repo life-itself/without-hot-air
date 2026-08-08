@@ -329,17 +329,17 @@ If we imagine that scientists and engineers crack the problem of getting the DD 
 
 ## Notes and further reading
 
-### Updates, 2026
+### <span style="color:#a3540f;font-weight:600;">Updates, 2026</span>
 
-[^u1]: *Global uranium resources.* 7,934,500 tonnes identified recoverable as of 1 January 2023 (recoverable at $40–260/kgU), up from the ~4.7 million tons this chapter cites from 2005 data. Source: OECD NEA / IAEA, *Uranium Resources, Production and Demand* ("Red Book"), 2023 edition.
+[^u1]: <span style="color:#a3540f;font-weight:600;">*Global uranium resources.*</span> 7,934,500 tonnes identified recoverable as of 1 January 2023 (recoverable at $40–260/kgU), up from the ~4.7 million tons this chapter cites from 2005 data. Source: OECD NEA / IAEA, *Uranium Resources, Production and Demand* ("Red Book"), 2023 edition.
 
-[^u2]: *Global nuclear capacity and output.* 403 reactors reporting to the IAEA in 2023, combined capacity 364.5 GW(e); global generation 2,667 TWh in 2024, an all-time record. Source: IAEA, *Nuclear Power Data and Operating Experience for 2023*.
+[^u2]: <span style="color:#a3540f;font-weight:600;">*Global nuclear capacity and output.*</span> 403 reactors reporting to the IAEA in 2023, combined capacity 364.5 GW(e); global generation 2,667 TWh in 2024, an all-time record. Source: IAEA, *Nuclear Power Data and Operating Experience for 2023*.
 
-[^u3]: *UK nuclear decommissioning cost.* NDA's discounted best estimate of future decommissioning costs was £124.4 billion in 2023–24 (down from a 2022 peak of ~£149 billion). Source: UK Nuclear Decommissioning Authority, *Annual Report and Accounts 2023 to 2024*.
+[^u3]: <span style="color:#a3540f;font-weight:600;">*UK nuclear decommissioning cost.*</span> NDA's discounted best estimate of future decommissioning costs was £124.4 billion in 2023–24 (down from a 2022 peak of ~£149 billion). Source: UK Nuclear Decommissioning Authority, *Annual Report and Accounts 2023 to 2024*.
 
-[^u4]: *Fukushima Daiichi, March 2011.* No deaths have been directly attributed to radiation exposure (one worker's 2018 lung-cancer death was later linked to radiation dose); ~2,313 disaster-related deaths among evacuees, mostly from evacuation/relocation stress rather than radiation. Modern estimate: nuclear death rate ~0.03 per TWh. Sources: World Nuclear Association; Our World in Data, "What are the safest and cleanest sources of energy?"
+[^u4]: <span style="color:#a3540f;font-weight:600;">*Fukushima Daiichi, March 2011.*</span> No deaths have been directly attributed to radiation exposure (one worker's 2018 lung-cancer death was later linked to radiation dose); ~2,313 disaster-related deaths among evacuees, mostly from evacuation/relocation stress rather than radiation. Modern estimate: nuclear death rate ~0.03 per TWh. Sources: World Nuclear Association; Our World in Data, "What are the safest and cleanest sources of energy?"
 
-[^u5]: *Reactor design landscape.* Small modular reactors (NuScale, Rolls-Royce SMR) and other Gen-IV designs (molten-salt, high-temperature gas-cooled) now lead development; GT-MHR did not reach commercial deployment.
+[^u5]: <span style="color:#a3540f;font-weight:600;">*Reactor design landscape.*</span> Small modular reactors (NuScale, Rolls-Royce SMR) and other Gen-IV designs (molten-salt, high-temperature gas-cooled) now lead development; GT-MHR did not reach commercial deployment.
 
 [^1]: *Figure 24.1*. Source: World Nuclear Association [[<span class="websitetitle">5qntkb</span>](http://tinyurl.com/5qntkb)]. The total capacity of operable nuclear reactors is 372 GW(e), using 65 000 tons of uranium per year. The USA has 99 GW, France 63.5 GW, Japan 47.6 GW, Russia 22 GW, Germany 20 GW, South Korea 17.5 GW, Ukraine 13 GW, Canada 12.6 GW, and UK 11 GW. In 2007 all the world’s reactors generated 2608 TWh of electricity, which is an average of 300 GW, or <span class="green">1.2 kWh per day per person</span>.
 

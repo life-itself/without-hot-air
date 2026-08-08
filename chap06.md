@@ -158,17 +158,17 @@ I think one conclusion is clear: *biofuels can’t add up* – at least, not in 
 
 ## Notes and further reading
 
-### Updates, 2026
+### <span style="color:#a3540f;font-weight:600;">Updates, 2026</span>
 
 The chapter above carries five inline updates (marked <del>struck-through</del> / <ins style="color:#a3540f;background:#fbeee0;padding:0 3px;border-radius:2px;font-weight:600;">highlighted</ins>) to figures that have moved since 2008. MacKay's original text is untouched elsewhere; these are additions, not silent corrections. Sourced from `docs/audit.yaml`.
 
-[^u1]: *Panel efficiency.* Standard commercial panels now run roughly 20–22% efficient; top-tier N-type monocrystalline panels reach 22–24.8%. Source: Clean Energy Reviews, "Most Efficient Solar Panels" (2025).
+[^u1]: <span style="color:#a3540f;font-weight:600;">*Panel efficiency.*</span> Standard commercial panels now run roughly 20–22% efficient; top-tier N-type monocrystalline panels reach 22–24.8%. Source: Clean Energy Reviews, "Most Efficient Solar Panels" (2025).
 
-[^u2]: *PV vs. solar-thermal installed cost.* Module costs fell roughly 90% between 2008 and the mid-2020s (the well-documented PV cost-learning curve). Source: Lazard, *Levelized Cost of Energy+* (June 2024).
+[^u2]: <span style="color:#a3540f;font-weight:600;">*PV vs. solar-thermal installed cost.*</span> Module costs fell roughly 90% between 2008 and the mid-2020s (the well-documented PV cost-learning curve). Source: Lazard, *Levelized Cost of Energy+* (June 2024).
 
-[^u3]: *Solar vs. market electricity price.* Unsubsidised utility-scale solar LCOE was about $61/MWh in 2024, versus $76/MWh for new combined-cycle gas — solar had become cheaper than new fossil generation, the reverse of the 2008 comparison. Source: Lazard, *Levelized Cost of Energy+* (June 2024).
+[^u3]: <span style="color:#a3540f;font-weight:600;">*Solar vs. market electricity price.*</span> Unsubsidised utility-scale solar LCOE was about $61/MWh in 2024, versus $76/MWh for new combined-cycle gas — solar had become cheaper than new fossil generation, the reverse of the 2008 comparison. Source: Lazard, *Levelized Cost of Energy+* (June 2024).
 
-[^u4]: *World installed solar PV capacity.* Roughly 10 GW (peak) at the end of 2007 rising to roughly 1873 GW by the end of 2024, a roughly 180-fold increase. Source: IRENA, *Renewable Capacity Statistics 2025*.
+[^u4]: <span style="color:#a3540f;font-weight:600;">*World installed solar PV capacity.*</span> Roughly 10 GW (peak) at the end of 2007 rising to roughly 1873 GW by the end of 2024, a roughly 180-fold increase. Source: IRENA, *Renewable Capacity Statistics 2025*.
 
 [^1]: *... compensate for the tilt between the sun and the land.* The latitude of Cambridge is θ = 52°; the intensity of midday sunlight is multiplied by cos θ ≈ 0.6. The precise factor depends on the time of year, and varies between cos(θ + 23°) = 0.26 and cos(θ - 23°) = 0.87.
 

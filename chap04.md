@@ -87,11 +87,11 @@ Maybe. We’ll come back to this issue in Chapter 26, where we’ll look at wind
 
 ## Notes and further reading
 
-### Updates, 2026
+### <span style="color:#a3540f;font-weight:600;">Updates, 2026</span>
 
-[^u1]: *World wind capacity.* Roughly 74 GW at the end of 2006 → roughly 1131 GW by the end of 2024 (1053 GW onshore + 79 GW offshore). Source: IRENA, *Renewable Capacity Statistics 2025*.
+[^u1]: <span style="color:#a3540f;font-weight:600;">*World wind capacity.*</span> Roughly 74 GW at the end of 2006 → roughly 1131 GW by the end of 2024 (1053 GW onshore + 79 GW offshore). Source: IRENA, *Renewable Capacity Statistics 2025*.
 
-[^u2]: *Onshore capacity factor.* Modern onshore wind farms now typically achieve 35–45%, up from the ~30% "good site" figure here, from taller towers and larger rotors relative to generator size. Source: industry capacity-factor data, 2023–2024.
+[^u2]: <span style="color:#a3540f;font-weight:600;">*Onshore capacity factor.*</span> Modern onshore wind farms now typically achieve 35–45%, up from the ~30% "good site" figure here, from taller towers and larger rotors relative to generator size. Source: industry capacity-factor data, 2023–2024.
 
 [^1]: *Figure 4.1 and figure 4.6.* Cambridge wind data are from the Digital Technology Group, Computer Laboratory, Cambridge [[<span class="websitetitle">vxhhj</span>](http://tinyurl.com/vxhhj)]. The weather station is on the roof of the Gates building, roughly 10 m high. Wind speeds at a height of 50 m are usually about 25% bigger. Cairngorm data (*figure 4.2*) are from Heriot–Watt University Physics Department [[<span class="websitetitle">tdvml</span>](http://tinyurl.com/tdvml)].
 
