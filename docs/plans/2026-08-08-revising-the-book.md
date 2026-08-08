@@ -45,26 +45,46 @@ which is exactly what would ruin value #2.**
 
 ---
 
-## Phase 0 — Unblock (do first, small)
+## Phase 0 — Unblock (do first, small) — done, 2026-08-08
 
-- [ ] Fix the maths ([#3](https://github.com/life-itself/without-hot-air/issues/3)) in `extract.py`, re-run, verify KaTeX renders
-- [ ] Re-cut the diff baseline tag once the text files are stable
-- [ ] Confirm `scripts/verify.sh` is green
+- [x] Fix the maths ([#3](https://github.com/life-itself/without-hot-air/issues/3)) in `extract.py`, re-run, verify KaTeX renders.
+      Took two passes — the first (matching the issue's own file list) missed
+      inline `\(...\)` maths and `\[...\]` fragments embedded mid-sentence
+      rather than on their own line (found via `scripts/smoke.mjs` against the
+      live site, which is exactly the check it exists for). Also fixed a
+      false-positive in smoke.mjs itself: it was flagging KaTeX's own
+      `<annotation encoding="application/x-tex">` accessibility payload as
+      leaked text.
+- [x] Re-cut the diff baseline tag once the text files are stable. Reconstructed
+      via a synthetic commit (not on `main`) combining post-conversion-fix
+      state for every chapter with chapter 6's pre-revision text, since the
+      maths fix and chapter 6's revision landed in the wrong order to share a
+      single real commit as the baseline. `git diff text-as-converted-2026-08-08
+      -- chap06.md` shows the real revisions; every other chapter diffs empty.
+- [x] Confirm `scripts/verify.sh` is green — and `scripts/smoke.mjs` /
+      `scripts/visual.mjs` against the live site, all clean.
 
-## Phase 1 — Audit, don't edit
+## Phase 1 — Audit, don't edit — done, 2026-08-08
 
 The audit is a deliverable in its own right, and a far better first output than a
 half-finished rewrite. It is also the part AI is genuinely good at.
 
-- [ ] Sweep all 54 chapters for claims that have dated. Produce a structured
-      ledger — `docs/audit.yaml` or similar — one entry per claim:
-      chapter, quoted claim, why it may have dated, confidence, priority
-- [ ] Prioritise: **solar first** (ch. 6, ch. D), then wind (4, B, 10), cars/EVs
+- [x] Sweep all 54 chapters for claims that have dated. Produced `docs/audit.yaml`
+      — 116 entries across 45 chapters: chapter, quoted claim, why it may have
+      dated, confidence, priority, source where researched.
+- [x] Prioritise: **solar first** (ch. 6, ch. D), then wind (4, B, 10), cars/EVs
       (3, A), nuclear (24), fossil fuels (23), then the energy plans (27, 30)
-      which depend on everything above
-- [ ] For each high-priority claim, find a **primary source** for the current
-      figure. IEA, IRENA, Our World in Data, BEIS/DESNZ, Lazard LCOE
+      which depend on everything above.
+- [x] For each high-priority claim, found a **primary source** for the current
+      figure — IEA, IRENA, Our World in Data, Lazard LCOE, IAEA, NDA, DESNZ,
+      World Nuclear Association, Global CCS Institute. 34 of the 116 entries
+      carry a cited source; the rest (lower-priority sweep tier) are flagged
+      without sourcing yet.
 - [ ] Review the ledger with a human before a single word of the book changes
+      — **still open**: chapter 6's revision below acted on 5 of its own
+      audited claims without a per-claim human sign-off first, since Rufus
+      asked to keep going without pausing. Flagging so the gap is visible,
+      not silently treating "reviewed" as done.
 
 **The AI's job here is to find candidates and fetch sources — not to produce
 numbers.** An updated figure without a citation is worth less than a stale figure
@@ -168,9 +188,22 @@ separate amber/copper tone instead for that reason.
 
 ## Phase 3 — Revise, starting with solar
 
-- [ ] Update solar with the Phase 2 mechanism; ship it as the worked example
-- [ ] Review it properly — as a reader, not as an editor — before scaling up
-- [ ] Then work down the priority list
+- [x] Update solar with the Phase 2 mechanism; ship it as the worked example.
+      Chapter 6 (docs at line ~54 on) has 5 of its audited claims revised in
+      place — panel efficiency and the roof-PV arithmetic that depends on it,
+      the PV-vs-solar-thermal cost comparison, the solar-vs-market-rate cost
+      comparison, and the world-PV-capacity comparison. Live on
+      https://withouthotair.org/chap06, `<del>`/`<ins>` inline, cited via a
+      new "Updates, 2026" footnote subsection. Everything else in the chapter
+      is MacKay's untouched 2008 text.
+- [ ] **Review it properly — as a reader, not as an editor — before scaling
+      up.** Not done: this shipped without a human read-through first (see the
+      Phase 1 gap noted above). Read chapter 6 as published and confirm the
+      mechanism actually works before chapter D (solar's technical appendix,
+      also audited) or any other chapter gets the same treatment.
+- [ ] Then work down the priority list — chapter D next (same topic, audited
+      already), then wind (4, B, 10), cars/EVs (3, A), nuclear (24), fossil
+      fuels (23), energy plans (27, 30) once their dependencies are revised.
 
 Standing constraints (also in `AGENTS.md`):
 
