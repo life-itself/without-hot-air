@@ -56,7 +56,7 @@ Cow? Beef production involves the longest lead times. It takes about 1000 days o
 
 To condense all these ideas down to a single number, let’s assume you eat half a pound (227 g) per day of meat, made up of equal quantities of chicken, pork, and beef. [^3] This meat habit requires the perpetual sustenance of 8 pounds of chicken meat, 70 pounds of pork meat, and 170 pounds of cow meat. That’s a total of 110 kg of meat, or 170 kg of animal (since about two thirds of the animal gets turned into meat). And if the 170 kg of animal has similar power requirements to a human (whose 65 kg burns 3 kWh/d) then the power required to fuel the meat habit is
 
-[\text{170\ kg} \times \frac{\left. \text{3\ kWh}/\text{d} \right.}{\text{65\ kg}} \simeq \left. \text{8\ kWh}/\text{d} \right.]
+$$\text{170\ kg} \times \frac{\left. \text{3\ kWh}/\text{d} \right.}{\text{65\ kg}} \simeq \left. \text{8\ kWh}/\text{d} \right.$$
 
 I’ve again taken the physiological liberty of assuming "animals are like humans;" a more accurate estimate of the energy to make chicken is in this chapter’s endnotes. [^4] No matter, I only want a ballpark estimate, and here it is. The power required to make the food for a typical consumer of vegetables, dairy, eggs, and meat is 1.5 + 1.5 + 1 + 8 = <span class="red">12 kWh per day</span>. (The daily calorific balance of this rough diet is 1.5 kWh from vegetables; 0.7 kWh from dairy; 0.2 kWh from eggs; and 0.5 kWh from meat – a total of 2.9 kWh per day.)
 

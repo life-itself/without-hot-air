@@ -19,11 +19,11 @@ Where does this energy go? How does it depend on properties of the car? Could we
 
 The key formula for most of the calculations in this book is:
 
-[\text{kinetic\ energy} = \frac{1}{2}mv^{2}]
+$$\text{kinetic\ energy} = \frac{1}{2}mv^{2}$$
 
 For example, a car of mass *m* = 1000 kg moving at 100 km per hour or *v* = 28 m/s has an energy of
 
-[\frac{1}{2}mv^{2} \simeq \text{390~000~J} \simeq \text{0.1~kWh.}]
+$$\frac{1}{2}mv^{2} \simeq \text{390~000~J} \simeq \text{0.1~kWh.}$$
 
 ![](/assets/figure253.gif)
 
@@ -37,9 +37,11 @@ Energy goes not only into the brakes: while the car is moving, it makes air swir
 
 The car speeds up and slows down once in each duration *d/v*. The rate at which energy pours into the brakes is:
 
-[\begin{matrix}
+$$
+\begin{matrix}
 {\frac{\text{kinetic\ energy}}{\text{time\ between\ braking\ events}} = \frac{\frac{\text{1}}{\text{2}}m_{c}v^{2}}{d/v} = \frac{\frac{\text{1}}{\text{2}}m_{c}v^{3}}{d}} \\
-\end{matrix}]
+\end{matrix}
+$$
 
 where *m<sub>c</sub>* is the mass of the car.
 
@@ -54,11 +56,11 @@ mass = density × volume
 
 The symbol *ρ* (Greek letter ‘rho’) denotes the density.
 
-[\frac{\text{1}}{\text{2}}m_{\text{air}}v^{2} = \frac{\text{1}}{\text{2}}\rho Avt\ v^{2}]
+$$\frac{\text{1}}{\text{2}}m_{\text{air}}v^{2} = \frac{\text{1}}{\text{2}}\rho Avt\ v^{2}$$
 
 and the rate of generation of kinetic energy in swirling air is:
 
-[\frac{\frac{\text{1}}{\text{2}}\rho Avt\ v^{2}}{t} = \frac{\text{1}}{\text{2}}\rho Av^{3}]
+$$\frac{\frac{\text{1}}{\text{2}}\rho Avt\ v^{2}}{t} = \frac{\text{1}}{\text{2}}\rho Av^{3}$$
 
 ![](/assets/figure254.gif)
 
@@ -70,10 +72,12 @@ and the rate of generation of kinetic energy in swirling air is:
 
 So the total rate of energy production by the car is:
 
-[\begin{matrix}
+$$
+\begin{matrix}
 {\text{power\ going\ into\ brakes} + \text{power\ going\ into\ swirling\ air}} \\
 {= \frac{\text{1}}{\text{2}}{{m_{c}v^{3}}/d} + \frac{\text{1}}{\text{2}}\rho Av^{3}} \\
-\end{matrix}]
+\end{matrix}
+$$
 
 Both forms of energy dissipation scale as *v*<sup>3</sup>. So this cartoon predicts that a driver who halves his speed *v* makes his power consumption 8 times smaller. If he ends up driving the same total distance, his journey will take twice as long, but the total energy consumed by his journey will be four times smaller.
 
@@ -131,7 +135,7 @@ A380
 
 The actual energy consumption of the car will be the energy dissipation in equation (A.2), cranked up by a factor related to the inefficiency of the engine and the transmission. Typical petrol engines are about 25% efficient, [<span class="darkred">[2]</span>](#chAn02) so of the chemical energy that a car guzzles, three quarters is wasted in making the car’s engine and radiator hot, and just one quarter goes into "useful" energy:
 
-[\text{total\ power\ of\ car} \simeq 4\left\lbrack {\frac{\text{1}}{\text{2}}m_{\text{c}}v^{3}/d + \frac{\text{1}}{\text{2}}\rho Av^{3}} \right\rbrack]
+$$\text{total\ power\ of\ car} \simeq 4\left\lbrack {\frac{\text{1}}{\text{2}}m_{\text{c}}v^{3}/d + \frac{\text{1}}{\text{2}}\rho Av^{3}} \right\rbrack$$
 
 Let’s check this theory of cars by plugging in plausible numbers for motorway driving. Let *v* = 70 miles per hour = 110 km/h = 31 m/s and \({A = c_{\text{d}}A_{\text{car}} = \text{1\ m}^{2}}\text{.}\) The power consumed by the engine is estimated to be <span id="chA-80kW">roughly</span>
 
@@ -247,32 +251,34 @@ Here’s a fun question: what’s the energy consumption of a bicycle, in kWh pe
 
 divided by the speed, *v*; that is,
 
-[\text{energy\ per\ distance} = 4 \times \frac{\text{1}}{\text{2}}\rho Av^{2}]
+$$\text{energy\ per\ distance} = 4 \times \frac{\text{1}}{\text{2}}\rho Av^{2}$$
 
 The "4" came from engine inefficiency; *ρ* is the density of air; the area \(A = c_{\text{d}}A_{\text{car}}\) is the effective frontal area of a car; and *v* is its speed. Now, we can compare a bicycle with a car by dividing \(4 \times \frac{\text{1}}{\text{2}}\rho Av^{2}\) for the bicycle by \(4 \times \frac{\text{1}}{\text{2}}\rho Av^{2}\) for the car. All the fractions and *ρ* cancel, if the efficiency of the carbon-powered bicyclist’s engine is similar to the efficiency of the carbon-powered car engine (which it is). The ratio is:
 
-[\frac{\text{energy\ per\ distance\ of\ bike}}{\text{energy\ per\ distance\ of\ car}} = \frac{c_{\text{d}}^{\text{bike}}A_{\text{bike}}v_{\text{bike}}^{2}}{c_{\text{d}}^{\text{car}}A_{\text{car}}v_{\text{car}}^{2}}]
+$$\frac{\text{energy\ per\ distance\ of\ bike}}{\text{energy\ per\ distance\ of\ car}} = \frac{c_{\text{d}}^{\text{bike}}A_{\text{bike}}v_{\text{bike}}^{2}}{c_{\text{d}}^{\text{car}}A_{\text{car}}v_{\text{car}}^{2}}$$
 
 The trick we are using is called "scaling." If we know how energy consumption scales with speed and area, then we can predict energy consumption of objects with completely different speeds and areas. Specifically, let’s assume that the area ratio is
 
-[\frac{A_{\text{bike}}}{A_{\text{car}}} = \frac{1}{4}]
+$$\frac{A_{\text{bike}}}{A_{\text{car}}} = \frac{1}{4}$$
 
 (Four cyclists can sit shoulder to shoulder in the width of one car.) Let’s assume the bike is not very well streamlined:
 
-[\frac{c_{\text{d}}^{\text{bike}}}{c_{\text{d}}^{\text{car}}} = \frac{1}{\frac{\text{1}}{\text{3}}}]
+$$\frac{c_{\text{d}}^{\text{bike}}}{c_{\text{d}}^{\text{car}}} = \frac{1}{\frac{\text{1}}{\text{3}}}$$
 
 And let’s assume the speed of the bike is 21 km/h (13 miles per hour), so
 
-[\frac{v_{\text{bike}}}{v_{\text{car}}} = \frac{1}{5}]
+$$\frac{v_{\text{bike}}}{v_{\text{car}}} = \frac{1}{5}$$
 
 Then
 
-[\begin{matrix}
+$$
+\begin{matrix}
  \\
 {= \left( {\frac{c_{\text{d}}^{\text{bike}}}{c_{\text{d}}^{\text{car}}}\frac{A_{\text{bike}}}{A_{\text{car}}}} \right)\left( \frac{v_{\text{bike}}}{v_{\text{car}}} \right)^{2}} \\
 {= \left( \frac{3}{4} \right) \times \left( \frac{1}{5} \right)^{2}} \\
 {= \frac{3}{100}} \\
-\end{matrix}]
+\end{matrix}
+$$
 
 So a cyclist at 21 km/h consumes about 3% of the energy per kilometre of a lone car-driver on the motorway – about **2.4 kWh per 100 km**.
 
@@ -295,7 +301,7 @@ Some things we’ve completely ignored so far are the energy consumed in the tyr
 
 The coefficient of rolling resistance for a car is about 0.01. The effect of rolling resistance is just like perpetually driving up a hill with a slope of one in a hundred. So rolling friction is about 100 newtons per ton, independent of speed. You can confirm this by pushing a typical one-ton car along a flat road. Once you’ve got it moving, you’ll find you can keep it moving with one hand. (100 newtons is the weight of 100 apples.) So at a speed of 31 m/s (70 mph), the power required to overcome rolling resistance, for a one-ton vehicle, is
 
-[\text{force} \times \text{velocity} = \left( \text{100\ newtons} \right) \times \left( \text{31\ m/s} \right) = \text{3100\ W;}]
+$$\text{force} \times \text{velocity} = \left( \text{100\ newtons} \right) \times \left( \text{31\ m/s} \right) = \text{3100\ W;}$$
 
 which, allowing for an engine efficiency of 25%, requires 12 kW of power to go into the engine; whereas the power required to overcome drag was estimated above to be 80 kW. So, at high speed, about 15% of the power is required for rolling resistance.
 

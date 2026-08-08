@@ -20,7 +20,7 @@ Europe’s average population density is roughly half of Britain’s, so there i
 
 The heart of continental Europe has lower typical windspeeds than the British Isles – in much of Italy, for example, windspeeds are below 4 m/s. Let’s guess that one fifth of Europe has big enough wind-speeds for economical wind-farms, having a power density of 2 W/m<sup>2</sup>, and then assume that we give those regions the same treatment we gave Britain in Chapter 4, filling 10% of them with wind farms. The area of the European Union is roughly 9000 m<sup>2</sup> per person. So wind gives
 
-[\frac{\text{1}}{\text{5}}\  \times \text{10\%~} \times \text{~9000~}\text{m}^{\text{2}}\  \times \text{~2\ W/}\text{m}^{\text{2}}\  = \text{~360\ W}]
+$$\frac{\text{1}}{\text{5}}\  \times \text{10\%~} \times \text{~9000~}\text{m}^{\text{2}}\  \times \text{~2\ W/}\text{m}^{\text{2}}\  = \text{~360\ W}$$
 
 which is <span class="green">9 kWh/d per person</span>.
 

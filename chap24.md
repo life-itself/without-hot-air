@@ -114,10 +114,12 @@ Uranium can be used 60 times more efficiently in fast breeder reactors, which bu
 
 The oceans’ uranium, if completely extracted and used in once-through reactors, corresponds to a total energy of
 
-[\begin{matrix}
+$$
+\begin{matrix}
 \frac{\text{4.5\ billion\ tons\ per\ planet}}{\text{162\ tons\ uranium\ per\ GW-year}} \\
 {\text{\quad\quad\quad} = \text{~28\ million\ GW-years\ per\ planet.}} \\
-\end{matrix}]
+\end{matrix}
+$$
 
 How fast could uranium be extracted from the oceans? The oceans circulate slowly: half of the water is in the Pacific Ocean, and deep Pacific waters circulate to the surface on the great ocean conveyor only every 1600 years. Let’s imagine that 10% of the uranium is extracted over such a 1600-year period. That’s an extraction rate of 280 000 tons per year. In once-through reactors, this would deliver power at a rate of
 
@@ -230,12 +232,14 @@ The steel and concrete in a 1 GW nuclear power station have a carbon footprint o
 
 Spreading this "huge" number over a 25-year reactor life we can express this contribution to the carbon intensity in the standard units (g CO<sub>2</sub> per kWh(e)),
 
-[\begin{matrix}
+$$
+\begin{matrix}
 {\text{carbon\ intensity}\phantom{\text{construction}}} \\
 \text{associated\ with\ construction} \\
 {\quad = \ \frac{300 \times 10^{9}\text{~g}}{10^{6}\text{~kW(e)~} \times \text{~220\ 000\ h}}} \\
 {= \ 1.4\text{~g/kWh(e),}\phantom{\text{constru}}} \\
-\end{matrix}]
+\end{matrix}
+$$
 
 which is much smaller than the fossil-fuel benchmark of 400g CO<sub>2</sub>/kWh(e). The IPCC estimates that the total carbon intensity of nuclear power (including construction, fuel processing, and decommissioning) is less than 40 g CO<sub>2</sub>/kWh(e) (Sims et al., 2007).
 

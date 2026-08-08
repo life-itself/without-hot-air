@@ -34,7 +34,7 @@ Let’s look at real data and try to figure out a balanced viewpoint. Figure 26.
 
 Let’s quantify the fluctuations in country-wide wind power. The two issues are short-term changes, and long-term lulls. Let’s find the fastest short-term change in a month of Irish wind data. On 11th February 2007, the Irish wind power fell steadily from 415 MW at midnight to 79 MW at 4am. That’s a slew rate of 84 MW per hour for a country-wide fleet of capacity 745 MW. (By slew rate I mean the rate at which the delivered power fell or rose – the slope of the graph on 11th February.) OK: if we scale British wind power up to a capacity of 33 GW (so that it delivers 10 GW on average), we can expect to have occasional slew rates of
 
-[\text{84\ MW/h~} \times \ \frac{\text{33\ 000\ MW}}{\text{745\ MW}}\  = \text{~3700\ MW/h,}]
+$$\text{84\ MW/h~} \times \ \frac{\text{33\ 000\ MW}}{\text{745\ MW}}\  = \text{~3700\ MW/h,}$$
 
 assuming Britain is like Ireland. So we need to be able to either power *up* replacements for wind at a rate of 3.7 GW per hour – that’s 4 nuclear power stations going from no power to full power every hour, say – *or* we need to be able to suddenly turn *down* our *demand* at a rate of 3.7 GW per hour.
 

@@ -10,14 +10,16 @@ Imagine that you make one intercontinental trip per year by plane. How much ener
 
 A Boeing 747-400 [^1] with 240 000 litres of fuel carries 416 passengers about 8 800 miles (14 200 km). And fuel’s calorific value is 10 kWh per litre. (We learned that in Chapter 3.) So the energy cost of one full-distance roundtrip on such a plane, if divided equally among the passengers, is
 
-[\begin{matrix}
+$$
+\begin{matrix}
 {\frac{\text{2\ ×\ 240\ 000\ litre}}{\text{416\ passengers}} \times \text{10\ kWh/litre}} \\
 {\simeq \text{12\ 000\ kWh\ per\ passenger}} \\
-\end{matrix}]
+\end{matrix}
+$$
 
 If you make one such trip per year, then your average energy consumption per day is
 
-[\frac{\text{12\ 000\ kWh}}{\text{365\ days}} \simeq \text{33\ kWh/day}]
+$$\frac{\text{12\ 000\ kWh}}{\text{365\ days}} \simeq \text{33\ kWh/day}$$
 
 14 200 km is a little further than London to Cape Town (10 000 km) and London to Los Angeles (9000km), so I think we’ve slightly overestimated the distance of a typical long-range intercontinental trip; but we’ve also overestimated the fullness of the plane, and the energy cost per person is more if the plane’s not full. Scaling down by 10 000 km/14 200 km to get an estimate for Cape Town, then up again by 100/80 to allow for the plane’s being 80% full, we arrive at 29 kWh per day. For ease of memorization, I’ll round this up to <span class="red">30 kWh per day</span>.
 

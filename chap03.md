@@ -12,16 +12,18 @@ For our first chapter on consumption, let’s study that icon of modern civiliza
 
 How much power does a regular car-user consume? Once we know the conversion rates, it’s simple arithmetic:
 
-[\begin{matrix}
+$$
+\begin{matrix}
 {\text{energy\ used\ per\ day} = \frac{\text{distance\ travelled\ per\ day}}{\text{distance\ per\ unit\ of\ fuel}}} \\
 {\times \text{energy\ per\ unit\ of\ fuel}} \\
-\end{matrix}]
+\end{matrix}
+$$
 
 For the **distance travelled per day**, let’s use 50 km (30 miles). [^1]
 
 For the **distance per unit of fuel**, also known as the **economy** of the car, let’s use 33 miles per UK gallon [^2] (taken from an advertisement for a family car):
 
-[\text{33\ miles\ per\ imperial\ gallon} \simeq \text{12\ km\ per\ litre.}]
+$$\text{33\ miles\ per\ imperial\ gallon} \simeq \text{12\ km\ per\ litre.}$$
 
 (The symbol ≃ means "is approximately equal to.")
 
@@ -31,16 +33,18 @@ For the **distance per unit of fuel**, also known as the **economy** of the car,
 
 What about the **energy per unit of fuel** (also called the **calorific value** or **energy density**)? Instead of looking it up, it’s fun to estimate this sort of quantity by a bit of lateral thinking. Automobile fuels (whether diesel or petrol) are all hydrocarbons; and hydrocarbons can also be found on our breakfast table, with the calorific value conveniently written on the side: roughly 8 kWh per kg (figure 3.2). Since we’ve estimated the economy of the car in miles per unit *volume* of fuel, we need to express the calorific value as an energy per unit *volume*. To turn our fuel’s "8 kWh per kg" (an energy per unit *mass*) into an energy per unit volume, we need to know the density of the fuel. What’s the density of butter? Well, butter just floats on water, as do fuel-spills, so its density must be a little less than water’s, which is 1 kg per litre. If we guess a density of 0.8 kg per litre [^3], we obtain a calorific value of:
 
-[\text{8\ kWh\ per\ kg\ ×\ 0.8\ kg\ per\ litre} \simeq \text{7\ kWh\ per\ litre.}]
+$$\text{8\ kWh\ per\ kg\ ×\ 0.8\ kg\ per\ litre} \simeq \text{7\ kWh\ per\ litre.}$$
 
 Rather than willfully perpetuate an inaccurate estimate, let’s switch to the actual value, for petrol, of 10 kWh per litre. [^4]
 
-[\begin{matrix}
+$$
+\begin{matrix}
  \\
 {= \frac{\text{distance\ travelled\ per\ day}}{\text{distance\ per\ unit\ of\ fuel}} \times \text{energy\ per\ unit\ of\ fuel}} \\
 \left. = \frac{\left. \text{50\ km}/\text{day} \right.}{\left. \text{12\ km}/\text{day} \right.} \times \text{10\ kWh}/\text{litre}\phantom{\text{AAA,,}} \right. \\
 {\simeq \left. \text{40\ kWh}/\text{day}\phantom{\text{AAAAAAAAAAAA}} \right.} \\
-\end{matrix}]
+\end{matrix}
+$$
 
 Congratulations\! We’ve made our first estimate of consumption. I’ve displayed this estimate in the left-hand stack in figure 3.3. The red box’s height represents 40 kWh per day per person.
 

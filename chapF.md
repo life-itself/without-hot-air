@@ -30,39 +30,51 @@ where *g* is the acceleration of gravity (9.8 m/s<sup>2</sup>). For example, if 
 
 For a wave of wavelength *λ* and period *T*, if the height of each crest and depth of each trough is *h* = 1 m, the potential energy passing per unit time, per unit length, is
 
-[\begin{matrix}
+$$
+\begin{matrix}
 {P_{\text{potential}} \simeq m^{*}g\overline{h}/T\text{,}} \\
-\end{matrix}]
+\end{matrix}
+$$
 
 where *m*\* is the mass per unit length, which is roughly <sup>1</sup>⁄<sub>2</sub>*ρh*(*λ*/2) (approximating the area of the shaded crest in figure F.2 by the area of a triangle), and *<span class="overbar">h</span>* is the change in height of the centre-of-mass of the chunk of elevated water, which is roughly *h*. So
 
-[\begin{matrix}
+$$
+\begin{matrix}
 {P_{\text{potential}} \simeq \frac{1}{2}\rho h\frac{\lambda}{2}gh/T\text{.}} \\
-\end{matrix}]
+\end{matrix}
+$$
 
 To find the potential energy properly, we should have done an integral here; it would have given the same answer.) Now *λ/T* is simply the speed at which the wave travels, *v*, so:
 
-[\begin{matrix}
+$$
+\begin{matrix}
 {P_{\text{potential}} \simeq \frac{1}{4}\rho gh^{2}v\text{.}} \\
-\end{matrix}]
+\end{matrix}
+$$
 
 Waves have kinetic energy as well as potential energy, and, remarkably, these are exactly equal, although I don’t show that calculation here; so the total power of the waves is double the power calculated from potential energy.
 
-[\begin{matrix}
+$$
+\begin{matrix}
 {P_{\text{total}} \simeq \frac{1}{2}\rho gh^{2}v\text{.}} \\
-\end{matrix}]
+\end{matrix}
+$$
 
 There’s only one thing wrong with this answer: it’s too big, because we’ve neglected a strange property of dispersive waves: the energy in the wave doesn’t actually travel at the same speed as the crests; it travels at a speed called the group velocity, which for deep-water waves is *half* of the speed *v*. You can see that the energy travels slower than the crests by chucking a pebble in a pond and watching the expanding waves carefully. What this means is that equation (F.4) is wrong: we need to halve it. The correct power per unit length of wave-front is
 
-[\begin{matrix}
+$$
+\begin{matrix}
 {P_{\text{total}} = \frac{1}{4}\rho gh^{2}v\text{.}} \\
-\end{matrix}]
+\end{matrix}
+$$
 
 Plugging in *v* = 16 m/s and *h* = 1 m, we find
 
-[\begin{matrix}
+$$
+\begin{matrix}
 {P_{\text{total}} = \frac{1}{4}\rho gh^{2}v = 40\text{~kW/m.}} \\
-\end{matrix}]
+\end{matrix}
+$$
 
 This rough estimate agrees with real measurements in the Atlantic (Mollison, 1986). (See [notes](../Text/chap12.xhtml#notes), chapter 12.)
 

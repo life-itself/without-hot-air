@@ -12,10 +12,12 @@ In the last chapter, we learned that electrification could shrink transport’s 
 
 The power used to heat a building is given by multiplying together three quantities:
 
-[\begin{matrix}
+$$
+\begin{matrix}
 {\text{power\ used~}\phantom{\text{AAAAAAAAAAAAAAAAAAAAAAAA}}} \\
 {= \frac{\text{average\ temperature\ difference~} \times \text{~leakiness\ of\ building}}{\text{efficiency\ of\ heating\ system}}} \\
-\end{matrix}]
+\end{matrix}
+$$
 
 Let me explain this formula (which is discussed in detail in Chapter E) with an example. My house is a three-bedroom semi-detached house built about 1940 (figure 21.1). The <span class="mauve">average temperature difference</span> between the inside and outside of the house depends on the setting of the thermostat and on the weather. If the thermostat is permanently at 20 °C, the average temperature difference might be <span class="mauve">9 °C</span>. The <span class="darkblue">*leakiness* of the building</span> describes how quickly heat gets out through walls, windows, and cracks, in response to a temperature difference. The leakiness is sometimes called the *heat-loss coefficient* of the building. It is measured in kWh per day per degree of temperature difference. In Chapter E, I calculate that the leakiness of my house in 2006 was 7.7 kWh/d/°C. The product
 
@@ -27,7 +29,7 @@ is the rate at which heat flows out of the house by conduction and ventilation. 
 
 Finally, to calculate the power required, we divide this heat loss by the efficiency of the heating system. In my house, the condensing gas boiler has an efficiency of <span class="green">90%</span>, so we find:
 
-[\text{power\ used~} = \ \frac{\text{9~°C~} \times \text{~7.7\ kWh/d/°C}}{\text{0.9}}\  = \text{~77\ kWh/d}\text{.}]
+$$\text{power\ used~} = \ \frac{\text{9~°C~} \times \text{~7.7\ kWh/d/°C}}{\text{0.9}}\  = \text{~77\ kWh/d}\text{.}$$
 
 That’s bigger than the space-heating requirement we estimated in Chapter 7. It’s bigger for two reasons: first, this formula assumes that all the heat is supplied by the boiler, whereas in fact some heat is supplied by incidental heat gains from occupants, gadgets, and the sun; second, in Chapter 7 we assumed that a person kept just two rooms at 20 °C all the time; keeping an entire house at this temperature all the time would require more.
 
@@ -91,10 +93,12 @@ If you get the chance to build a new building then there are lots of ways to ens
 
 So far, this chapter has focused on temperature control and leakiness. Now we turn to the third factor in the equation:
 
-[\begin{matrix}
+$$
+\begin{matrix}
 {\text{power\ used~}\phantom{\text{AAAAAAAAAAAAAAAAAAAAAAAA}}} \\
 {= \frac{\text{average\ temperature\ difference~} \times \text{~leakiness\ of\ building}}{\text{efficiency\ of\ heating\ system}}} \\
-\end{matrix}]
+\end{matrix}
+$$
 
 How efficiently can heat be produced? Can we obtain heat on the cheap? Today, building-heating in Britain is primarily delivered by burning a fossil fuel, natural gas, in boilers with efficiencies of 78%–90%. Can we get off fossil fuels at the same time as making building-heating more efficient?
 

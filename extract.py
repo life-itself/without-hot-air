@@ -89,12 +89,29 @@ def etl():
 
 
 import re
+
+# Display maths: pandoc emits `\[ ... \]` around LaTeX for MathML equations.
+# Must run before the generic `\[`/`\]` unescape below, which otherwise strips
+# the backslash and leaves the braces as literal text (issue #3).
+MATH_MATRIX = [r'\\\[(\\begin\{matrix\}.*?\\end\{matrix\}[^\n\]]*)\\\]', r'$$\n\g<1>\n$$']
+MATH_SINGLE_LINE = [r'^\\\[(\\[^\n]*)\\\]$', r'$$\g<1>$$']
+
+# Same two shapes, matched against chapters that were converted before this
+# fix existed: transform()'s old unescape rule already stripped the `\[`/`\]`
+# backslashes there, leaving bare `[`/`]`. Used by fix_math() to retrofit them.
+MATH_MATRIX_BARE = [r'^\[(\\begin\{matrix\}.*?\\end\{matrix\}[^\n\]]*)\]$', r'$$\n\g<1>\n$$']
+MATH_SINGLE_LINE_BARE = [r'^\[(\\[^\n]*)\]$', r'$$\g<1>$$']
+
+
 def transform(file_string):
     # clean up the markdown
     out = file_string
 
     # replace non-breaking spaces ...
     out = out.replace(u'\xa0', u' ')
+
+    out = re.sub(MATH_MATRIX[0], MATH_MATRIX[1], out, flags=re.MULTILINE | re.DOTALL)
+    out = re.sub(MATH_SINGLE_LINE[0], MATH_SINGLE_LINE[1], out, flags=re.MULTILINE)
 
     # find and replace patterns
     regexes = [
@@ -328,9 +345,29 @@ def titles(directory=SRC):
         print('%-20s %s' % (name, title))
 
 
+def fix_math(directory=SRC):
+    """Retrofit chapters converted before this fix existed (issue #3): restore
+    KaTeX `$$ ... $$` delimiters for display maths that transform()'s old
+    `\\[`/`\\]` unescape rule left as bare `[`/`]`, rendering as literal text.
+    Idempotent: once fixed, the `[\\...]` shape no longer matches.
+    """
+    for name in sorted(os.listdir(directory)):
+        if not name.endswith('.md') or name in SKIP_TITLING:
+            continue
+        path = os.path.join(directory, name)
+        text = open(path, encoding='utf8').read()
+        out = re.sub(MATH_MATRIX_BARE[0], MATH_MATRIX_BARE[1], text, flags=re.MULTILINE | re.DOTALL)
+        out = re.sub(MATH_SINGLE_LINE_BARE[0], MATH_SINGLE_LINE_BARE[1], out, flags=re.MULTILINE)
+        if out != text:
+            open(path, 'w', encoding='utf8').write(out)
+            print('fixed maths in', name)
+
+
 if __name__ == '__main__':
     if len(sys.argv) > 1 and sys.argv[1] == 'titles':
         titles()
+    elif len(sys.argv) > 1 and sys.argv[1] == 'fix-math':
+        fix_math()
     else:
         etl()
         titles()

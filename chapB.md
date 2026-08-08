@@ -139,15 +139,19 @@ The mass of this piece of air is the product of its density *ρ*, its area *A*, 
 
 The kinetic energy of this piece of air is
 
-[\begin{matrix}
+$$
+\begin{matrix}
 {\frac{1}{2}mv^{2} = \frac{1}{2}\rho Avt\ v^{2} = \frac{1}{2}\rho Atv^{3}} \\
-\end{matrix}]
+\end{matrix}
+$$
 
 So the power of the wind, for an area *A* – that is, the kinetic energy passing across that area per unit time – is
 
-[\begin{matrix}
+$$
+\begin{matrix}
 {\frac{\frac{1}{2}mv^{2}}{t} = \frac{1}{2}\rho Av^{3}} \\
-\end{matrix}]
+\end{matrix}
+$$
 
 This formula may look familiar – we derived an identical expression when we were discussing the power requirement of a moving car.
 
@@ -163,20 +167,24 @@ What’s a typical wind speed? On a windy day, a cyclist really notices the wind
 
 The density of air is about 1.3 kg per m<sup>3</sup>. (I usually round this to 1 kg per m<sup>3</sup>, which is easier to remember, although I haven’t done so here.) Then the typical power of the wind per square metre of hoop is
 
-[\begin{matrix}
+$$
+\begin{matrix}
 {\frac{1}{2}\rho v^{3} = \frac{1}{2} \times \text{1.3\ kg/}\text{m}^{\text{3}} \times \left( \text{6\ m/s} \right)^{\text{3}} = \text{140\ W/}\text{m}^{\text{2}}} \\
-\end{matrix}]
+\end{matrix}
+$$
 
 Not all of this energy can be extracted by a windmill. The windmill slows the air down quite a lot, but it has to leave the air with *some* kinetic energy, otherwise that slowed-down air would get in the way. Figure B.2 is a cartoon of the actual flow past a windmill. The maximum fraction of the incoming energy that can be extracted by a disc-like windmill was worked out by a German physicist called Albert Betz [<span class="darkred">[1]</span>](#chBn01) in 1919. If the departing wind speed is one third of the arriving wind speed, the power extracted is 16/27 of the total power in the wind. 16/27 is 0.59. In practice let’s guess that a windmill might be 50% efficient. In fact, real windmills are designed with particular wind speeds in mind; if the wind speed is significantly greater than the turbine’s ideal speed, it has to be switched off.
 
 As an example, let’s assume a diameter of *d* = 25m, and a hub height of 32 m, which is roughly the size of the lone windmill above the city of Wellington, New Zealand (figure B.3). The power of a single windmill is
 
-[\begin{matrix}
+$$
+\begin{matrix}
  \\
 {= \text{50\%} \times \frac{1}{2}\rho v^{3} \times \frac{1}{4}\pi d^{2}} \\
 {= \text{50\%} \times \text{140\ W/m}^{\text{2}} \times \frac{1}{4}\pi\left( \text{25\ m} \right)^{2}} \\
 {= \text{34\ kW}} \\
-\end{matrix}]
+\end{matrix}
+$$
 
 Indeed, when I visited this windmill on a very breezy day, its meter showed it was generating 60 kW.
 
@@ -184,13 +192,15 @@ To estimate how much power we can get from wind, we need to decide how big our w
 
 How densely could such windmills be packed? Too close and the upwind ones will cast wind-shadows on the downwind ones. Experts say that windmills can’t be spaced closer than 5 times their diameter without losing significant power. At this spacing, the <span id="power">power</span> that windmills can generate per unit land area is
 
-[\begin{matrix}
+$$
+\begin{matrix}
  \\
 {= \frac{\frac{1}{2}\rho v^{3}\frac{\pi}{8}d^{2}}{\left( 5d \right)^{2}}} \\
 {= \frac{\pi}{200}\frac{1}{2}\rho v^{3}} \\
 {= 0.016 \times 140\text{W/m}^{\text{2}}} \\
 {= 2.2\text{W/m}^{\text{2}}} \\
-\end{matrix}]
+\end{matrix}
+$$
 
 ![](/assets/figure265.gif)
 

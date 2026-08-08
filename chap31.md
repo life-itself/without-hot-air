@@ -91,7 +91,7 @@ Now, what’s the best way to suck CO<sub>2</sub> from thin air? I’ll discuss 
 
 The chemical technologies typically deal with carbon dioxide in two steps.
 
-[\text{0.03\%~}\text{CO}_{\text{2}}\overset{\text{concentrate}}{\longrightarrow}\text{Pure~}\text{CO}_{\text{2}}\overset{\text{compress}}{\longrightarrow}\text{Liquid~}\text{CO}_{\text{2}}]
+$$\text{0.03\%~}\text{CO}_{\text{2}}\overset{\text{concentrate}}{\longrightarrow}\text{Pure~}\text{CO}_{\text{2}}\overset{\text{compress}}{\longrightarrow}\text{Liquid~}\text{CO}_{\text{2}}$$
 
 First, they *concentrate* CO<sub>2</sub> from its low concentration in the atmosphere; then they *compress* it into a small volume ready for shoving somewhere (either down a hole in the ground or deep in the ocean). [^8] Each of these steps has an energy cost. The costs required by the laws of physics are shown in table 31.5.
 

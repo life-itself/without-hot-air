@@ -125,12 +125,14 @@ Windows
 
 In the building trade, it’s conventional to describe the power-losses caused by ventilation of a space as the product of the number of changes *N* of the air per hour, the volume *V* of the space in cubic metres, the heat capacity *C*, and the temperature difference ΔT between the inside and outside of the building
 
-[\begin{matrix}
+$$
+\begin{matrix}
  \\
 {= C\frac{N}{\text{1\ h}}V\text{(}\text{m}^{3}\text{)}\Delta T\text{(}\text{K}\text{)}} \\
 {= \left( {1.2\text{~kJ/}\text{m}^{3}\text{/K}} \right)\frac{N}{\text{3000\ s}}V\text{(}\text{m}^{3}\text{)}\Delta T\text{(}\text{K}\text{)}} \\
 {= \frac{1}{3}NV\Delta T} \\
-\end{matrix}]
+\end{matrix}
+$$
 
 ### Energy loss and temperature demand (degree-days)
 
@@ -416,7 +418,7 @@ Can you reduce your walls’ leakiness by covering the *inside* of the wall with
 
 If you’re not looking for such a big reduction in wall leakiness, you can get by with a thinner internal covering. For example, you can buy 1.8-cmthick insulated wallboards with a U-value of 1.7 W/m<sup>2</sup>/K. With these over the existing wall, the U-value would be reduced from 2.2 W/m<sup>2</sup>/K to:
 
-[\left. 1/{\left( {\frac{1}{2.2} + \frac{1}{1.7}} \right) \approx 1\text{~W/}\text{m}^{\text{2}}\text{/K.}} \right.]
+$$\left. 1/{\left( {\frac{1}{2.2} + \frac{1}{1.7}} \right) \approx 1\text{~W/}\text{m}^{\text{2}}\text{/K.}} \right.$$
 
 Definitely a worthwhile reduction.
 
@@ -483,11 +485,11 @@ You might think that the coefficient of performance of a condensing boiler, 90%,
 
 Here are the formulae for the ideal efficiency of a heat pump, that is, the electrical energy required per unit of heat pumped. If we are pumping heat from an outside place at temperature *T*<span class="smallfont1"><sub>1</sub></span> into a place at higher temperature *T*<span class="smallfont1"><sub>2</sub></span>, both temperatures being expressed relative to absolute zero (that is, *T*<span class="smallfont1"><sub>2</sub></span>, in kelvin, is given in terms of the Celsius temperature *T*<span class="smallfont1"><sub>in</sub></span>, by 273.15 + *T*<span class="smallfont1"><sub>in</sub></span>), the ideal efficiency is:
 
-[\text{efficiency} = \frac{T_{2}}{T_{2} - T_{1}}\text{.}]
+$$\text{efficiency} = \frac{T_{2}}{T_{2} - T_{1}}\text{.}$$
 
 If we are pumping heat out from a place at temperature *T*<span class="smallfont1"><sub>2</sub></span> to a warmer exterior at temperature *T*<span class="smallfont1"><sub>1</sub></span>, the ideal efficiency is:
 
-[\text{efficiency} = \frac{T_{2}}{T_{1} - T_{2}}\text{.}]
+$$\text{efficiency} = \frac{T_{2}}{T_{1} - T_{2}}\text{.}$$
 
 ![](/assets/figure294.gif)
 
@@ -523,11 +525,13 @@ Heat capacity per unit volume:
 
 Here’s an interesting calculation to do. Imagine having solar heating panels on your roof, and, whenever the water in the panels gets above 50 °C, pumping the water through a large rock under your house. When a dreary grey cold month comes along, you could then use the heat in the rock to warm your house. Roughly how big a 50 °C rock would you need to hold enough energy to heat a house for a whole month? Let’s assume we’re after 24 kWh per day for 30 days and that the house is at 16 °C. The heat capacity of granite is 0.195 × 4200 J/kg/K = 820 J/kg/K. The mass of granite required is:
 
-[\begin{matrix}
+$$
+\begin{matrix}
 {= \frac{\text{energy}}{\text{heat\ capacity} \times \text{temperature\ difference}}} \\
 {= \frac{24 \times 30 \times 3.6\text{~MJ}}{\left( {820\text{~J/kg/°C}} \right)\left( {50\ {^\circ}\text{C} - 16\ {^\circ}\text{C}} \right)}} \\
 {= 100\ 000\text{~kg.}} \\
-\end{matrix}]
+\end{matrix}
+$$
 
 100 tonnes, which corresponds to a cuboid of rock of size 6 m × 6 m × 1 m.
 
@@ -545,11 +549,11 @@ Here’s an interesting calculation to do. Imagine having solar heating panels o
 
 OK, we’ve established the size of a useful ground store. But is it difficult to keep the heat in? Would you need to surround your rock cuboid with lots of insulation? It turns out that the ground itself is a pretty good insulator. A spike of heat put down a hole in the ground will spread as
 
-[\frac{1}{\sqrt{4\pi\kappa t}}\text{exp}\left( {- \frac{x^{2}}{4\left( {\kappa/\left( {C\rho} \right)} \right)t}} \right)]
+$$\frac{1}{\sqrt{4\pi\kappa t}}\text{exp}\left( {- \frac{x^{2}}{4\left( {\kappa/\left( {C\rho} \right)} \right)t}} \right)$$
 
 where *κ* is the conductivity of the ground, *C* is its heat capacity, and *ρ* is its density. This describes a bell-shaped curve with width
 
-[\sqrt{2\frac{\kappa}{C\rho}t}\text{~;}]
+$$\sqrt{2\frac{\kappa}{C\rho}t}\text{~;}$$
 
 for example, after six months (*t* = 1.6 × 10<sup>7</sup> s), using the figures for granite (*C* = 0.82 kJ/kg/K, *ρ* = 2500 kg/m<sup>3</sup>, *κ* = 2.1 W/m/K), the width is 6 m.
 
@@ -753,7 +757,7 @@ dry
 
 Let’s do a second calculation, working out how much power we could steadily suck from a ground loop at a depth of *h* = 2 m. Let’s assume that we’ll allow ourselves to suck the temperature at the ground loop down to Δ*T* = 5 °C below the average ground temperature at the surface, and let’s assume that the surface temperature is constant. We can then deduce the heat flux from the surface. Assuming a conductivity of 1.2 W/m/K (typical of damp clay soil),
 
-[\text{Flux} = \kappa \times \frac{\Delta T}{h} = 3\text{~W/}\text{m}^{2}\text{.}]
+$$\text{Flux} = \kappa \times \frac{\Delta T}{h} = 3\text{~W/}\text{m}^{2}\text{.}$$
 
 If, as above, we assume a population density corresponding to 160 m<sup>2</sup> per person, then the maximum power per person deliverable by ground-source heat pumps, if everyone in a neighbourhood has them, is 480 W, which is 12 kWh/d per person.
 
@@ -775,39 +779,51 @@ However, large thermal mass is not always a boon. If a room is occupied in winte
 
 If we assume the ground is made of solid homogenous material with conductivity *κ* and heat capacity *C*<sub>V</sub>, then the temperature at depth *z* below the ground and time *t* responds to the imposed temperature at the surface in accordance with the diffusion equation
 
-[\begin{matrix}
+$$
+\begin{matrix}
 {\frac{\partial T\left( z,t \right)}{\partial t} = \frac{\kappa}{C_{\text{V}}}\frac{\partial^{2}T\left( z,t \right)}{\partial z^{2}}\text{.}} \\
-\end{matrix}]
+\end{matrix}
+$$
 
 For a sinusoidal imposed temperature with frequency *ω* and amplitude *A* at depth *z* = 0,
 
-[\begin{matrix}
+$$
+\begin{matrix}
 {T\left( 0,t \right) = T_{\text{surface}}\left( t \right) = T_{\text{average}} + A\text{cos}\left( \omega t \right)\text{,}} \\
-\end{matrix}]
+\end{matrix}
+$$
 
 the resulting temperature at depth *z* and time *t* is a decaying and oscillating function
 
-[\begin{matrix}
+$$
+\begin{matrix}
 {T\left( z,t \right) = T_{\text{average}}\left( t \right) + A\text{e}^{- {z/z_{0}}}\text{cos}\left( {\omega t - {z/z_{0}}} \right)\text{,}} \\
-\end{matrix}]
+\end{matrix}
+$$
 
 where *z*<span class="smallfont1"><sub>0</sub></span> is the characteristic length-scale of both the decay and the oscillation,
 
-[\begin{matrix}
+$$
+\begin{matrix}
 \text{(E.7)\quad} & {z_{0} = \sqrt{\frac{2\kappa}{C_{\text{V}}\omega}\text{,}}} \\
-\end{matrix}]
+\end{matrix}
+$$
 
 The flux of heat (the power per unit area) at depth *z* is
 
-[\begin{matrix}
+$$
+\begin{matrix}
 {\kappa\frac{\partial T}{\partial z} = \kappa\frac{A}{z_{0}}\sqrt{2}\text{e}^{- {z/z_{0}}}\text{sin}\left( {\omega t - z/z_{0} - \pi/4} \right)} \\
-\end{matrix}\text{.}]
+\end{matrix}\text{.}
+$$
 
 For example, at the surface, the peak flux is
 
-[\begin{matrix}
+$$
+\begin{matrix}
 {\kappa\frac{A}{z_{0}}\sqrt{2} = A\sqrt{C_{\text{V}}\kappa\omega}} \\
-\end{matrix}\text{.}]
+\end{matrix}\text{.}
+$$
 
 <span class="figurenumber">Box E.19.</span> Working out the natural flux caused by sinusoidal temperature variations.
 

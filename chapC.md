@@ -32,15 +32,19 @@ When the plane throws air down, it gives that air kinetic energy. So creating li
 
 The two equations we’ll need, in order to work out a theory of flight, are Newton’s second law:
 
-[\begin{matrix}
+$$
+\begin{matrix}
 {\text{force} = \text{rate\ of\ change\ of\ momentum}} \\
-\end{matrix}]
+\end{matrix}
+$$
 
 and Newton’s third law, which I just mentioned:
 
-[\begin{matrix}
+$$
+\begin{matrix}
 {\text{force\ exerted\ on\ A\ by\ B} = \text{-\ force\ exerted\ on\ B\ by\ A}} \\
-\end{matrix}]
+\end{matrix}
+$$
 
 If you don’t like equations, I can tell you the punchline now: we’re going to find that the power required to create lift turns out to be *equal* to the power required to overcome drag. So the requirement to "stay up" *doubles* the power required.
 
@@ -60,27 +64,35 @@ Let’s make a cartoon of the lift force on a plane moving at speed *v*. In a ti
 
 The sausage’s mass is
 
-[\begin{matrix}
+$$
+\begin{matrix}
 {m_{\text{sausage}} = \text{density} \times \text{volume} = \rho vtA_{\text{s}}\text{.}} \\
-\end{matrix}]
+\end{matrix}
+$$
 
 Let’s say the whole sausage is moving down with speed *u*, and figure out what *u* needs to be in order for the plane to experience a lift force equal to its weight mg. The downward momentum of the sausage created in time t is
 
-[\begin{matrix}
+$$
+\begin{matrix}
 {{\text{mass} \times \text{velocity} = m}_{\text{sausage}}u = \rho vtA_{\text{s}}u\text{.}} \\
-\end{matrix}]
+\end{matrix}
+$$
 
 And by Newton’s laws this must equal the momentum delivered by the plane’s weight in time *t*, namely,
 
-[\begin{matrix}
+$$
+\begin{matrix}
 {mgt\text{.}} \\
-\end{matrix}]
+\end{matrix}
+$$
 
 Rearranging this equation,
 
-[\begin{matrix}
+$$
+\begin{matrix}
 {\rho vtA_{\text{s}}u = mgt\text{,}} \\
-\end{matrix}]
+\end{matrix}
+$$
 
 we can solve for the required downward sausage speed,
 
@@ -90,27 +102,33 @@ Interesting\! The sausage speed is *inversely* related to the plane’s speed *v
 
 What’s the energetic cost of pushing the sausage down at the required speed *u*? The power required is
 
-[\begin{matrix}
+$$
+\begin{matrix}
 {P_{\text{lift}} = \frac{\text{kinetic\ energy\ of\ sausage}}{\text{time}}} \\
 {\phantom{P_{\text{lift}}} = \frac{1}{t}\frac{1}{2}m_{\text{sausage}}u^{2}} \\
 {\phantom{P_{\text{lift}}} = \frac{1}{2t}\rho vtA_{\text{s}}\left( \frac{mg}{\rho vA_{\text{s}}} \right)^{2}} \\
 {\phantom{P_{\text{lift}}} = \frac{1}{2}\frac{\left( {mg} \right)^{2}}{\rho vA_{\text{s}}}} \\
-\end{matrix}]
+\end{matrix}
+$$
 
 The total power required to keep the plane going is the sum of the drag power and the lift power:
 
-[\begin{matrix}
+$$
+\begin{matrix}
 {P_{\text{total}} = P_{\text{drag}} + P_{\text{lift}}} \\
 {\phantom{P_{\text{total}}} = \frac{1}{2}c_{\text{d}}\rho A_{\text{p}}v^{3} + \frac{1}{2}\frac{\left( {mg} \right)^{2}}{\rho vA_{\text{s}}}\text{,}} \\
-\end{matrix}]
+\end{matrix}
+$$
 
 where *A*<span class="smallfont1"><sub>p</sub></span> is the frontal area of the plane and *c*<span class="smallfont1"><sub>d</sub></span> is its drag coefficient (as in Chapter A).
 
 The fuel-efficiency of the plane, expressed as the energy per distance travelled, would be
 
-[\begin{matrix}
+$$
+\begin{matrix}
 {\left. \frac{\text{energy}}{\text{distance}} \right|_{\text{ideal}} = \frac{P_{\text{total}}}{v} = \frac{1}{2}c_{\text{d}}\rho A_{\text{p}}v^{2} + \frac{1}{2}\frac{\left( {mg} \right)^{2}}{\rho v^{2}A_{\text{s}}}\text{,}} \\
-\end{matrix}]
+\end{matrix}
+$$
 
 if the plane turned its fuel’s power into drag power and lift power perfectly efficiently. (Incidentally, another name for "energy per distance travelled" is "force," and we can recognize the two terms above as the drag force <sup>1</sup>⁄<sub>2</sub>*c*<sub>d</sub>*ρA*<sub>p</sub>*v*<sup>2</sup>and the lift-related force <sup>1</sup>⁄<sub>2</sub>(*mg*)<sup>2</sup>/(*ρv*<sup>2</sup>*A*<sub>s</sub>). The sum is the force, or "thrust," that specifies exactly how hard the engines have to push.)
 
@@ -120,23 +138,29 @@ if the plane turned its fuel’s power into drag power and lift power perfectly 
 
 Real jet engines have an efficiency of about *ε* = 1/3, [<span class="darkred">[2]</span>](#chCn02) so the energy-per-distance of a plane travelling at speed *v* is
 
-[\begin{matrix}
+$$
+\begin{matrix}
 {\frac{\text{energy}}{\text{distance}} = \frac{1}{\varepsilon}\left( {\frac{1}{2}c_{\text{d}}\rho A_{\text{p}}v^{2} + \frac{1}{2}\frac{\left( {mg} \right)^{2}}{\rho v^{2}A_{\text{s}}}} \right)\text{.}} \\
-\end{matrix}]
+\end{matrix}
+$$
 
 This energy-per-distance is fairly complicated; but it simplifies greatly if we assume that the plane is *designed* to fly at the speed that *minimizes* the energy-per-distance. The energy-per-distance, you see, has got a sweetspot as a function of *v* (figure C.5). The sum of the two quantities \(\frac{1}{2}c_{\text{d}}\rho A_{\text{p}}v^{2}\) and \(\frac{1}{2}{\left( mg \right)^{2}/\left( \rho v^{2}A_{\text{s}} \right)}\) is smallest when the two quantities are equal. This phenomenon is delightfully common in physics and engineering: two things that don’t obviously *have* to be equal *are* actually equal, or equal within a factor of 2.
 
 So, this equality principle tells us that the optimum speed for the plane is such that
 
-[\begin{matrix}
+$$
+\begin{matrix}
 {c_{\text{d}}\rho A_{\text{p}}v^{2} = \frac{\left( mg \right)^{2}}{\rho v^{2}A_{\text{s}}}\text{,}} \\
-\end{matrix}]
+\end{matrix}
+$$
 
 i.e.
 
-[\begin{matrix}
+$$
+\begin{matrix}
 {\rho v_{\text{opt}}^{2} = \frac{mg}{\sqrt{c_{\text{d}}A_{\text{p}}A_{\text{s}}}}\text{,}} \\
-\end{matrix}]
+\end{matrix}
+$$
 
 This defines the optimum speed if our cartoon of flight is accurate; the cartoon breaks down if the engine efficiency *ε* depends significantly on speed, or if the speed of the plane exceeds the speed of sound (330 m/s); above the speed of sound, we would need a different model of drag and lift.
 
@@ -146,12 +170,14 @@ The predicted optimal speeds (table C.6) are more accurate than we have a right 
 
 Let’s explore a few more predictions of our cartoon. We can check whether the force (C.13) is compatible with the known thrust of the 747. Remembering that at the optimal speed, the two forces are equal, we just need to pick one of them and double it:
 
-[\begin{matrix}
+$$
+\begin{matrix}
 {\text{force} = \left. \frac{\text{energy}}{\text{distance}} \right|_{\text{ideal}} = \frac{1}{2}c_{\text{d}}\rho A_{\text{p}}v^{2} + \frac{1}{2}\frac{\left( {mg} \right)^{2}}{\rho v^{2}A_{\text{s}}}} \\
 {\phantom{\text{force}} = c_{\text{d}}\rho A_{\text{p}}v_{\text{opt}}^{2}} \\
 {\phantom{\text{force}} = c_{\text{d}}\rho A_{\text{p}}\frac{mg}{\rho\left( {c_{\text{d}}A_{\text{p}}A_{\text{s}}} \right)^{1/2}}} \\
 {\phantom{\text{force}} = \left( \frac{c_{\text{d}}A_{\text{p}}}{A_{\text{s}}} \right)^{1/2}mg\text{.}} \\
-\end{matrix}]
+\end{matrix}
+$$
 
 Bird
 
@@ -231,23 +257,29 @@ Optimum speed
 
 Let’s define the filling factor *f*<sub>A</sub> to be the area ratio:
 
-[\begin{matrix}
+$$
+\begin{matrix}
 {f_{\text{A}} = \frac{A_{\text{p}}}{A_{\text{s}}}\text{.}} \\
-\end{matrix}]
+\end{matrix}
+$$
 
 (Think of *f*<span class="smallfont1"><sub>A</sub></span> as the fraction of the square occupied by the plane in figure C.7.) Then
 
-[\begin{matrix}
+$$
+\begin{matrix}
 {\text{force} = \left( {c_{\text{d}}f_{\text{A}}} \right)^{1/2}\left( {mg} \right)\text{.}} \\
-\end{matrix}]
+\end{matrix}
+$$
 
 Interesting\! Independent of the density of the fluid through which the plane flies, the required thrust (for a plane travelling at the optimal speed) is just a dimensionless constant (*c*<sub>d</sub>*f*<sub>A</sub>)<sup>1/2</sup> times the weight of the plane. This constant, by the way, is known as the drag-to-lift ratio of the plane. (The lift-to-drag ratio has a few other names: the glide number, glide ratio, aerodynamic efficiency, or finesse; typical values are shown in table C.8.)
 
 Taking the jumbo jet’s figures, *c*<span class="smallfont1"><sub>d</sub></span> ≅ 0.03 and *f*<span class="smallfont1"><sub>A</sub></span> ≅ 0.04, we find the required thrust is
 
-[\begin{matrix}
+$$
+\begin{matrix}
 {\left( {c_{\text{d}}f_{\text{A}}} \right)^{1/2}mg = 0.036\ mg = 130\text{~kN.}} \\
-\end{matrix}]
+\end{matrix}
+$$
 
 How does this agree with the 747’s spec sheets? In fact each of the 4 engines has a maximum thrust of about 250 kN, but this maximum thrust is used only during take-off. During cruise, the thrust is much smaller: the thrust of a cruising 747 is 200 kN, just 50% more than our cartoon suggested. Our cartoon is a little bit off because our estimate of the drag-to-lift ratio was a little bit low.
 
@@ -263,11 +295,13 @@ Thrust is a force, and a force is an energy per unit distance. The total energy 
 
 Here’s the gross transport cost, defined to be the energy per unit weight (of the entire craft) per unit distance:
 
-[\begin{matrix}
+$$
+\begin{matrix}
 {\text{transport\ cost} = \frac{1}{\varepsilon}\frac{\text{force}}{\text{mass}}} \\
 {\phantom{\text{transport\ cost}} = \frac{1}{\varepsilon}\frac{\left( {c_{\text{d}}f_{\text{A}}} \right)^{1/2}mg}{m}} \\
 {\phantom{\text{transport\ cost}} = \frac{\left( {c_{\text{d}}f_{\text{A}}} \right)^{1/2}}{\varepsilon}g\text{.}} \\
-\end{matrix}]
+\end{matrix}
+$$
 
 So the transport cost is just a dimensionless quantity (related to a plane’s shape and its engine’s efficiency), multiplied by *g*, the acceleration due to gravity. Notice that this gross transport cost applies to all planes, but depends only on three simple properties of the plane: its drag coefficient, the shape of the plane, and its engine efficiency. It doesn’t depend on the size of the plane, nor on its weight, nor on the density of air. If we plug in *ε* = 1/3 and assume a lift-to-drag ratio of 20 we find the gross transport cost of *any* plane, according to our cartoon, is
 
@@ -295,13 +329,15 @@ or roughly 1.2 kWh/ton-km. This is just a little bigger than the transport cost 
 
 Similarly, we can estimate a passenger transport-efficiency for a 747.
 
-[\begin{matrix}
+$$
+\begin{matrix}
 \text{transport\ efficiency\ (passenger-km\ per\ litre\ of\ fuel)} \\
 {= \text{number\ of\ passengers} \times \frac{\text{energy\ per\ litre}}{\frac{\text{thrust}}{\varepsilon}}} \\
 {= \text{number\ of\ passengers} \times \frac{\varepsilon \times \text{energy\ per\ litre}}{\text{thrust}}} \\
 {= \text{400} \times \frac{1}{2}\frac{38\text{~MJ/litre}}{\text{200\ 000\ N}}} \\
 {= 25\text{~passenger-km\ per\ litre}} \\
-\end{matrix}]
+\end{matrix}
+$$
 
 This is a bit more efficient than a typical single-occupant car (12 km per litre). So travelling by plane is more energy-efficient than car if there are only one or two people in the car; and cars are more efficient if there are three or more passengers in the vehicle.
 
@@ -317,27 +353,33 @@ We’ve covered quite a lot of ground\! Let’s recap the key ideas. Half of the
 
 Another prediction we can make is, what’s the range of a plane or bird – the biggest distance it can go without refuelling? You might think that bigger planes have a bigger range, but the prediction of our model is startlingly simple. The range of the plane, the maximum distance it can go before refuelling, is proportional to its velocity and to the total energy of the fuel, and inversely proportional to the rate at which it guzzles fuel:
 
-[\begin{matrix}
+$$
+\begin{matrix}
 {\text{range} = v_{\text{opt}} \times \frac{\text{energy}}{\text{power}} = \frac{\text{energy} \times \varepsilon}{\text{force}}\text{.}} \\
-\end{matrix}]
+\end{matrix}
+$$
 
 Now, the total energy of fuel is the calorific value of the fuel, *C* (in joules per kilogram), times its mass; and the mass of fuel is some fraction *f*<span class="smallfont1"><sub>fuel</sub></span> of the total mass of the plane. So
 
-[\begin{matrix}
+$$
+\begin{matrix}
 {\text{range} = \frac{\text{energy} \times \varepsilon}{\text{force}} = \frac{Cm\varepsilon f_{\text{fuel}}}{\left( {c_{\text{d}}f_{\text{A}}} \right)^{1/2}\left( {mg} \right)} = \frac{\varepsilon f_{\text{fuel}}}{\left( {c_{\text{d}}f_{\text{A}}} \right)^{1/2}}\frac{C}{g}\text{.}} \\
-\end{matrix}]
+\end{matrix}
+$$
 
 It’s hard to imagine a simpler prediction: the range of any bird or plane is the product of a dimensionless factor *εf*<span class="smallfont1"><sub>fuel</sub></span>/ (*c*<span class="smallfont1"><sub>d</sub></span>*f*<span class="smallfont1"><sub>A</sub></span>)<sup>1/2</sup> which takes into account the engine efficiency, the drag coefficient, and the bird’s geometry, with a fundamental distance,
 
-[\frac{C}{g}]
+$$\frac{C}{g}$$
 
 which is a property of the fuel and gravity, and nothing else. No bird size, no bird mass, no bird length, no bird width; no dependence on the fluid density.
 
 So what is this magic length? It’s the same distance whether the fuel is goose fat or jet fuel: both these fuels are essentially hydrocarbons (CH<sub>2</sub>)<sub>*n*</sub>. Jet fuel has a calorific value of *C* = 40 MJ per kg. The distance associated with jet fuel is
 
-[\begin{matrix}
+$$
+\begin{matrix}
 {d_{\text{fuel}} = \frac{C}{g} = \text{4000\ km.}} \\
-\end{matrix}]
+\end{matrix}
+$$
 
 You can think of *d*<sub>fuel</sub> as the distance that the fuel could throw itself if it suddenly converted all its chemical energy to kinetic energy and launched itself on a parabolic trajectory with no air resistance. [To be precise, the distance achieved by the optimal parabola is twice *C*/*g*.] This distance is also the *vertical* height to which the fuel could throw itself if there were no air resistance. Another amusing thing to notice is that the calorific value of a fuel *C*, which I gave in joules per kilogram, is also a squared-velocity (just as the energy-to-mass ratio *E*/*m* in Einstein’s *E* = *mc*<sup>2</sup> is a squared-velocity, *c*<sup>2</sup>): 40 × 10<sup>6</sup> J per kg is (6000 m/s)<sup>2</sup>. So one way to think about fat is "fat is 6000 metres per second." If you want to lose weight by going jogging, 6000 m/s (12 000 mph) is the speed you should aim for in order to lose it all in one giant leap.
 
@@ -395,9 +437,11 @@ Some time after writing this cartoon of flight, I realized that it applies to mo
 
 Figure C.13 shows the principle of the hydrofoil. The weight of the craft is supported by a tilted underwater wing, which may be quite tiny compared with the craft. The wing generates lift by throwing fluid down, just like the plane of figure C.2. If we assume that the drag is dominated by the drag on the wing, and that the wing dimensions and vessel speed have been optimized to minimize the energy expended per unit distance, then the best possible transport cost, in the sense of energy per ton-kilometre, will be just the same as in equation (C.26):
 
-[\begin{matrix}
+$$
+\begin{matrix}
 {\frac{\left( {c_{\text{d}}f_{\text{A}}} \right)^{1/2}}{\varepsilon}g\text{,}} \\
-\end{matrix}]
+\end{matrix}
+$$
 
 where *c*<span class="smallfont1"><sub>d</sub></span> is the drag coefficient of the underwater wing, *f*<span class="smallfont1"><sub>A</sub></span> is the dimensionless area ratio defined before, *ε* is the engine efficiency, and *g* is the acceleration due to gravity.
 
@@ -427,16 +471,20 @@ The way to keep the energy cost of an airship (per weight, per distance) low is 
 
 I’ll assume the balloon is ellipsoidal, with cross-sectional area *A* and length *L*. The volume is \(V = \frac{2}{3}AL\text{.}\) If the airship floats stably in air of density *ρ*, the total mass of the airship, including its cargo and its helium, must be *m*<sub>total</sub> = *ρV*. If it moves at speed *v*, the force of air resistance is
 
-[\begin{matrix}
+$$
+\begin{matrix}
 {F = \frac{1}{2}c_{\text{d}}A\rho v^{2}\text{,}} \\
-\end{matrix}]
+\end{matrix}
+$$
 
 where *c*<sub>d</sub> is the drag coefficient, which, based on aeroplanes, we might expect to be about 0.03. The energy expended, per unit distance, is equal to *F* divided by the efficiency *ε* of the engines. So the gross transport cost – the energy used per unit distance per unit mass – is
 
-[\begin{matrix}
+$$
+\begin{matrix}
 {\frac{F}{\varepsilon m_{\text{total}}} = \frac{\frac{1}{2}c_{\text{d}}A\rho v^{2}}{\varepsilon\rho\frac{2}{3}AL}} \\
 {\phantom{\text{FFFFf}} = \frac{3}{4\varepsilon}c_{\text{d}}\frac{v^{2}}{L}} \\
-\end{matrix}]
+\end{matrix}
+$$
 
 That’s a rather nice result\! The gross transport cost of this idealized airship depends only on its speed *v* and length *L*, not on the density *ρ* of the air, nor on the airship’s frontal area *A*.
 
@@ -444,7 +492,7 @@ This cartoon also applies without modification to submarines. The gross transpor
 
 So, let’s plug in some numbers. Let’s assume we desire to travel at a speed of 80 km/h (so that crossing the Atlantic takes three days). In SI units, that’s 22 m/s. Let’s assume an efficiency *ε* of 1/4. To get the best possible transport cost, what is the longest blimp we can imagine? The Hindenburg was 245 m long. If we say *L* = 400 m, we find the transport cost is:
 
-[\frac{F}{\varepsilon m_{\text{total}}} = 3 \times 0.03 \times \frac{\left( {22\text{~m/s}} \right)^{2}}{400\text{~m}} = 0.1\text{~m/}\text{s}^{2} = {0.03\text{~kWh/}\text{t-km.}}]
+$$\frac{F}{\varepsilon m_{\text{total}}} = 3 \times 0.03 \times \frac{\left( {22\text{~m/s}} \right)^{2}}{400\text{~m}} = 0.1\text{~m/}\text{s}^{2} = {0.03\text{~kWh/}\text{t-km.}}$$
 
 If useful cargo made up half of the vessel’s mass, the net transport cost of this monster airship would be <span class="mauve">0.06 kWh/t-km</span> – similar to rail.
 
