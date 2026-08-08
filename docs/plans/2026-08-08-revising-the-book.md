@@ -72,6 +72,12 @@ with one. That rule is what makes the result defensible when it gets scrutinised
 
 ## Phase 2 — Decide how a change is shown
 
+> **This one is Rufus's call, not an agent's.** Bring him the options and a
+> recommendation; do not settle it and carry on. It is the decision every
+> subsequent edit depends on, it is a product judgement rather than a technical
+> one, and getting it wrong means redoing all of them. The recommendation below
+> is a starting point for that conversation, not a resolution of it.
+
 **Do not start Phase 3 before settling this.** Every edit made under the wrong
 mechanism has to be redone.
 
