@@ -96,7 +96,7 @@ $$
 
 we can solve for the required downward sausage speed,
 
-[u = \frac{mg}{\rho vA_{\text{s}}}\text{.}]
+$$u = \frac{mg}{\rho vA_{\text{s}}}\text{.}$$
 
 Interesting\! The sausage speed is *inversely* related to the plane’s speed *v*. A slow-moving plane has to throw down air harder than a fast-moving plane, because it encounters less air per unit time. That’s why landing planes, travelling slowly, have to extend their flaps: so as to create a larger and steeper wing that deflects air more.
 
@@ -144,7 +144,7 @@ $$
 \end{matrix}
 $$
 
-This energy-per-distance is fairly complicated; but it simplifies greatly if we assume that the plane is *designed* to fly at the speed that *minimizes* the energy-per-distance. The energy-per-distance, you see, has got a sweetspot as a function of *v* (figure C.5). The sum of the two quantities \(\frac{1}{2}c_{\text{d}}\rho A_{\text{p}}v^{2}\) and \(\frac{1}{2}{\left( mg \right)^{2}/\left( \rho v^{2}A_{\text{s}} \right)}\) is smallest when the two quantities are equal. This phenomenon is delightfully common in physics and engineering: two things that don’t obviously *have* to be equal *are* actually equal, or equal within a factor of 2.
+This energy-per-distance is fairly complicated; but it simplifies greatly if we assume that the plane is *designed* to fly at the speed that *minimizes* the energy-per-distance. The energy-per-distance, you see, has got a sweetspot as a function of *v* (figure C.5). The sum of the two quantities $\frac{1}{2}c_{\text{d}}\rho A_{\text{p}}v^{2}$ and $\frac{1}{2}{\left( mg \right)^{2}/\left( \rho v^{2}A_{\text{s}} \right)}$ is smallest when the two quantities are equal. This phenomenon is delightfully common in physics and engineering: two things that don’t obviously *have* to be equal *are* actually equal, or equal within a factor of 2.
 
 So, this equality principle tells us that the optimum speed for the plane is such that
 
@@ -469,7 +469,7 @@ This chapter has emphasized that planes can’t be made more energy efficient by
 
 The way to keep the energy cost of an airship (per weight, per distance) low is to move slowly, to be fish-shaped, and to be very large and long. Let’s work out a cartoon of the energy required by an idealized airship.
 
-I’ll assume the balloon is ellipsoidal, with cross-sectional area *A* and length *L*. The volume is \(V = \frac{2}{3}AL\text{.}\) If the airship floats stably in air of density *ρ*, the total mass of the airship, including its cargo and its helium, must be *m*<sub>total</sub> = *ρV*. If it moves at speed *v*, the force of air resistance is
+I’ll assume the balloon is ellipsoidal, with cross-sectional area *A* and length *L*. The volume is $V = \frac{2}{3}AL\text{.}$ If the airship floats stably in air of density *ρ*, the total mass of the airship, including its cargo and its helium, must be *m*<sub>total</sub> = *ρV*. If it moves at speed *v*, the force of air resistance is
 
 $$
 \begin{matrix}

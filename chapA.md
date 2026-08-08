@@ -83,21 +83,21 @@ Both forms of energy dissipation scale as *v*<sup>3</sup>. So this cartoon predi
 
 Which of the two forms of energy dissipation – brakes or air-swirling – is the bigger? It depends on the ratio of
 
-[{\left( {m_{c}/d} \right)/\left( {\rho A} \right)}\text{.}]
+$${\left( {m_{c}/d} \right)/\left( {\rho A} \right)}\text{.}$$
 
 If this ratio is much bigger than 1, then more power is going into brakes; if it is smaller, more power is going into swirling air. Rearranging this ratio, it is bigger than 1 if
 
-[m_{c} > \rho Ad\text{.}]
+$$m_{c} > \rho Ad\text{.}$$
 
 Now, *Ad* is the volume of the tube of air swept out from one stop sign to the next. And *ρAd* is the mass of that tube of air. So we have a very simple situation: energy dissipation is dominated by kinetic-energy-being-dumped-into-the-brakes if the mass of the car is *bigger* than the mass of the tube of air from one stop sign to the next; and energy dissipation is dominated by making-air-swirl if the mass of the car is *smaller* (figure A.4).
 
 Let’s work out the special distance *d*\* between stop signs, below which the dissipation is braking-dominated and above which it is air-swirling dominated (also known as drag-dominated). If the frontal area of the car is:
 
-[A_{\text{car}} = \text{2\ m\ wide} \times \text{1.5\ m\ high} = \text{3\ m}^{\text{2}}]
+$$A_{\text{car}} = \text{2\ m\ wide} \times \text{1.5\ m\ high} = \text{3\ m}^{\text{2}}$$
 
-and the drag coefficient is \(c_{\text{d}} = \frac{1}{3}\) and the mass is \(m_{\text{c}} = 1000\text{~kg}\) then the special distance is:
+and the drag coefficient is $c_{\text{d}} = \frac{1}{3}$ and the mass is $m_{\text{c}} = 1000\text{~kg}$ then the special distance is:
 
-[d^{*} = \frac{m_{\text{c}}}{\rho c_{\text{d}}A_{\text{car}}} = \frac{\text{1000\ kg}}{\text{1.3~}{\text{kg}/{\text{m}^{\text{3}} \times \frac{\text{1}}{\text{3}} \times \text{3~}\text{m}^{\text{2}}}}} = \text{750\ m}]
+$$d^{*} = \frac{m_{\text{c}}}{\rho c_{\text{d}}A_{\text{car}}} = \frac{\text{1000\ kg}}{\text{1.3~}{\text{kg}/{\text{m}^{\text{3}} \times \frac{\text{1}}{\text{3}} \times \text{3~}\text{m}^{\text{2}}}}} = \text{750\ m}$$
 
 So "city-driving" is dominated by kinetic energy and braking if the distance between stops is less than 750 m. Under these conditions, it’s a good idea, if you want to save energy:
 
@@ -137,9 +137,9 @@ The actual energy consumption of the car will be the energy dissipation in equat
 
 $$\text{total\ power\ of\ car} \simeq 4\left\lbrack {\frac{\text{1}}{\text{2}}m_{\text{c}}v^{3}/d + \frac{\text{1}}{\text{2}}\rho Av^{3}} \right\rbrack$$
 
-Let’s check this theory of cars by plugging in plausible numbers for motorway driving. Let *v* = 70 miles per hour = 110 km/h = 31 m/s and \({A = c_{\text{d}}A_{\text{car}} = \text{1\ m}^{2}}\text{.}\) The power consumed by the engine is estimated to be <span id="chA-80kW">roughly</span>
+Let’s check this theory of cars by plugging in plausible numbers for motorway driving. Let *v* = 70 miles per hour = 110 km/h = 31 m/s and ${A = c_{\text{d}}A_{\text{car}} = \text{1\ m}^{2}}\text{.}$ The power consumed by the engine is estimated to be <span id="chA-80kW">roughly</span>
 
-[4 \times \frac{\text{1}}{\text{2}}\rho Av^{3} = 2 \times 1.3{\text{~kg}/\text{m}}^{\text{3}} \times \text{1}\text{~m}^{\text{2}} \times \left( 31\text{~m}/\text{s} \right)^{\text{3}} = 80\text{~kW}]
+$$4 \times \frac{\text{1}}{\text{2}}\rho Av^{3} = 2 \times 1.3{\text{~kg}/\text{m}}^{\text{3}} \times \text{1}\text{~m}^{\text{2}} \times \left( 31\text{~m}/\text{s} \right)^{\text{3}} = 80\text{~kW}$$
 
 Drag coefficients
 
@@ -247,13 +247,13 @@ We’ll come back to electric cars in more detail towards the end of this chapte
 
 Here’s a fun question: what’s the energy consumption of a bicycle, in kWh per 100 km? Pushing yourself along on a bicycle requires energy for the same reason as a car: you’re making air swirl around. Now, we could do all the calculations from scratch, replacing car-numbers by bike-numbers. But there’s a simple trick we can use to get the answer for the bike from the answer for the car. The energy consumed by a car, per distance travelled, is the power-consumption associated with air-swirling,
 
-[4 \times \frac{\text{1}}{\text{2}}\rho Av^{3}]
+$$4 \times \frac{\text{1}}{\text{2}}\rho Av^{3}$$
 
 divided by the speed, *v*; that is,
 
 $$\text{energy\ per\ distance} = 4 \times \frac{\text{1}}{\text{2}}\rho Av^{2}$$
 
-The "4" came from engine inefficiency; *ρ* is the density of air; the area \(A = c_{\text{d}}A_{\text{car}}\) is the effective frontal area of a car; and *v* is its speed. Now, we can compare a bicycle with a car by dividing \(4 \times \frac{\text{1}}{\text{2}}\rho Av^{2}\) for the bicycle by \(4 \times \frac{\text{1}}{\text{2}}\rho Av^{2}\) for the car. All the fractions and *ρ* cancel, if the efficiency of the carbon-powered bicyclist’s engine is similar to the efficiency of the carbon-powered car engine (which it is). The ratio is:
+The "4" came from engine inefficiency; *ρ* is the density of air; the area $A = c_{\text{d}}A_{\text{car}}$ is the effective frontal area of a car; and *v* is its speed. Now, we can compare a bicycle with a car by dividing $4 \times \frac{\text{1}}{\text{2}}\rho Av^{2}$ for the bicycle by $4 \times \frac{\text{1}}{\text{2}}\rho Av^{2}$ for the car. All the fractions and *ρ* cancel, if the efficiency of the carbon-powered bicyclist’s engine is similar to the efficiency of the carbon-powered car engine (which it is). The ratio is:
 
 $$\frac{\text{energy\ per\ distance\ of\ bike}}{\text{energy\ per\ distance\ of\ car}} = \frac{c_{\text{d}}^{\text{bike}}A_{\text{bike}}v_{\text{bike}}^{2}}{c_{\text{d}}^{\text{car}}A_{\text{car}}v_{\text{car}}^{2}}$$
 
@@ -321,11 +321,11 @@ Figure A.9 shows the theory of fuel consumption (energy per unit distance) as a 
 
 The speed at which a car’s rolling resistance is equal to air resistance is given by
 
-[C_{\text{rr}}m_{\text{c}}g = \frac{1}{2}\rho c_{\text{d}}Av^{2}]
+$$C_{\text{rr}}m_{\text{c}}g = \frac{1}{2}\rho c_{\text{d}}Av^{2}$$
 
 that is,
 
-[v = \sqrt{2\frac{C_{\text{rr}}m_{\text{c}}g}{\rho c_{\text{d}}A}} = \text{7\ m/s} = \text{16\ miles\ per\ hour.}]
+$$v = \sqrt{2\frac{C_{\text{rr}}m_{\text{c}}g}{\rho c_{\text{d}}A}} = \text{7\ m/s} = \text{16\ miles\ per\ hour.}$$
 
 ![](/assets/figure257.gif)
 
@@ -343,11 +343,11 @@ For a bicycle (*m* = 90 kg, *A*= 0.75 m<sup>2</sup>), the transition from rollin
 
 For an eight-carriage train as depicted in figure 20.4 (*m* = 400 000 kg, *A* = 11 m<sup>2</sup>), the speed above which air resistance is greater than rolling resistance is
 
-[v = 33\text{~m/s} = \text{74\ miles\ per\ hour.}]
+$$v = 33\text{~m/s} = \text{74\ miles\ per\ hour.}$$
 
 For a single-carriage train (*m* = 50 000 kg, *A* = 11 m<sup>2</sup>) , the speed above which air resistance is greater than rolling resistance is
 
-[v = 12\text{~m/s} = \text{26\ miles\ per\ hour.}]
+$$v = 12\text{~m/s} = \text{26\ miles\ per\ hour.}$$
 
 ### Dependence of power on speed
 

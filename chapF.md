@@ -20,7 +20,7 @@ The wavelength *λ* and period of the waves (the distance and time respectively 
 
 You can estimate the period of ocean waves by recalling the time between waves arriving on an ocean beach. Is 10 seconds reasonable? For the height of ocean waves, let’s assume an amplitude of 1 m, which means 2 m from trough to crest. In waves this high, a man in a dinghy can’t see beyond the nearest crest when he’s in a trough; I think this height is bigger than average, but we can revisit this estimate if we decide it’s important. The speed of deep-water waves is related to the time *T* between crests by the physics formula (see Faber (1995), p170):
 
-[v = \frac{gT}{2\pi}\text{,}]
+$$v = \frac{gT}{2\pi}\text{,}$$
 
 where *g* is the acceleration of gravity (9.8 m/s<sup>2</sup>). For example, if *T* = 10 seconds, then *v* = 16 m/s. The wavelength of such a wave – the distance between crests – is *λ* = *vT* = *gT*<sup>2</sup>/2π = 160 m.
 

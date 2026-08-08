@@ -90,17 +90,57 @@ def etl():
 
 import re
 
-# Display maths: pandoc emits `\[ ... \]` around LaTeX for MathML equations.
-# Must run before the generic `\[`/`\]` unescape below, which otherwise strips
-# the backslash and leaves the braces as literal text (issue #3).
-MATH_MATRIX = [r'\\\[(\\begin\{matrix\}.*?\\end\{matrix\}[^\n\]]*)\\\]', r'$$\n\g<1>\n$$']
-MATH_SINGLE_LINE = [r'^\\\[(\\[^\n]*)\\\]$', r'$$\g<1>$$']
+# Inline maths: pandoc emits `\( ... \)` around inline LaTeX. The literal
+# sequence `\(` never occurs in ordinary prose, so any occurrence is safe to
+# convert unconditionally -- and unlike `\[`/`\]`, the generic bracket-unescape
+# rule below never touches parens, so this one regex fixes both a fresh
+# extraction and an already-converted chapter.
+MATH_INLINE = [r'\\\((.*?)\\\)', r'$\1$']
 
-# Same two shapes, matched against chapters that were converted before this
-# fix existed: transform()'s old unescape rule already stripped the `\[`/`\]`
-# backslashes there, leaving bare `[`/`]`. Used by fix_math() to retrofit them.
-MATH_MATRIX_BARE = [r'^\[(\\begin\{matrix\}.*?\\end\{matrix\}[^\n\]]*)\]$', r'$$\n\g<1>\n$$']
-MATH_SINGLE_LINE_BARE = [r'^\[(\\[^\n]*)\]$', r'$$\g<1>$$']
+LATEX_SIGNAL = re.compile(r'\\[a-zA-Z]')
+
+
+def _display_math_pass(open_re, close_re, anchored):
+    """Build a (pattern, repl) pair that wraps display maths in `$$ ... $$`.
+
+    Pandoc's display-math delimiter is `\\[ ... \\]`; issue #3 was the generic
+    `\\[`/`\\]` unescape below stripping the backslash before any math-aware
+    step ran, leaving bare `[`/`]` that render as literal text. Two shapes
+    matter: a block anchored to its own line(s) -- `^\\[...\\]$`, DOTALL, may
+    span several lines (e.g. `\\begin{matrix}...\\end{matrix}`) -- and a
+    fragment embedded mid-sentence (chapB's wind-shear formula, embedded in a
+    numbered list item rather than its own paragraph), which is unanchored
+    and confined to one line. Either form -- escaped or bare -- only counts as
+    maths if it contains a LaTeX command: `\[3\]`/`[3]` is also how pandoc
+    escapes a literal footnote number in prose, not just how it delimits
+    display maths, so the bracket shape alone can't tell the two apart.
+    """
+    flags = re.MULTILINE | re.DOTALL if anchored else re.MULTILINE
+    boundary = r'^%s(.*?)%s$' if anchored else r'%s(.*?)%s'
+    pattern = re.compile(boundary % (open_re, close_re), flags)
+
+    def repl(m):
+        body = m.group(1)
+        if not LATEX_SIGNAL.search(body):
+            return m.group(0)
+        if not anchored:
+            # A fragment embedded mid-sentence reads as inline maths, not its
+            # own display block.
+            return '$%s$' % body
+        return '$$\n%s\n$$' % body if '\n' in body else '$$%s$$' % body
+
+    return pattern, repl
+
+
+# Fresh extraction: `\[`/`\]` still backslashed.
+MATH_DISPLAY_BLOCK = _display_math_pass(r'\\\[', r'\\\]', anchored=True)
+MATH_DISPLAY_INLINE = _display_math_pass(r'\\\[', r'\\\]', anchored=False)
+
+# Retrofit: transform()'s old unescape rule already stripped the backslash,
+# leaving bare `[`/`]`. Used by fix_math() on chapters converted before this
+# fix existed.
+MATH_DISPLAY_BLOCK_BARE = _display_math_pass(r'\[', r'\]', anchored=True)
+MATH_DISPLAY_INLINE_BARE = _display_math_pass(r'\[', r'\]', anchored=False)
 
 
 def transform(file_string):
@@ -110,8 +150,9 @@ def transform(file_string):
     # replace non-breaking spaces ...
     out = out.replace(u'\xa0', u' ')
 
-    out = re.sub(MATH_MATRIX[0], MATH_MATRIX[1], out, flags=re.MULTILINE | re.DOTALL)
-    out = re.sub(MATH_SINGLE_LINE[0], MATH_SINGLE_LINE[1], out, flags=re.MULTILINE)
+    out = re.sub(MATH_INLINE[0], MATH_INLINE[1], out, flags=re.DOTALL)
+    out = MATH_DISPLAY_BLOCK[0].sub(MATH_DISPLAY_BLOCK[1], out)
+    out = MATH_DISPLAY_INLINE[0].sub(MATH_DISPLAY_INLINE[1], out)
 
     # find and replace patterns
     regexes = [
@@ -347,17 +388,20 @@ def titles(directory=SRC):
 
 def fix_math(directory=SRC):
     """Retrofit chapters converted before this fix existed (issue #3): restore
-    KaTeX `$$ ... $$` delimiters for display maths that transform()'s old
-    `\\[`/`\\]` unescape rule left as bare `[`/`]`, rendering as literal text.
-    Idempotent: once fixed, the `[\\...]` shape no longer matches.
+    KaTeX `$...$`/`$$...$$` delimiters for maths that transform()'s old
+    `\\[`/`\\]` unescape rule left as bare brackets (or, for inline `\\(...\\)`,
+    was never touched at all -- covered here too since fix_math() is the
+    single retrofit pass over already-converted chapters). Idempotent: once
+    fixed, none of these shapes match again.
     """
     for name in sorted(os.listdir(directory)):
         if not name.endswith('.md') or name in SKIP_TITLING:
             continue
         path = os.path.join(directory, name)
         text = open(path, encoding='utf8').read()
-        out = re.sub(MATH_MATRIX_BARE[0], MATH_MATRIX_BARE[1], text, flags=re.MULTILINE | re.DOTALL)
-        out = re.sub(MATH_SINGLE_LINE_BARE[0], MATH_SINGLE_LINE_BARE[1], out, flags=re.MULTILINE)
+        out = re.sub(MATH_INLINE[0], MATH_INLINE[1], text, flags=re.DOTALL)
+        out = MATH_DISPLAY_BLOCK_BARE[0].sub(MATH_DISPLAY_BLOCK_BARE[1], out)
+        out = MATH_DISPLAY_INLINE_BARE[0].sub(MATH_DISPLAY_INLINE_BARE[1], out)
         if out != text:
             open(path, 'w', encoding='utf8').write(out)
             print('fixed maths in', name)

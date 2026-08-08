@@ -54,7 +54,7 @@ This is the estimate for a typical car-driver driving a typical car today. Later
 
 <span class="figurenumber">Figure 3.3.</span> Chapter 3’s conclusion: a typical car-driver uses about 40 kWh per day.
 
-Why does the car deliver 33 miles per gallon? Where’s that energy going? Could we manufacture cars that do 3300 miles per gallon? If we are interested in trying to reduce cars’ consumption, we need to understand the physics behind cars’ consumption. These questions are answered in the accompanying technical chapter A, which provides a cartoon theory of cars’ consumption. I encourage you to read the technical chapters if formulae like \(\frac{1}{2}mv^{2}\) don’t give you medical problems.
+Why does the car deliver 33 miles per gallon? Where’s that energy going? Could we manufacture cars that do 3300 miles per gallon? If we are interested in trying to reduce cars’ consumption, we need to understand the physics behind cars’ consumption. These questions are answered in the accompanying technical chapter A, which provides a cartoon theory of cars’ consumption. I encourage you to read the technical chapters if formulae like $\frac{1}{2}mv^{2}$ don’t give you medical problems.
 
 Chapter 3’s conclusion: a typical car-driver uses about 40 kWh per day. Next we need to get the sustainable-production stack going, so we have something to compare this estimate with.
 

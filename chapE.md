@@ -32,7 +32,7 @@ The U-value is usually measured in W/m<sup>2</sup>/K. (One kelvin (1 K) is the s
 
 The U-values of objects that are "in series," such as a wall and its inner lining, can be combined in the same way that electrical conductances combine:
 
-[u_{\text{series\ combination}} = \left. 1/\left( {\frac{1}{u_{1}} + \frac{1}{u_{2}}} \right) \right.\text{.}]
+$$u_{\text{series\ combination}} = \left. 1/\left( {\frac{1}{u_{1}} + \frac{1}{u_{2}}} \right) \right.\text{.}$$
 
 There’s a worked example using this rule later.
 

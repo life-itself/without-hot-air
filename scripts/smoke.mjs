@@ -69,8 +69,16 @@ async function main() {
       }
       continue;
     }
+    // KaTeX legitimately embeds the raw LaTeX source for accessibility, both
+    // as literal <annotation encoding="application/x-tex"> HTML and, for
+    // Next.js's streamed RSC payload, as the same annotation data serialized
+    // inside a <script> hydration blob. Neither is visible to a reader, so
+    // strip both before checking for leaked source syntax.
+    const bodyForLeaks = r.body
+      .replace(/<annotation[^>]*>[\s\S]*?<\/annotation>/g, '')
+      .replace(/<script[^>]*>[\s\S]*?<\/script>/g, '');
     for (const { pattern, why } of LEAKS) {
-      const m = r.body.match(pattern);
+      const m = bodyForLeaks.match(pattern);
       if (m) note(`${page.path}: ${why} — found ${JSON.stringify(m[0].slice(0, 40))}`);
     }
     for (const expected of page.contains ?? []) {

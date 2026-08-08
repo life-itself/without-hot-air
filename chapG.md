@@ -141,7 +141,7 @@ $$
 \end{matrix}\text{,}
 $$
 
-where *ω* is the width of the wavefront. Substituting \(v = \sqrt{gd}\text{,}\)
+where *ω* is the width of the wavefront. Substituting $v = \sqrt{gd}\text{,}$
 
 $$
 \begin{matrix}
@@ -174,7 +174,7 @@ Moreover, estimates based on the kinetic-energy-flux method incorrectly assert t
 
 ### Effect of shelving of sea bed, and Coriolis force
 
-If the depth *d* decreases gradually and the width remains constant such that there is minimal reflection or absorption of the incoming power, then the power of the wave will remain constant. This means \(\sqrt{d}h^{2}\) is a constant, so we deduce that the height of the tide scales with depth as \(h \sim {1/d^{1/4}}\text{.}\)
+If the depth *d* decreases gradually and the width remains constant such that there is minimal reflection or absorption of the incoming power, then the power of the wave will remain constant. This means $\sqrt{d}h^{2}$ is a constant, so we deduce that the height of the tide scales with depth as $h \sim {1/d^{1/4}}\text{.}$
 
 ![](/assets/figure302A.gif)
 
@@ -527,17 +527,17 @@ power density
 
 Another way to estimate the power available from tide is to compute how much power is already dissipated by friction on the sea floor. A coating of turbines placed just above the sea floor could act as a substitute bottom, exerting roughly the same drag on the passing water as the sea floor used to exert, and extracting roughly the same amount of power as friction used to dissipate, without significantly altering the tidal flows.
 
-So, what’s the power dissipated by "bottom friction"? Unfortunately, there isn’t a straightforward model of bottom friction. It depends on the roughness of the sea bed and the material that the bed is made from – and even given this information, the correct formula to use is not settled. One widely used model says that the magnitude of the stress (force per unit area) is \(R_{1}\rho U^{2}\text{,}\) where *U* is the average flow velocity and \(R_{1}\) is a dimensionless quantity called the shear friction coefficient. We can estimate the power dissipated per unit area by multiplying the stress by the velocity. Table G.9 shows the power dissipated in friction, \(R_{1}\rho U^{3}\text{,}\) assuming \(R_{1} = 0.01\) or \(R_{1} = 0.003\text{.}\) For values of the shear friction coefficient in this range, the friction power is very similar to the estimated power that a tide farm would deliver. This is good news, because it suggests that planting a forest of underwater windmills on the sea-bottom, spaced five diameters apart, won’t radically alter the flow. The natural friction already has an effect that is in the same ballpark.
+So, what’s the power dissipated by "bottom friction"? Unfortunately, there isn’t a straightforward model of bottom friction. It depends on the roughness of the sea bed and the material that the bed is made from – and even given this information, the correct formula to use is not settled. One widely used model says that the magnitude of the stress (force per unit area) is $R_{1}\rho U^{2}\text{,}$ where *U* is the average flow velocity and $R_{1}$ is a dimensionless quantity called the shear friction coefficient. We can estimate the power dissipated per unit area by multiplying the stress by the velocity. Table G.9 shows the power dissipated in friction, $R_{1}\rho U^{3}\text{,}$ assuming $R_{1} = 0.01$ or $R_{1} = 0.003\text{.}$ For values of the shear friction coefficient in this range, the friction power is very similar to the estimated power that a tide farm would deliver. This is good news, because it suggests that planting a forest of underwater windmills on the sea-bottom, spaced five diameters apart, won’t radically alter the flow. The natural friction already has an effect that is in the same ballpark.
 
 ## Tidal pools with pumping
 
-"The pumping trick" artificially increases the amplitude of the tides in a tidal pool so as to amplify the power obtained. The energy cost of pumping *in* extra water at high tide is repaid with interest when the same water is let out at low tide; similarly, extra water can be pumped *out* at low tide, then let back in at high tide. The pumping trick is sometimes used at La Rance, boosting its net power generation by about 10% (Wilson and Balls, 1990). Let’s work out the theoretical limit for this technology. I’ll assume that generation has an efficiency of \(\varepsilon_{\text{g}} = 0.9\) and that pumping has an efficiency of \(\varepsilon_{\text{p}} = 0.85\text{.}\) Let the tidal range be 2*h*. I’ll assume for simplicity that the prices of buying and selling electricity are the same at all times, so that the optimal height boost *b* to which the pool is pumped above high water is given by (marginal cost of extra pumping = marginal return of extra water):
+"The pumping trick" artificially increases the amplitude of the tides in a tidal pool so as to amplify the power obtained. The energy cost of pumping *in* extra water at high tide is repaid with interest when the same water is let out at low tide; similarly, extra water can be pumped *out* at low tide, then let back in at high tide. The pumping trick is sometimes used at La Rance, boosting its net power generation by about 10% (Wilson and Balls, 1990). Let’s work out the theoretical limit for this technology. I’ll assume that generation has an efficiency of $\varepsilon_{\text{g}} = 0.9$ and that pumping has an efficiency of $\varepsilon_{\text{p}} = 0.85\text{.}$ Let the tidal range be 2*h*. I’ll assume for simplicity that the prices of buying and selling electricity are the same at all times, so that the optimal height boost *b* to which the pool is pumped above high water is given by (marginal cost of extra pumping = marginal return of extra water):
 
-[b/\varepsilon_{\text{p}} = \varepsilon_{\text{g}}\left( {b + 2h} \right)\text{.}]
+$$b/\varepsilon_{\text{p}} = \varepsilon_{\text{g}}\left( {b + 2h} \right)\text{.}$$
 
-Defining the round-trip efficiency \(\varepsilon = \varepsilon_{\text{g}}\varepsilon_{\text{p}}\text{,}\) we have
+Defining the round-trip efficiency $\varepsilon = \varepsilon_{\text{g}}\varepsilon_{\text{p}}\text{,}$ we have
 
-[b = 2h\frac{\varepsilon}{1 - \varepsilon}\text{.}]
+$$b = 2h\frac{\varepsilon}{1 - \varepsilon}\text{.}$$
 
 For example, with a tidal range of 2*h* = 4 m, and a round-trip efficiency of *ε* = 76%, the optimal boost is *b* = 13 m. This is the maximum height to which pumping can be justified if the price of electricity is constant.
 
@@ -545,7 +545,7 @@ Let’s assume the complementary trick is used at low tide. (This requires the b
 
 $$\left. \left( {\frac{1}{2}\rho g\varepsilon_{\text{g}}\left( b + 2h \right)^{2} - \frac{1}{2}\rho g\frac{1}{\varepsilon_{\text{p}}}b^{2}} \right)/T \right.\text{,}$$
 
-where *T* is the time from high tide to low tide. We can express this as the maximum possible power density without pumping, \({\varepsilon_{\text{g}}2\rho gh^{2}}/T\text{,}\) scaled up by a boost factor
+where *T* is the time from high tide to low tide. We can express this as the maximum possible power density without pumping, ${\varepsilon_{\text{g}}2\rho gh^{2}}/T\text{,}$ scaled up by a boost factor
 
 $$\left( \frac{1}{1 - \varepsilon} \right)\text{,}$$
 
