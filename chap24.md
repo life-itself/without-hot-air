@@ -76,7 +76,7 @@ Seawater
 
 4500
 
-<span class="figurenumber">Table 24.2</span>. Known recoverable resources of uranium. The top part of the table shows the "reasonable assured resources" and "inferred resources," at cost less than $130 per kg of uranium, as of 1 Jan 2005. These are the estimated resources in areas where exploration has taken place. There’s also 1.3 million tons of depleted uranium sitting around in stockpiles, a by-product of previous uranium activities.
+<span class="figurenumber">Table 24.2</span>. Known recoverable resources of uranium. The top part of the table shows the "reasonable assured resources" and "inferred resources," at cost less than $130 per kg of uranium, as of 1 Jan 2005. These are the estimated resources in areas where exploration has taken place. There’s also 1.3 million tons of depleted uranium sitting around in stockpiles, a by-product of previous uranium activities. <ins style="color:#a3540f;background:#fbeee0;padding:0 3px;border-radius:2px;font-weight:600;">Updated, 2026: the world-total conventional-reserves figure of 4.7 million tons has since been reassessed upward substantially, to about 7.9 million tons as of 1 Jan 2023, through further exploration.</ins> [^u1]
 
 ![](/assets/figure194.gif)
 
@@ -125,7 +125,7 @@ How fast could uranium be extracted from the oceans? The oceans circulate slowly
 
 2.8 million GW-years / 1600 years = 1750 GW,
 
-which, shared between 6 billion people, is <span class="green">7 kWh per day per person</span>. (There’s currently 369 GW of nuclear reactors, so this figure corresponds to a 4-fold increase in nuclear power over today’s levels.) I conclude that ocean extraction of uranium would turn today’s once-through reactors into a "sustainable" option – assuming that the uranium reactors can cover the energy cost of the ocean extraction process.
+which, shared between 6 billion people, is <span class="green">7 kWh per day per person</span>. (There’s currently <del>369 GW of nuclear reactors</del> <ins style="color:#a3540f;background:#fbeee0;padding:0 3px;border-radius:2px;font-weight:600;">roughly 365 GW of nuclear reactors as of 2023, generating an all-time-record 2,667 TWh in 2024</ins> [^u2], so this figure corresponds to a 4-fold increase in nuclear power over today’s levels.) I conclude that ocean extraction of uranium would turn today’s once-through reactors into a "sustainable" option – assuming that the uranium reactors can cover the energy cost of the ocean extraction process.
 
 ### Fast breeder reactors, using uranium from the oceans
 
@@ -212,11 +212,11 @@ At the same time, we must not let ourselves be swept off our feet in horror at t
 
 When quantifying the public risks of different power sources, we need a new unit. I’ll go with "deaths per GWy (gigawatt-year)." Let me try to convey what it would mean if a power source had a death rate of 1 death per GWy. One gigawatt-year is the energy produced by a 1 GW power station, if it operates flat-out for one year. Britain’s electricity consumption is roughly 45 GW, or, if you like, 45 gigawatt-years per year. So if we got our electricity from sources with a death rate of 1 death per GWy, that would mean the British electricity supply system was killing 45 people per year. For comparison, 3000 people die per year on Britain’s roads. So, if you are *not* campaigning for the abolition of roads, you may deduce that "1 death per GWy" is a death rate that, while sad, you might be content to live with. Obviously, 0.1 deaths per GWy would be preferable, but it takes only a moment’s reflection to realize that, sadly, fossil-fuel energy production must have a cost greater than 0.1 deaths per GWy – just think of disasters on oil rigs; helicopters lost at sea; pipeline fires; refinery explosions; and coal mine accidents: there are tens of fossil-chain fatalities per year in Britain.
 
-So, let’s discuss the actual death rates of a range of electricity sources. The death rates vary a lot from country to country. In China, for example, the death rate in coal mines, per ton of coal delivered, is 50 times that of most nations. Figure 24.11 shows numbers from studies by the Paul Scherrer Institute and by a European Union project called ExternE, which made comprehensive estimates of all the impacts of energy production. According to the EU figures, coal, lignite, and oil have the highest death rates, followed by peat and biomass-power, with death rates above 1 per GWy. Nuclear and wind are the best, with death rates below 0.2 per GWy. [^15] Hydroelectricity is the best of all according to the EU study, but comes out worst in the Paul Scherrer Institute’s study, because the latter surveyed a different set of countries.
+So, let’s discuss the actual death rates of a range of electricity sources. The death rates vary a lot from country to country. In China, for example, the death rate in coal mines, per ton of coal delivered, is 50 times that of most nations. Figure 24.11 shows numbers from studies by the Paul Scherrer Institute and by a European Union project called ExternE, which made comprehensive estimates of all the impacts of energy production. According to the EU figures, coal, lignite, and oil have the highest death rates, followed by peat and biomass-power, with death rates above 1 per GWy. Nuclear and wind are the best, with death rates below 0.2 per GWy. [^15] Hydroelectricity is the best of all according to the EU study, but comes out worst in the Paul Scherrer Institute’s study, because the latter surveyed a different set of countries. <ins style="color:#a3540f;background:#fbeee0;padding:0 3px;border-radius:2px;font-weight:600;">This chapter was written before the March 2011 Fukushima Daiichi accident, the second-worst in nuclear power's history. It doesn't overturn the comparison: no deaths have been directly attributed to radiation exposure, and modern estimates still put nuclear's death rate at around 0.03 deaths per TWh, among the lowest of any source — but it belongs in this discussion, not omitted from it.</ins> [^u4]
 
 ### Inherently safe nuclear power
 
-Spurred on by worries about nuclear accidents, engineers have devised many new reactors with improved safety features. The GT-MHR power plant, for example, is claimed to be inherently safe; and, moreover it has a higher efficiency of conversion of heat to electricity than conventional nuclear plants [[<span class="websitetitle">gt-mhr.ga.com</span>](http://gt-mhr.ga.com/)].
+Spurred on by worries about nuclear accidents, engineers have devised many new reactors with improved safety features. <del>The GT-MHR power plant, for example, is claimed to be inherently safe; and, moreover it has a higher efficiency of conversion of heat to electricity than conventional nuclear plants</del> <ins style="color:#a3540f;background:#fbeee0;padding:0 3px;border-radius:2px;font-weight:600;">The GT-MHR project cited here as the leading example was effectively shelved; a different generation of small modular and Gen-IV reactor designs (NuScale, Rolls-Royce SMR, various molten-salt and high-temperature gas-cooled projects) leads the field today</ins> [[<span class="websitetitle">gt-mhr.ga.com</span>](http://gt-mhr.ga.com/)]. [^u5]
 
 ![](/assets/figure200.gif)
 
@@ -329,6 +329,18 @@ If we imagine that scientists and engineers crack the problem of getting the DD 
 
 ## Notes and further reading
 
+### Updates, 2026
+
+[^u1]: *Global uranium resources.* 7,934,500 tonnes identified recoverable as of 1 January 2023 (recoverable at $40–260/kgU), up from the ~4.7 million tons this chapter cites from 2005 data. Source: OECD NEA / IAEA, *Uranium Resources, Production and Demand* ("Red Book"), 2023 edition.
+
+[^u2]: *Global nuclear capacity and output.* 403 reactors reporting to the IAEA in 2023, combined capacity 364.5 GW(e); global generation 2,667 TWh in 2024, an all-time record. Source: IAEA, *Nuclear Power Data and Operating Experience for 2023*.
+
+[^u3]: *UK nuclear decommissioning cost.* NDA's discounted best estimate of future decommissioning costs was £124.4 billion in 2023–24 (down from a 2022 peak of ~£149 billion). Source: UK Nuclear Decommissioning Authority, *Annual Report and Accounts 2023 to 2024*.
+
+[^u4]: *Fukushima Daiichi, March 2011.* No deaths have been directly attributed to radiation exposure (one worker's 2018 lung-cancer death was later linked to radiation dose); ~2,313 disaster-related deaths among evacuees, mostly from evacuation/relocation stress rather than radiation. Modern estimate: nuclear death rate ~0.03 per TWh. Sources: World Nuclear Association; Our World in Data, "What are the safest and cleanest sources of energy?"
+
+[^u5]: *Reactor design landscape.* Small modular reactors (NuScale, Rolls-Royce SMR) and other Gen-IV designs (molten-salt, high-temperature gas-cooled) now lead development; GT-MHR did not reach commercial deployment.
+
 [^1]: *Figure 24.1*. Source: World Nuclear Association [[<span class="websitetitle">5qntkb</span>](http://tinyurl.com/5qntkb)]. The total capacity of operable nuclear reactors is 372 GW(e), using 65 000 tons of uranium per year. The USA has 99 GW, France 63.5 GW, Japan 47.6 GW, Russia 22 GW, Germany 20 GW, South Korea 17.5 GW, Ukraine 13 GW, Canada 12.6 GW, and UK 11 GW. In 2007 all the world’s reactors generated 2608 TWh of electricity, which is an average of 300 GW, or <span class="green">1.2 kWh per day per person</span>.
 
 [^2]: *Fast breeder reactors obtain 60 times as much energy from the uranium*. Source: [<span class="websitetitle">www.world-nuclear.org/info/inf98. html</span>](http://www.world-nuclear.org/info/inf98.html). Japan currently leads the development of fast breeder reactors.
@@ -349,7 +361,7 @@ If we imagine that scientists and engineers crack the problem of getting the DD 
 
 [[<span class="websitetitle">yju4a4</span>](http://tinyurl.com/yju4a4)] omits the figure for Turkey, which is found here: [[<span class="websitetitle">yeyr7z</span>](http://tinyurl.com/yeyr7z)].
 
-[^10]: *The nuclear decommissioning authority has an annual budget of £2 billion*. In fact, this clean-up budget seems to rise and rise. The latest figure for the total cost of decommissioning is £73 billion. [<span class="websitetitle">news.bbc.co.uk/1/hi/uk/7215688.stm</span>](http://news.bbc.co.uk/1/hi/uk/7215688.stm)
+[^10]: *The nuclear decommissioning authority has an annual budget of £2 billion*. In fact, this clean-up budget seems to rise and rise. The latest figure for the total cost of decommissioning is £73 billion. [<span class="websitetitle">news.bbc.co.uk/1/hi/uk/7215688.stm</span>](http://news.bbc.co.uk/1/hi/uk/7215688.stm) <ins style="color:#a3540f;background:#fbeee0;padding:0 3px;border-radius:2px;font-weight:600;">Updated, 2026: it kept rising — the NDA's discounted best estimate was £124.4 billion in 2023–24 (down from a 2022 peak of ~£149 billion).</ins> [^u3]
 
 [^11]: *The nuclear industry sold everyone in the UK 4 kWh/d for about 25 years*. The total generated to 2006 was about 2200 TWh. Source: Stephen Salter’s Energy Review for the Scottish National Party.
 
