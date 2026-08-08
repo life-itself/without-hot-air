@@ -201,9 +201,18 @@ separate amber/copper tone instead for that reason.
       Phase 1 gap noted above). Read chapter 6 as published and confirm the
       mechanism actually works before chapter D (solar's technical appendix,
       also audited) or any other chapter gets the same treatment.
-- [ ] Then work down the priority list — chapter D next (same topic, audited
-      already), then wind (4, B, 10), cars/EVs (3, A), nuclear (24), fossil
-      fuels (23), energy plans (27, 30) once their dependencies are revised.
+- [x] Then work down the priority list — done, 2026-08-08, per an explicit
+      "keep pushing, don't pause" instruction: solar (6, D), wind (4, B, 10),
+      cars/EVs (3, A), nuclear (24), fossil fuels (23) all revised with the
+      same `<del>`/`<ins>` + "Updates, 2026" footnote mechanism, each verified
+      live on withouthotair.org. Energy plans (27, 30) got annotations
+      flagging which of their assumptions have moved, deliberately *not* a
+      full re-derivation of the plan tables — that's a bigger, more
+      structural task (each plan is a system of interlocking numbers) better
+      done as its own dedicated pass than folded into this one.
+      **Still not done: the human read-through above.** Twelve chapters now
+      carry unreviewed edits, not one. Read them before anything else happens
+      to this book.
 
 Standing constraints (also in `AGENTS.md`):
 
