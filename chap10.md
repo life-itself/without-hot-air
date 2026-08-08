@@ -82,15 +82,15 @@ Going on emotions alone, I would like to live in a country with virtually no car
 
 <span class="figurenumber">Figure 10.6</span>. Birds lost in action. Annual bird deaths in Denmark caused by wind turbines and cars, and annual bird deaths in Britain caused by cats. Numbers from Lomborg (2001). Collisions with windows kill a similar number to cats.
 
-## Notes and further reading
-
-### <span style="color:#a3540f;font-weight:600;">Updates, 2026</span>
+## <span style="color:#a3540f;font-weight:600;">Updates, 2026</span>
 
 [^u1]: <span style="color:#a3540f;font-weight:600;">*Global offshore wind capacity.*</span> Roughly 83 GW installed by the end of 2024, including large-scale UK and floating deployments. Source: RenewableUK / GWEC offshore wind market reports, 2024.
 
 [^u2]: <span style="color:#a3540f;font-weight:600;">*UK offshore wind capacity.*</span> Roughly 15 GW operational by the end of 2024, with a government target of 50 GW (including floating wind) by 2030. Source: RenewableUK, "2024 in review."
 
 [^u3]: <span style="color:#a3540f;font-weight:600;">*Solar PV and offshore wind costs.*</span> Unsubsidised utility-scale solar LCOE was about $61/MWh (~£48/MWh) globally in 2024; the 2024 UK offshore wind CfD auction cleared at roughly £73–91/MWh. Sources: Lazard, *Levelized Cost of Energy+* (June 2024); UK CfD Allocation Round 7 results, 2024.
+
+## Notes and further reading
 
 [^1]: *The Kentish Flats wind farm in the Thames Estuary...* See [<span class="websitetitle">www.kentishflats.co.uk</span>](http://www.kentishflats.co.uk/). Its 30 Vestas V90 wind turbines have a total peak output of 90 MW, and the predicted average output was 32 MW (assuming a load factor of 36%). The mean wind speed at the hub height is 8.7 m/s. The turbines stand in 5 m-deep water, are spaced 700 m apart, and occupy an area of 10 km<sup>2</sup>. The power density of this offshore wind farm was thus predicted to be 3.2 W/m<sup>2</sup>. In fact, the average output was 26 MW, so the average load factor in 2006 was 29% [[<span class="websitetitle">wbd8o</span>](http://tinyurl.com/wbd8o)]. This works out to a power density of 2.6 W/m<sup>2</sup>. The North Hoyle wind farm off Prestatyn, North Wales, had a higher load factor of 36% in 2006. Its thirty 2 MW turbines occupy 8.4 km<sup>2</sup>. They thus had an average power density of 2.6 W/m<sup>2</sup>.
 

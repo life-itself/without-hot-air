@@ -365,9 +365,7 @@ Let’s assume that the mass of the car and occupants is 740 kg, *without* any b
 
 It thus seems to me that the range problem has been solved by the advent of modern <span id="batteries">batteries</span>. It would be nice to have even better batteries, but an energy density of 120 Wh per kg is already good enough, as long as we’re happy for the batteries in a car to weigh up to 500 kg. <ins style="color:#a3540f;background:#fbeee0;padding:0 3px;border-radius:2px;font-weight:600;">This judgement call, made in 2008 before a single mass-market long-range EV existed, held up: a 2024 Tesla Model 3 Long Range carries an 82 kWh pack (~500 kg) for an EPA-rated range of about 550 km — matching this chapter's "good enough" scenario on real hardware, not a projection.</ins> [^u2] In practice I imagine most people would be content to have a range of 300 km, which can be delivered by 250 kg of batteries. If these batteries were divided into ten 25 kg chunks, separately unpluggable, then a car user could keep just four of the ten chunks on board when he’s doing regular commuting (100 kg gives a range of 140 km); and collect an extra six chunks from a battery-recharging station when he wants to make longer-range trips. During long-range trips, he would exchange his batteries for a fresh set at a battery-exchange station every 300 km or so.
 
-## Notes and further reading
-
-### <span style="color:#a3540f;font-weight:600;">Updates, 2026</span>
+## <span style="color:#a3540f;font-weight:600;">Updates, 2026</span>
 
 [^u1]: <span style="color:#a3540f;font-weight:600;">*EV battery pack energy density.*</span> Commercial lithium-ion EV packs now typically deliver 150–250 Wh/kg (cell-level figures run higher, 250–350 Wh/kg); emerging solid-state cells reach roughly 500 Wh/kg. Source: industry battery density surveys, 2024.
 
@@ -376,6 +374,8 @@ It thus seems to me that the range problem has been solved by the advent of mode
 ![](/assets/figure259.gif)
 
 <span class="figurenumber">Figure A.15.</span> The Wartsila-Sulzer RTA96-C 14-cylinder two-stroke diesel engine. 27 m long and 13.5 m high. [<span class="websitetitle">www.wartsila.com</span>](http://www.wartsila.com/)
+
+## Notes and further reading
 
 [^1]: *Regenerative brakes roughly halve the energy lost in braking*. Source: E4tech (2007).
 

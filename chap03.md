@@ -72,11 +72,11 @@ Yes, that cost fell outside the boundary of this calculation too. We’ll talk a
 
 <span class="figurenumber">Figure 3.4.</span> How British people travel to work, according to the 2001 census.
 
-## Notes and further reading
-
-### <span style="color:#a3540f;font-weight:600;">Updates, 2026</span>
+## <span style="color:#a3540f;font-weight:600;">Updates, 2026</span>
 
 [^u1]: <span style="color:#a3540f;font-weight:600;">*Electric vehicles went mainstream.*</span> EV sales exceeded 17 million globally in 2024, over 20% of new car sales worldwide (45% in China, ~25% in Europe, >11% in USA). Source: IEA, *Global EV Outlook 2025*.
+
+## Notes and further reading
 
 [^1]: *For the distance travelled per day, let’s use 50 km.* This corresponds to 18 000 km (11 000 miles) per year. Roughly half of the British population drive to work. The total amount of car travel in the UK is 686 billion passenger-km per year, which corresponds to an "average distance travelled by car per British person" of 30 km per day. Source: Department for Trans- port [[<span class="websitetitle">5647rh</span>](http://tinyurl.com/5647rh)]. As I said in [chapter 2](../Text/chap02.xhtml#p22), I aim to estimate the consumption of a "typical moderately-affluent person" – the consumption that many people aspire to. Some people don’t drive much. In this chapter, I want to estimate the energy consumed by someone who chooses to drive, rather than depersonalize the answer by reporting the UK average, which mixes together the drivers and non-drivers. If I said "the average use of energy for car driving in the UK is 24 kWh/d per person," I bet some people would misunderstand and say: "I’m a car driver so I guess I use 24 kWh/d."
 

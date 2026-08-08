@@ -273,13 +273,13 @@ Assuming a windspeed of 6 m/s, which, as I said before, is *above* the average f
 
 Perhaps the worst windmills in the world are a set in Tsukuba City, Japan, which actually consume more power than they generate. Their installers were so embarrassed by the stationary turbines that they imported power to make them spin so that they looked like they were working\! [[<span class="websitetitle">6bkvbn</span>](http://tinyurl.com/6bkvbn)]
 
-## Notes and further reading
-
-### <span style="color:#a3540f;font-weight:600;">Updates, 2026</span>
+## <span style="color:#a3540f;font-weight:600;">Updates, 2026</span>
 
 [^u1]: <span style="color:#a3540f;font-weight:600;">*Turbine size.*</span> Onshore turbines are now typically 2–6 MW with 120–160 m rotors; the largest offshore turbines (e.g. Vestas V236) reach 15 MW with a 236 m rotor. Source: Vestas / industry turbine spec sheets, 2024.
 
 [^u2]: <span style="color:#a3540f;font-weight:600;">*Capacity factors.*</span> Global offshore wind averaged around 41% in 2023, well above this chapter's 2008-era country figures. Source: IEA / industry capacity-factor data, 2023–2024.
+
+## Notes and further reading
 
 [^1]: *The maximum fraction of the incoming energy that can be extracted by a disc-like windmill...* There is a nice explanation of this on the Danish Wind Industry Association’s website. [[<span class="websitetitle">yekdaa</span>](http://tinyurl.com/yekdaa)].
 

@@ -156,9 +156,7 @@ I’ll pop 24 kWh/d per person onto the green stack, emphasizing that I think th
 
 I think one conclusion is clear: *biofuels can’t add up* – at least, not in countries like Britain, and not as a replacement for all transport fuels. Even leaving aside biofuels’ main defects – that their production competes with food, and that the additional inputs required for farming and processing often cancel out most of the delivered energy (figure 6.14) – biofuels made from plants, in a European country like Britain, can deliver so little power, I think they are scarcely worth talking about.
 
-## Notes and further reading
-
-### <span style="color:#a3540f;font-weight:600;">Updates, 2026</span>
+## <span style="color:#a3540f;font-weight:600;">Updates, 2026</span>
 
 The chapter above carries five inline updates (marked <del>struck-through</del> / <ins style="color:#a3540f;background:#fbeee0;padding:0 3px;border-radius:2px;font-weight:600;">highlighted</ins>) to figures that have moved since 2008. MacKay's original text is untouched elsewhere; these are additions, not silent corrections. Sourced from `docs/audit.yaml`.
 
@@ -169,6 +167,8 @@ The chapter above carries five inline updates (marked <del>struck-through</del> 
 [^u3]: <span style="color:#a3540f;font-weight:600;">*Solar vs. market electricity price.*</span> Unsubsidised utility-scale solar LCOE was about $61/MWh in 2024, versus $76/MWh for new combined-cycle gas — solar had become cheaper than new fossil generation, the reverse of the 2008 comparison. Source: Lazard, *Levelized Cost of Energy+* (June 2024).
 
 [^u4]: <span style="color:#a3540f;font-weight:600;">*World installed solar PV capacity.*</span> Roughly 10 GW (peak) at the end of 2007 rising to roughly 1873 GW by the end of 2024, a roughly 180-fold increase. Source: IRENA, *Renewable Capacity Statistics 2025*.
+
+## Notes and further reading
 
 [^1]: *... compensate for the tilt between the sun and the land.* The latitude of Cambridge is θ = 52°; the intensity of midday sunlight is multiplied by cos θ ≈ 0.6. The precise factor depends on the time of year, and varies between cos(θ + 23°) = 0.26 and cos(θ - 23°) = 0.87.
 

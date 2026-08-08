@@ -173,11 +173,11 @@ Scaling this idea up, if every borough had one of these, and if everyone sent 1 
 
 This is similar to the figure estimated above for methane capture at landfill sites. And remember, we can’t have both. More waste incineration means less methane gas leaking out of landfill sites. See [figure 27.2](../Text/chap27.xhtml#fig27.2) and [figure 27.3](../Text/chap27.xhtml#fig27.3), for further data on waste incineration.
 
-## Notes and further reading
-
-### <span style="color:#a3540f;font-weight:600;">Updates, 2026</span>
+## <span style="color:#a3540f;font-weight:600;">Updates, 2026</span>
 
 [^u1]: <span style="color:#a3540f;font-weight:600;">*UK oilseed rape area.*</span> Down to roughly 300,000–350,000 hectares in recent years, from a peak of over 600,000 ha around 2012. Source: UK Defra / AHDB farming statistics, "First estimates of 2023 UK wheat and oilseed rape production."
+
+## Notes and further reading
 
 [^1]: *The power per unit area of using willow, miscanthus, or poplar, for electricity is 0.2 W/m<sup>2</sup>*. Source: Select Committee on Science and Technology Minutes of Evidence – Memorandum from the Biotechnology & Biological Sciences Research Council [[<span class="websitetitle">www.publications.parliament.uk/pa/ld200304/ldselect/ldsctech/126/4032413.htm</span>](http://www.publications.parliament.uk/pa/ld200304/ldselect/ldsctech/126/4032413.htm)]. "Typically a sustainable crop of 10 dry t/ha/y of woody biomass can be produced in Northern Europe... . Thus an area of 1 km<sup>2</sup> will produce 1000 dry t/y – enough for a power output 150 kWe at low conversion efficiencies or 300 kWe at high conversion efficiencies." This means 0.15–0.3 W(e)/m<sup>2</sup>. See also Layzell et al. (2006), [[<span class="websitetitle">3ap7lc</span>](http://tinyurl.com/3ap7lc)].
 

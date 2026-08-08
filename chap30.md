@@ -191,13 +191,13 @@ My guess is that in many regions, the best solar technology for electricity prod
 
 The non-solar numbers add up as follows. Wind: 24 kWh/d/p; hydro: 3.6 kWh/d/p; tide: 0.3 kWh/d/p; wave: 0.5 kWh/d/p; geothermal: 8 kWh/d/p – a total of 36 kWh/d/p. Our target was a post-European consumption of 80 kWh/d per person. We have a clear conclusion: the non-solar renewables may be "huge," but they are not huge enough. To complete a plan that adds up, we must rely on one or more forms of solar power. Or use nuclear power. Or both.
 
-## Notes and further reading
-
-### <span style="color:#a3540f;font-weight:600;">Updates, 2026</span>
+## <span style="color:#a3540f;font-weight:600;">Updates, 2026</span>
 
 [^u1]: <span style="color:#a3540f;font-weight:600;">*Solar PV cost decline.*</span> Unsubsidised utility-scale solar LCOE fell to roughly $61/MWh by 2024, versus $76/MWh for new combined-cycle gas. Source: Lazard, *Levelized Cost of Energy+* (June 2024).
 
 [^u2]: <span style="color:#a3540f;font-weight:600;">*US wind capacity.*</span> From a few GW in 2008 to well over 150 GW by the mid-2020s. Source: American Clean Power Association / IRENA capacity statistics.
+
+## Notes and further reading
 
 [^1]: *North American offshore wind resources.* [<span class="websitetitle">www.ocean.udel.edu/windpower/ResourceMap/index-wn-dp.html</span>](http://www.ocean.udel.edu/windpower/ResourceMap/index-wn-dp.html)
 

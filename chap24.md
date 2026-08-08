@@ -327,9 +327,7 @@ There’s another source for lithium: seawater, where lithium has a concentratio
 
 If we imagine that scientists and engineers crack the problem of getting the DD reaction going, we have some very good news. There’s 33 g of deuterium in every ton of water, and the energy that would be released from fusing just one gram of deuterium is a mind-boggling 100 000 kWh. Bearing in mind that the mass of the oceans is 230 million tons per person, we can deduce that there’s enough deuterium to supply every person in a ten-fold increased world population with a power of 30 000 kWh per day (that’s more than 100 times the average American consumption) for 1 million years (figure 24.17).
 
-## Notes and further reading
-
-### <span style="color:#a3540f;font-weight:600;">Updates, 2026</span>
+## <span style="color:#a3540f;font-weight:600;">Updates, 2026</span>
 
 [^u1]: <span style="color:#a3540f;font-weight:600;">*Global uranium resources.*</span> 7,934,500 tonnes identified recoverable as of 1 January 2023 (recoverable at $40–260/kgU), up from the ~4.7 million tons this chapter cites from 2005 data. Source: OECD NEA / IAEA, *Uranium Resources, Production and Demand* ("Red Book"), 2023 edition.
 
@@ -340,6 +338,8 @@ If we imagine that scientists and engineers crack the problem of getting the DD 
 [^u4]: <span style="color:#a3540f;font-weight:600;">*Fukushima Daiichi, March 2011.*</span> No deaths have been directly attributed to radiation exposure (one worker's 2018 lung-cancer death was later linked to radiation dose); ~2,313 disaster-related deaths among evacuees, mostly from evacuation/relocation stress rather than radiation. Modern estimate: nuclear death rate ~0.03 per TWh. Sources: World Nuclear Association; Our World in Data, "What are the safest and cleanest sources of energy?"
 
 [^u5]: <span style="color:#a3540f;font-weight:600;">*Reactor design landscape.*</span> Small modular reactors (NuScale, Rolls-Royce SMR) and other Gen-IV designs (molten-salt, high-temperature gas-cooled) now lead development; GT-MHR did not reach commercial deployment.
+
+## Notes and further reading
 
 [^1]: *Figure 24.1*. Source: World Nuclear Association [[<span class="websitetitle">5qntkb</span>](http://tinyurl.com/5qntkb)]. The total capacity of operable nuclear reactors is 372 GW(e), using 65 000 tons of uranium per year. The USA has 99 GW, France 63.5 GW, Japan 47.6 GW, Russia 22 GW, Germany 20 GW, South Korea 17.5 GW, Ukraine 13 GW, Canada 12.6 GW, and UK 11 GW. In 2007 all the world’s reactors generated 2608 TWh of electricity, which is an average of 300 GW, or <span class="green">1.2 kWh per day per person</span>.
 
