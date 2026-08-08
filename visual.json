@@ -1,0 +1,10 @@
+{
+  "base": "https://withouthotair.org",
+  "pages": [
+    { "path": "/", "visibleText": ["Community Edition", "Part I: Numbers, not adjectives"] },
+    { "path": "/about", "visibleText": ["not the official edition"] },
+    { "path": "/chapB", "mustRender": [".katex"], "visibleText": ["B Wind II"] },
+    { "path": "/chapC", "mustRender": [".katex"] },
+    { "path": "/chap01", "visibleText": ["1 Motivations"] }
+  ]
+}
