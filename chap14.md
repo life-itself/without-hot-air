@@ -63,7 +63,7 @@ This is a tentative first guess, made without specifying any technical <span id=
 
 ## Tidal stream farms
 
-One way to extract tidal energy would be to build tide farms, just like wind farms. The first such underwater windmill, or "tidal-stream" generator, to be connected to the grid was a "300 kW" turbine, installed in 2003 near the northerly city of Hammerfest, Norway. Detailed power production results have not been published, and no-one has yet built a tide farm with more than one turbine, so we’re going to have to rely on physics and guesswork to predict how much power tide farms could produce. Assuming that the rules for laying out a sensible tide farm are similar to those for wind farms, and that the efficiency of the tide turbines will be like that of the best wind turbines, table 14.7 shows the power of a tide farm for a few tidal currents.
+One way to extract tidal energy would be to build tide farms, just like wind farms. The first such underwater windmill, or "tidal-stream" generator, to be connected to the grid was a "300 kW" turbine, installed in 2003 near the northerly city of Hammerfest, Norway. Detailed power production results have not been published, and <del>no-one has yet built a tide farm with more than one turbine,</del> <ins style="color:#a3540f;background:#fbeee0;padding:0 3px;border-radius:2px;font-weight:600;">that changed within a decade: MeyGen, in Scotland's Pentland Firth, is now the world's largest tidal stream array, with 6 MW operating since 2024 and up to 398 MW consented for future phases — it had delivered over 68 GWh to the grid by September 2024, nearly two-thirds of all tidal-stream power generated globally to date.</ins> [^u1] so we’re going to have to rely on physics and guesswork to predict how much power tide farms could produce. Assuming that the rules for laying out a sensible tide farm are similar to those for wind farms, and that the efficiency of the tide turbines will be like that of the best wind turbines, table 14.7 shows the power of a tide farm for a few tidal currents.
 
 speed
 
@@ -154,6 +154,10 @@ Tide power has never been used on an industrial scale in Britain, so it’s hard
 ![](/assets/figure103.gif)
 
 <span class="figurenumber">Figure 14.10</span>. Tide.
+
+## <span style="color:#a3540f;font-weight:600;">Updates, 2026</span>
+
+[^u1]: <span style="color:#a3540f;font-weight:600;">*MeyGen tidal array.*</span> Phase 1 (4 turbines, 6 MW) reached full power in 2024; up to 398 MW is consented across future phases, and the array had delivered over 68 GWh to the grid by September 2024. Source: offshore-energy.biz reporting on MeyGen / SIMEC Atlantis Energy; Tethys project database.
 
 ## Notes and further reading
 

@@ -58,7 +58,7 @@ The biggest guzzlers are the computer, its screen, and the television, whose con
 
 ### Powering the hidden tendrils of the information age
 
-According to Jonathan Koomey (2007), the computer-servers in US datacentres and their associated plumbing (air conditioners, backup power systems, and so forth) consumed <span class="red">0.4 kWh per day per person</span> – just over 1% of US electricity consumption. That’s the consumption figure for 2005, which, by the way, is twice as big as the consumption in 2000, because the number of servers grew from 5.6 million to 10 million.
+According to Jonathan Koomey (2007), the computer-servers in US datacentres and their associated plumbing (air conditioners, backup power systems, and so forth) consumed <del><span class="red">0.4 kWh per day per person</span> – just over 1% of US electricity consumption.</del> <ins style="color:#a3540f;background:#fbeee0;padding:0 3px;border-radius:2px;font-weight:600;"><span class="red">0.4 kWh per day per person</span> in 2005 – just over 1% of US electricity consumption. By 2024, that had grown to roughly 1.5 kWh per day per person – just over 4% of US electricity – with AI workloads now a major and fast-growing share of the increase.</ins> [^u1] That’s the consumption figure for 2005, which, by the way, is twice as big as the consumption in 2000, because the number of servers grew from 5.6 million to 10 million.
 
 Gadget
 
@@ -269,6 +269,10 @@ This myth is *True* for a few people, but only during the winter; but *False* fo
 If your house is being heated by electricity through ordinary bar fires or blower heaters then, yes, it’s much the same as heating the house with any electricity-wasting appliances. But if you are in this situation, you should change the way you heat your house. Electricity is high-grade energy, and heat is low-grade energy. *It’s a waste to turn electricity into heat*. To be precise, if you make only one unit of heat from a unit of electricity, that’s a waste. Heaters called air-source heat pumps or ground-source heat pumps can do much better, delivering 3 or 4 units of heat for every unit of electricity consumed. They work like back-to-front refrigerators, pumping heat into your house from the outside air (see Chapter 21).
 
 For the rest, whose homes are heated by fossil fuels or biofuels, it’s a good idea to avoid using electrical gadgets as a heat source for your home – at least for as long as our increases in electricity-demand are served from fossil fuels. It’s better to burn the fossil fuel at home. The point is, if you use electricity from an ordinary fossil power station, more than half of the energy from the fossil fuel goes sadly up the cooling tower. Of the energy that gets turned into electricity, about 8% is lost in the transmission system. If you burn the fossil fuel in your home, more of the energy goes directly into making hot air for you.
+
+## <span style="color:#a3540f;font-weight:600;">Updates, 2026</span>
+
+[^u1]: <span style="color:#a3540f;font-weight:600;">*US datacentre power consumption.*</span> Roughly 183 TWh in 2024 (about 4% of US electricity), up from about 4.4% in 2023 and just over 1% in 2005 — driven substantially by AI workloads. Divided across the current US population, that's roughly 1.5 kWh/d per person, up from 0.4. Source: Lawrence Berkeley National Laboratory, *2024 United States Data Center Energy Usage Report*.
 
 ## Notes and further reading
 

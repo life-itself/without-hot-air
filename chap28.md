@@ -22,7 +22,7 @@ Perhaps you think that this plan (like each of the five plans in the previous ch
 
 ## Cost of switching from fossil fuels to renewables
 
-Every wind farm costs a few million pounds to build and delivers a few megawatts. As a very rough ballpark figure in 2008, installing one watt of capacity costs one pound; one kilowatt costs 1000 pounds; a megawatt of wind costs a million; a gigawatt of nuclear costs a billion or perhaps two. Other renewables are more expensive. We (the UK) currently consume a total power of roughly 300 GW, most of which is fossil fuel. So we can anticipate that a major switching from fossil fuel to renewables and/or nuclear is going to require roughly 300 GW of renewables and/or nuclear and
+Every wind farm costs a few million pounds to build and delivers a few megawatts. <del>As a very rough ballpark figure in 2008, installing one watt of capacity costs one pound; one kilowatt costs 1000 pounds; a megawatt of wind costs a million; a gigawatt of nuclear costs a billion or perhaps two. Other renewables are more expensive.</del> <ins style="color:#a3540f;background:#fbeee0;padding:0 3px;border-radius:2px;font-weight:600;">That "one pound per watt" ballpark has moved in opposite directions for renewables and nuclear since 2008. Solar and onshore wind capital costs have *fallen* to roughly 80p and 95p per watt respectively (£1,080/kW solar, £1,275/kW onshore wind — EIA 2024 data); offshore wind costs roughly £1.60–2.20 per watt. Nuclear has gone the other way: Hinkley Point C, the UK's only plant under construction, is now costing roughly £48bn for 3.26 GW — about £14.70 per watt, seven to fifteen times MacKay's "a billion or perhaps two" per GW.</ins> [^u1] We (the UK) currently consume a total power of roughly 300 GW, most of which is fossil fuel. So we can anticipate that a major switching from fossil fuel to renewables and/or nuclear is going to require roughly 300 GW of renewables and/or nuclear and
 
 ![](/assets/figure235.gif)
 
@@ -325,6 +325,12 @@ According to the Stern review, the global cost of averting dangerous climate cha
 ### Expenditure that does **not** run into billions
 
 £0.012 billion per year: the smallest item displayed in figure 28.5 is the UK government’s annual investment in renewable-energy research and development. [^5] (£0.20 per person in the UK, per year.)
+
+## <span style="color:#a3540f;font-weight:600;">Updates, 2026</span>
+
+This section updates the chapter's headline cost-per-watt framing, not the full plan M cost table below (table 28.3) — recomputing every line of a sixth, illustrative plan is a bigger job than this pass attempts; treat the table's absolute figures as 2008-era and the relative framing above as the current one.
+
+[^u1]: <span style="color:#a3540f;font-weight:600;">*Capital costs per watt, 2024.*</span> Solar PV: $1,379/kW; onshore wind: $1,626/kW (EIA 2024 data, converted at roughly $1.28 = £1). Offshore wind: $2,600–3,675/kW (Lazard). Hinkley Point C: total cost now estimated at £41–48bn (2024 prices) for 3.26 GW of capacity, versus an original ~£18bn estimate when first planned. Sources: EIA; Lazard, *Levelized Cost of Energy+*; World Nuclear News / Yahoo Finance reporting on EDF cost updates.
 
 ## Notes and further reading
 
