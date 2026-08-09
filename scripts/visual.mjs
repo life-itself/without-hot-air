@@ -38,7 +38,14 @@ async function main() {
   const shots = process.env.SCREENSHOTS === '1';
   if (shots) await mkdir('screenshots', { recursive: true });
 
-  const browser = await chromium.launch();
+  // Some sandboxes ship a chromium build under a different revision path than
+  // the pinned playwright package expects; point at it explicitly rather than
+  // downloading a new one.
+  const browser = await chromium.launch(
+    process.env.PLAYWRIGHT_CHROMIUM_EXECUTABLE
+      ? { executablePath: process.env.PLAYWRIGHT_CHROMIUM_EXECUTABLE }
+      : {},
+  );
   const ctx = await browser.newContext({ viewport: { width: 1280, height: 900 } });
 
   for (const page of cfg.pages ?? []) {
