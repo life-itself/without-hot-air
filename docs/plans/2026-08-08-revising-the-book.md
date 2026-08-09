@@ -213,6 +213,40 @@ separate amber/copper tone instead for that reason.
       **Still not done: the human read-through above.** Twelve chapters now
       carry unreviewed edits, not one. Read them before anything else happens
       to this book.
+- [x] Recompute the energy plans (27, 30) for real — done, 2026-08-09, per an
+      unattended scheduled session working from this plan. Chapter 27's five
+      plans (D, N, L, G, E) are re-derived, not just annotated: "clean coal"
+      is removed from D, N and L and its capacity reallocated (to wind and
+      solar in D, inherited by L; to more desert import in N, matching that
+      plan's own logic); plan E's cheapest-wins economics now point at wind
+      rather than nuclear, since the cost ranking between them has reversed.
+      Every changed figure carries visible arithmetic and a footnote citation
+      in a new, larger "Updates, 2026" section. Chapter 30 got the smaller
+      updates it needed (population/consumption context, a corrected solar
+      water heating figure, the CSP-vs-PV note). Both verified live and
+      committed as `372b55e`.
+- [x] Swept the remaining ~42 unaudited-by-revision chapters for
+      worth-fixing claims — done, 2026-08-09, same session. Not exhaustive by
+      design (quality over completeness, per instruction): revised 9 files —
+      chap01 (climate target: 80%→100%/net zero), author.md (present-tense
+      bio, MacKay's death and DECC role), chap11 (datacentre power),
+      chap14 (tidal — MeyGen), chap18 (consumption baselines, renewables
+      share), chapI (carbon intensity table), chap25 (CSP-vs-PV prediction,
+      falsified within a decade not by 2050), chap28 (cost-per-watt
+      framing), chap32 (closing "90% fossil fuels" figure). Each committed
+      individually or in small batches (`15ac920`, `ab3ff7c`, `d996b84`),
+      verified live via smoke.mjs after each push. Deliberately skipped:
+      everything in `docs/audit.yaml` marked low-confidence or low-priority
+      (the bulk of the sweep-tier entries — chapters 02, 05, 07–09, 12–13,
+      15–17, 19–21, 26, 29, 31, chapC/E/F/G/H/J/K, preface, acknowledgments),
+      and chapG's Severn barrage entry specifically (checked, as flagged;
+      medium-confidence/low-priority, left alone). None of the skipped
+      entries had a solid enough source or enough weight on the book's
+      argument to earn the same treatment — noted here rather than forcing
+      an edit onto every ledger line.
+      **The human read-through is now even further behind.** 21 chapters
+      carry unreviewed edits. This is the single biggest open risk to the
+      whole project — read them before scaling up further.
 
 Standing constraints (also in `AGENTS.md`):
 
