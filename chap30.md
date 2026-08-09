@@ -4,7 +4,7 @@ title: "30 Energy plans for Europe, America, and the World"
 
 # 30 Energy plans for Europe, America, and the World
 
-Figure 30.1 shows the power consumptions of lots of countries or regions, versus their gross domestic products (GDPs). It is a widely held assumption that human development and growth are good things, so when sketching world plans for sustainable energy I am going to assume that all the countries with low GDP per capita are going to progress rightwards in figure 30.1. And as their GDPs increase, it’s inevitable that their power consumptions will increase too. It’s not clear what consumption we should plan for, but I think that the average European level (125 kWh per day per person) seems a reasonable assumption; alternatively, we could assume that efficiency measures, like those envisaged in Cartoon Britain in Chapters 19–28, allow all countries to attain a European standard of living with a lower power consumption. In the consumption plan in [chapter 27](../Text/chap27.xhtml#fig27.1), Cartoon Britain’s consumption fell to about <span class="red">68 kWh/d/p</span>. Bearing in mind that Cartoon Britain doesn’t have much industrial activity, perhaps it would be sensible to assume a slightly higher target, such as Hong Kong’s <span class="red">80 kWh/d/p</span>.
+Figure 30.1 shows the power consumptions of lots of countries or regions, versus their gross domestic products (GDPs). It is a widely held assumption that human development and growth are good things, so when sketching world plans for sustainable energy I am going to assume that all the countries with low GDP per capita are going to progress rightwards in figure 30.1. And as their GDPs increase, it’s inevitable that their power consumptions will increase too. It’s not clear what consumption we should plan for, but I think that the average European level (125 kWh per day per person) [^u3] seems a reasonable assumption; alternatively, we could assume that efficiency measures, like those envisaged in Cartoon Britain in Chapters 19–28, allow all countries to attain a European standard of living with a lower power consumption. In the consumption plan in [chapter 27](../Text/chap27.xhtml#fig27.1), Cartoon Britain’s consumption fell to about <span class="red">68 kWh/d/p</span>. Bearing in mind that Cartoon Britain doesn’t have much industrial activity, perhaps it would be sensible to assume a slightly higher target, such as Hong Kong’s <span class="red">80 kWh/d/p</span>.
 
 <span id="fig30.1"></span>![](/assets/figure242.gif)
 
@@ -64,7 +64,7 @@ Let’s be realistic. Just like Britain, *Europe can’t live on its own renewab
 
 ## Redoing the calculations for North America
 
-The average American uses 250 kWh per day. Can we hit that target with renewables? What if we imagine imposing shocking efficiency measures (such as efficient cars and high-speed electric trains) such that Americans were reduced to the misery of living on the mere 125 kWh/d of an average European or Japanese citizen?
+The average American uses 250 kWh per day. [^u4] Can we hit that target with renewables? What if we imagine imposing shocking efficiency measures (such as efficient cars and high-speed electric trains) such that Americans were reduced to the misery of living on the mere 125 kWh/d of an average European or Japanese citizen?
 
 ### Wind
 
@@ -98,7 +98,7 @@ North America’s *non-solar* renewables aren’t enough for North America to li
 
 ## Redoing the calculations for the world
 
-How can 6 billion people obtain the power for a European standard of living – 80 kWh per day per person, say?
+How can 6 billion people obtain the power for a European standard of living – 80 kWh per day per person, say? [^u5]
 
 ### Wind
 
@@ -181,11 +181,11 @@ Let’s estimate a bound on the power that energy crops could deliver for the wh
 
 ### Solar heaters, solar photovoltaics, and concentrating solar power
 
-Solar thermal water heaters are a no-brainer. They will work almost everywhere in the world. China are world leaders in this technology. There’s over 100 GW of solar water heating capacity worldwide, and more than half of it is in China.
+Solar thermal water heaters are a no-brainer. They will work almost everywhere in the world. China are world leaders in this technology. <del>There’s over 100 GW of solar water heating capacity worldwide, and more than half of it is in China.</del> <ins style="color:#a3540f;background:#fbeee0;padding:0 3px;border-radius:2px;font-weight:600;">By 2023, global solar water heating capacity had grown to about 560 GWth, with China alone accounting for 72% of it.</ins> [^u6]
 
 Solar photovoltaics were technically feasible for Europe, but I judged them too expensive. I hope I’m wrong, obviously. It will be wonderful if the cost of photovoltaic power drops in the same way that the cost of computer power has dropped over the last forty years. <ins style="color:#a3540f;background:#fbeee0;padding:0 3px;border-radius:2px;font-weight:600;">It did, and then some: solar PV costs fell by roughly 80–90% between 2008 and the mid-2020s (see chapter 6's updates), and unsubsidised utility-scale solar became some of the cheapest electricity in the world. The "too expensive" judgement this plan is built on no longer holds — this is arguably the single most consequential fact in this chapter to revisit.</ins> [^u1]
 
-My guess is that in many regions, the best solar technology for electricity production will be the concentrating solar power that we discussed in [chapter 25](../Text/chap25.xhtml#solar) and earlier this chapter. There we already established that one billion people in Europe and North Africa could be sustained by country-sized solar power facilities in deserts near the Mediterranean; and that half a billion in North America could be sustained by Arizona-sized facilities in the deserts of the USA and Mexico. I’ll leave it as an exercise for the reader to identify appropriate deserts to help out the other 4.5 billion people in the world.
+<del>My guess is that in many regions, the best solar technology for electricity production will be the concentrating solar power that we discussed in [chapter 25](../Text/chap25.xhtml#solar) and earlier this chapter.</del> <ins style="color:#a3540f;background:#fbeee0;padding:0 3px;border-radius:2px;font-weight:600;">That guess didn't hold up: flat photovoltaic panels, not concentrating solar power, turned out to be the technology whose cost collapsed (see chapter 6's and this chapter's own updates), and PV rather than CSP now dominates deployment in sunny regions worldwide. The geometry below — how much desert area a given power output needs — still works the same way for PV as for CSP; it's the technology choice, not the arithmetic, that's changed.</ins> [^u7] There we already established that one billion people in Europe and North Africa could be sustained by country-sized solar power facilities in deserts near the Mediterranean; and that half a billion in North America could be sustained by Arizona-sized facilities in the deserts of the USA and Mexico. I’ll leave it as an exercise for the reader to identify appropriate deserts to help out the other 4.5 billion people in the world.
 
 ### The bottom line
 
@@ -196,6 +196,16 @@ The non-solar numbers add up as follows. Wind: 24 kWh/d/p; hydro: 3.6 kWh/d/p; t
 [^u1]: <span style="color:#a3540f;font-weight:600;">*Solar PV cost decline.*</span> Unsubsidised utility-scale solar LCOE fell to roughly $61/MWh by 2024, versus $76/MWh for new combined-cycle gas. Source: Lazard, *Levelized Cost of Energy+* (June 2024).
 
 [^u2]: <span style="color:#a3540f;font-weight:600;">*US wind capacity.*</span> From a few GW in 2008 to well over 150 GW by the mid-2020s. Source: American Clean Power Association / IRENA capacity statistics.
+
+[^u3]: <span style="color:#a3540f;font-weight:600;">*European per-capita energy consumption.*</span> Recent EU-wide estimates put average energy consumption per capita at roughly 90 kWh/d/p (about 2.8 tonnes of oil equivalent per year), down from the 125 kWh/d/p this chapter uses as its planning target — though, as with chapter 27's UK figure, methodology and vintage vary between sources, so treat this as directional rather than a precise like-for-like replacement. This chapter's own targets (Cartoon Britain's 68 kWh/d/p, Hong Kong's 80) are left unchanged, since they were already chosen as forward-looking 2050 targets rather than descriptions of 2008 Europe. Source: Eurostat; Enerdata.
+
+[^u4]: <span style="color:#a3540f;font-weight:600;">*US per-capita energy consumption.*</span> Roughly 211 kWh/d per person in 2023, down from the 250 kWh/d this chapter uses. The chapter's conclusion — that non-solar renewables (62 kWh/d/p) fall well short even after "shocking efficiency measures" — still holds at the lower figure, so this update doesn't change the arithmetic that follows, only the size of the gap it's illustrating. Source: US EIA.
+
+[^u5]: <span style="color:#a3540f;font-weight:600;">*World population.*</span> This chapter's "6 billion people" and North America's "300 million"/"500 million" are 2008-era figures. World population is now over 8.1 billion (up about 35%), the USA's is roughly 340 million (up about 13%), and North America's is roughly 590 million (up about 18%). Every per-capita figure in this chapter's World and North America sections would be correspondingly smaller for the same total resource; recomputing each one individually is beyond what this pass attempts; note it here as context rather than guessing at an exact rewrite of the whole chapter's per-capita arithmetic. Source: UN World Population Prospects 2024; US Census Bureau.
+
+[^u6]: <span style="color:#a3540f;font-weight:600;">*Global solar water heating capacity.*</span> About 560 GWth installed worldwide by the end of 2023, with China accounting for 72% of the cumulative total. Source: IEA Solar Heating and Cooling Programme, *Solar Heat Worldwide 2024*.
+
+[^u7]: <span style="color:#a3540f;font-weight:600;">*CSP vs. flat PV.*</span> See chapter 6's and this chapter's own updates on PV's cost collapse; chapter 25 (not yet revised at time of writing) covers the CSP-specific comparison in more depth.
 
 ## Notes and further reading
 
