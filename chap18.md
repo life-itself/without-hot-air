@@ -28,7 +28,7 @@ The questions we’ll address in this chapter are:
 
 Our estimate of a typical affluent person’s consumption (figure 18.1) has reached <span class="red">195 kWh per day</span>. It is indeed true that many people use this much energy, and that many more aspire to such levels of consumption. The *average* American consumes about <span><span class="red">250 kWh per day</span></span>. If we all raised our standard of consumption to an average American level, the green production stack would definitely be dwarfed by the red consumption stack.
 
-What about the average European and the average Brit? Average European consumption of "primary energy" (which means the energy contained in raw fuels, plus wind and hydroelectricity) is about <span class="red">125 kWh per day per person</span>. The UK average is also <span class="red">125 kWh per day per person</span>. [^1]
+What about the average European and the average Brit? Average European consumption of "primary energy" (which means the energy contained in raw fuels, plus wind and hydroelectricity) is about <span class="red">125 kWh per day per person</span>. The UK average is also <span class="red">125 kWh per day per person</span>. [^1] <ins style="color:#a3540f;background:#fbeee0;padding:0 3px;border-radius:2px;font-weight:600;">Both figures have fallen a great deal since 2008: the UK's per-capita energy consumption was about 68 kWh/d in 2023, and a recent EU-wide estimate puts the European figure at roughly 90 kWh/d — driven by efficiency gains and deindustrialisation, not by people living smaller lives in any single visible way.</ins> [^u1]
 
 These official averages do not include two energy flows. First, the "embedded energy" in *imported* stuff (the energy expended in making the stuff) is not included at all. We estimated in Chapter 15 that the embedded energy in imported stuff is at least 40 kWh/d per person. Second, the official estimates of "primary energy consumption" include only industrial energy flows – things like fossil fuels and hydroelectricity – and don’t keep track of the natural embedded energy in food: energy that was originally harnessed by photosynthesis.
 
@@ -179,7 +179,7 @@ that are *more than 2 km* from any human settlement. These areas are largely exc
 >
 > Malcolm Wicks, Minister of State for Energy
 
-We are drawing to the close of Part I. The assumption was that we want to get off fossil fuels, for one or more of the reasons listed in Chapter 1 – climate change, security of supply, and so forth. Figure 18.9 shows how much power we currently get from renewables and nuclear. They amount to just 4% of our total power consumption.
+We are drawing to the close of Part I. The assumption was that we want to get off fossil fuels, for one or more of the reasons listed in Chapter 1 – climate change, security of supply, and so forth. Figure 18.9 shows how much power we currently get from renewables and nuclear. <del>They amount to just 4% of our total power consumption.</del> <ins style="color:#a3540f;background:#fbeee0;padding:0 3px;border-radius:2px;font-weight:600;">That 4% is now well out of date, at least for electricity specifically: renewables alone generated just over half of UK electricity for the first time in 2024 (50.8%), with nuclear adding a further 14%, so low-carbon sources together supplied nearly two-thirds of UK electricity. This chapter's "4%" was always a total-energy figure, not an electricity-only one, and total-energy decarbonisation (heating and transport still lean heavily on fossil fuels) remains far behind electricity's progress — the book's broader pessimism about the pace of change outside the power sector still holds even as this specific number has moved a long way.</ins> [^u2]
 
 The two conclusions we can draw from Part I are:
 
@@ -234,6 +234,12 @@ Geothermal
 0.017 W/m<sup>2</sup>
 
 <span class="figurenumber">Table 18.10</span>. Renewable facilities have to be country-sized because all renewables are so diffuse.
+
+## <span style="color:#a3540f;font-weight:600;">Updates, 2026</span>
+
+[^u1]: <span style="color:#a3540f;font-weight:600;">*UK and European per-capita energy consumption.*</span> UK: roughly 68 kWh/d per person in 2023 (2.13 tonnes of oil equivalent per capita). Europe: roughly 90 kWh/d per person on recent EU-wide estimates. Sources: DESNZ, *Energy Consumption in the UK 2024*; Eurostat / Enerdata.
+
+[^u2]: <span style="color:#a3540f;font-weight:600;">*UK low-carbon electricity share.*</span> Renewables generated 50.8% of UK electricity in 2024 (wind 29.5%, solar 5.2%, plus hydro and biomass), the first year they exceeded half; nuclear added a further 14.25%. Source: National Grid ESO / Carbon Brief analysis of 2024 generation data.
 
 ## Notes and further reading
 

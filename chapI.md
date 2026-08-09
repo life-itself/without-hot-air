@@ -509,7 +509,7 @@ I assumed the following exchange rates when discussing money: €1 = $1.26; £1 
 | Greece   | 864 |
 | Denmark    | 881 |
 
-<span class="figurenumber">Figure I.9.</span> Carbon intensity of electricity production (g CO<sub>2</sub> per kWh of electricity).
+<span class="figurenumber">Figure I.9.</span> Carbon intensity of electricity production (g CO<sub>2</sub> per kWh of electricity). <ins style="color:#a3540f;background:#fbeee0;padding:0 3px;border-radius:2px;font-weight:600;">This whole table is a ~2007 snapshot and every entry in it has moved; the UK's figure in particular has fallen by more than three-quarters. Rather than re-source all eleven countries individually, here are updated figures for the three this book leans on most: UK, roughly 124–125 gCO<sub>2</sub>/kWh in 2024 (down from 580); France, roughly 22 gCO<sub>2</sub>/kWh in 2024 (down from 83, already the table's cleanest entry and now cleaner still); EU average, roughly 213 gCO<sub>2</sub>/kWh in 2024 (down from the 353 figure below).</ins> [^u1]
 
 <table>
 <thead>
@@ -581,4 +581,8 @@ of chemical energy)</th>
 ![](/assets/figure312.gif)
 
 <span class="figurenumber">Figure I.12.</span> Greenhouse-gas emissions per capita, versus power consumption per capita. The lines show the emission-intensities of coal and natural gas. Squares show countries having "high human development;" circles, "medium" or "low." See also figures 30.1 (p231) and 18.4 (p105). Source: UNDP Human Development Report, 2007.
+
+## <span style="color:#a3540f;font-weight:600;">Updates, 2026</span>
+
+[^u1]: <span style="color:#a3540f;font-weight:600;">*Carbon intensity of electricity.*</span> UK: 124–125 gCO<sub>2</sub>/kWh in 2024, down from 580 mainly through the coal phase-out and wind/solar growth. France: roughly 22 gCO<sub>2</sub>eq/kWh in 2024, down from 83. EU average: roughly 213 gCO<sub>2</sub>/kWh in 2024, down from 353. Sources: National Grid ESO / Carbon Brief; RTE (France); European Environment Agency / Ember.
 
