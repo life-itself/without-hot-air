@@ -6,8 +6,9 @@
 //
 // Usage: node scripts/changes-digest.mjs > /tmp/digest.json
 //        node scripts/changes-digest.mjs --html > /tmp/digest.html
+//        node scripts/changes-digest.mjs --markdown   # writes changes.md at repo root
 
-import { readdir, readFile } from 'node:fs/promises';
+import { readdir, readFile, writeFile } from 'node:fs/promises';
 import path from 'node:path';
 
 const ROOT = path.join(import.meta.dirname, '..');
@@ -49,7 +50,11 @@ function extractChanges(body) {
 }
 
 async function main() {
-  const files = (await readdir(ROOT)).filter((f) => f.endsWith('.md'));
+  // Exclude changes.md itself: it's this script's own output, and once
+  // written it contains literal <ins>/<del> markup as *displayed* text, not
+  // functional revision markers -- scanning it back in as a source produces
+  // corrupted, self-referential entries.
+  const files = (await readdir(ROOT)).filter((f) => f.endsWith('.md') && f !== 'changes.md');
   const chapters = [];
 
   for (const name of files.sort()) {
@@ -70,6 +75,10 @@ async function main() {
 
   if (process.argv.includes('--html')) {
     console.log(renderHtml(chapters));
+  } else if (process.argv.includes('--markdown')) {
+    const out = path.join(ROOT, 'changes.md');
+    await writeFile(out, renderMarkdown(chapters));
+    console.error(`wrote ${out}`);
   } else {
     console.log(JSON.stringify(chapters, null, 2));
   }
@@ -77,6 +86,18 @@ async function main() {
 
 function esc(s) {
   return s.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
+}
+
+// Markdown-only: the original chapter text carries custom footnote-anchor
+// markup like `[<span class="darkred">[2]</span>](#chDn02)`. Stripping the
+// span tags (stripTags, above) leaves the bracket characters behind, and
+// adjacent `[`s from that pattern can collapse into what looks like a
+// `[[wikilink]]` once assembled onto this page -- verify.sh correctly
+// catches it as a link to nothing, since it never was one. Escape brackets
+// in excerpt text (never in the wikilinks/footnote markers this script adds
+// itself) so they render as plain punctuation instead.
+function escExcerpt(s) {
+  return esc(s).replace(/\[/g, '\\[').replace(/\]/g, '\\]');
 }
 
 function renderHtml(chapters) {
@@ -111,6 +132,47 @@ function renderHtml(chapters) {
 </style>
 <h1>Changes digest — ${chapters.length} chapters, ${totalChanges} edits</h1>
 ${body}`;
+}
+
+function renderMarkdown(chapters) {
+  const totalChanges = chapters.reduce((n, c) => n + c.count, 0);
+  const toc = chapters
+    .map((c) => `- [[${c.slug}|${esc(c.title)}]] — ${c.count} change${c.count === 1 ? '' : 's'}`)
+    .join('\n');
+
+  const sections = chapters
+    .map((c) => {
+      const changes = c.changes
+        .map(
+          (ch) => `&hellip;${escExcerpt(ch.before)} ${
+            ch.removed ? `<del>${escExcerpt(ch.removed)}</del> ` : ''
+          }<ins style="color:#a3540f;background:#fbeee0;padding:0 3px;border-radius:2px;font-weight:600;">${escExcerpt(ch.added)}</ins> ${escExcerpt(ch.after)}&hellip;`
+        )
+        .join('\n\n');
+      return `## [[${c.slug}|${esc(c.title)}]]\n\n${changes}`;
+    })
+    .join('\n\n');
+
+  return `---
+title: Changes
+description: Every dated-claim update made to this edition since MacKay's 2008 text, with context.
+---
+
+# Changes
+
+${chapters.length} chapters revised so far, ${totalChanges} individual updates. Each excerpt below shows a change
+in context — <del>struck-through</del> is MacKay's 2008 original, <ins style="color:#a3540f;background:#fbeee0;padding:0 3px;border-radius:2px;font-weight:600;">highlighted</ins> is ours, dated and sourced. Click a
+chapter heading to read it in full, including the citation for every change in that chapter's own "Updates" section.
+
+This page is generated from the chapter markdown by \`scripts/changes-digest.mjs\` — nothing here is
+hand-maintained, so it stays accurate as more chapters are revised.
+
+${toc}
+
+---
+
+${sections}
+`;
 }
 
 await main();
