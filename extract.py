@@ -281,15 +281,15 @@ Bjørn Lomborg’s *The Skeptical Environmentalist* (2001).
 
 > *if everyone does a little, we’ll achieve only a little.*
 
-![OutOfGas](/img/without-hot-air/OutOfGasS.jpg)
+![OutOfGas](/assets/OutOfGasS.jpg)
 
 David Goodstein’s *Out of Gas* (2004).
 
-![SkepticalEnvironmentalist](/img/without-hot-air/lomborgSES.jpg)
+![SkepticalEnvironmentalist](/assets/lomborgSES.jpg)
 
 Bjørn Lomborg’s *The Skeptical Environmentalist* (2001).
 
-![RevengeOfGaia](/img/without-hot-air/revengeOfGaiaS.jpg)
+![RevengeOfGaia](/assets/revengeOfGaiaS.jpg)
 
 *The Revenge of Gaia: Why the earth is ﬁghting back – and how we can still save humanity.* James Lovelock (2006). © Allen Lane.
 
