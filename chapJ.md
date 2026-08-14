@@ -4,6 +4,12 @@ title: "J Populations and areas"
 
 # J Populations and areas
 
+## <span style="color:#a3540f;font-weight:600;">Updates, 2026</span>
+
+The population data below are from 2005, and world population has grown by about a third since (roughly 6.44 to 8.1 billion) — see [^u1]. Rewriting every country and region row in these tables for 2026 populations is beyond what this pass attempts; the *relative* picture (which countries are area-rich versus crowded) has changed much less than the absolute numbers, so the tables are left as MacKay compiled them, with this note as context rather than a row-by-row correction.
+
+[^u1]: <span style="color:#a3540f;font-weight:600;">*World population.*</span> Roughly 8.1 billion as of the mid-2020s, up from the 6.44 billion 2005 figure these tables use — an increase of about 35%. Source: UN, *World Population Prospects 2024*.
+
 ## <span id="page338">Population densities</span>
 
 Figure J.1 shows the areas of various regions versus their populations. Diagonal lines on this diagram are lines of constant population density. Bangladesh, on the rightmost-but-one diagonal, has a population density of 1000 per square kilometre; India, England, the Netherlands, and Japan have population densities one third that: about 350 per km<sup>2</sup>. Many European countries have about 100 per km<sup>2</sup>. At the other extreme, Canada, Australia, and Libya have population densities of about 3 people per km<sup>2</sup>. The central diagonal line marks the population density of the world: 43 people per square kilometre. America is an average country from this point of view: the 48 contiguous states of the USA have the same population density as the world. Regions that are notably rich in area, and whose population density is below the average, include Russia, Canada, Latin America, Sudan, Algeria, and Saudi Arabia.

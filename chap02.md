@@ -46,7 +46,7 @@ On the other hand, the outcome of our sums might look like this:
 
 Most discussions of energy consumption and production are confusing because of the proliferation of *units* in which energy and power are measured, from "tons of oil equivalent" to "terawatt-hours" (TWh) and "exajoules" (EJ). Nobody but a specialist has a feeling for what "a barrel of oil" or "a million BTUs" means in human terms. In this book, we’ll express everything in a single set of personal units that everyone can relate to.
 
-The unit of **energy** I have chosen is the kilowatt-hour (kWh). This quantity is called "one unit" on electricity bills, and it costs a domestic user about 10p in the UK in 2008. As we’ll see, most individual daily choices involve amounts of energy equal to small numbers of kilowatt-hours.
+The unit of **energy** I have chosen is the kilowatt-hour (kWh). This quantity is called "one unit" on electricity bills, and it costs a domestic user about 10p in the UK in 2008. <ins style="color:#a3540f;background:#fbeee0;padding:0 3px;border-radius:2px;font-weight:600;">Updated, 2026: UK domestic electricity now costs roughly 26p per unit, about two and a half times the 2008 price, mainly from the 2021–22 energy crisis — see [^u1].</ins> As we’ll see, most individual daily choices involve amounts of energy equal to small numbers of kilowatt-hours.
 
 When we discuss **powers** (rates at which we use or produce energy), the main unit will be the kilowatt-hour per day (kWh/d). We’ll also occasionally use the watt (40 W ≈ 1kWh/d) and the kilowatt (1 kW = 1000 W = 24 kWh/d), as I’ll explain below. The kilowatt-hour per day is a nice human-sized unit: most personal energy-guzzling activities guzzle at a rate of a small number of kilowatt-hours per day. For example, one 40 W lightbulb, kept switched on all the time, uses **one** kilowatt-hour per day. Some electricity companies include graphs in their electricity bills, showing energy consumption in kilowatt-hours per day. I’ll use the same unit for all forms of power, not just electricity. Petrol consumption, gas consumption, coal consumption: I’ll measure all these powers in kilowatthours per day. Let me make this clear: for some people, the word "power" means only *electrical* energy consumption. But this book concerns *all* forms of energy consumption and production, and I will use the word "power" for all of them.
 
@@ -132,6 +132,10 @@ kinetic energy = ½*mv*<sup>2</sup>
 However, I recognize that to many readers, such formulae are a foreign language. So, here’s my promise: *I’ll keep all this foreign-language stuff in technical chapters at the end of the book*. Any reader with a high-school/secondaryschool qualiﬁcation in maths, physics, or chemistry should enjoy these technical chapters. The main thread of the book (from [chapter 1](../Text/chap01.xhtml) to [chapter 32](../Text/chap32.xhtml)) is intended to be accessible to everyone who can add, multiply, and divide. It is especially aimed at our dear elected and unelected representatives, the Members of Parliament.
 
 One last point, before we get rolling: I don’t know everything about energy. I don’t have all the answers, and the numbers I offer are open to revision and correction. (Indeed I expect corrections and will publish them on the book’s website.) The one thing I *am* sure of is that the answers to our sustainable energy questions will involve *numbers* ; any sane discussion of sustainable energy requires numbers. This book’s got ’em, and it shows how to handle them. I hope you enjoy it\!
+
+## <span style="color:#a3540f;font-weight:600;">Updates, 2026</span>
+
+[^u1]: <span style="color:#a3540f;font-weight:600;">*UK domestic electricity price.*</span> Roughly 26p per kWh on Ofgem's price cap in late 2025, up from about 10p in 2008 — driven mainly by the 2021–22 global gas-price crisis rather than a steady trend. Source: Ofgem, quarterly energy price cap announcements, 2025.
 
 ## Notes and further reading
 

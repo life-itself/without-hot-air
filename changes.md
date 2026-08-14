@@ -5,7 +5,7 @@ description: Every dated-claim update made to this edition since MacKay's 2008 t
 
 # Changes
 
-27 chapters revised so far, 102 individual updates. Each excerpt below shows a change
+31 chapters revised so far, 107 individual updates. Each excerpt below shows a change
 in context — <del>struck-through</del> is MacKay's 2008 original, <ins style="color:#a3540f;background:#fbeee0;padding:0 3px;border-radius:2px;font-weight:600;">highlighted</ins> is ours, dated and sourced. Click a
 chapter heading to read it in full, including the citation for every change in that chapter's own "Updates" section.
 
@@ -18,6 +18,7 @@ hand-maintained, so it stays accurate as more chapters are revised.
 
 - [[author|The author]] — 4 changes
 - [[chap01|1 Motivations]] — 1 change
+- [[chap02|2 The balance sheet]] — 1 change
 - [[chap03|3 Cars]] — 2 changes
 - [[chap04|4 Wind]] — 2 changes
 - [[chap06|6 Solar]] — 11 changes
@@ -28,6 +29,7 @@ hand-maintained, so it stays accurate as more chapters are revised.
 - [[chap14|14 Tide]] — 1 change
 - [[chap17|17 Public services]] — 2 changes
 - [[chap18|18 Can we live on renewables?]] — 2 changes
+- [[chap19|19 Every BIG helps]] — 1 change
 - [[chap20|20 Better transport]] — 2 changes
 - [[chap23|23 Sustainable fossil fuels?]] — 10 changes
 - [[chap24|24 Nuclear?]] — 5 changes
@@ -35,6 +37,7 @@ hand-maintained, so it stays accurate as more chapters are revised.
 - [[chap26|26 Fluctuations and storage]] — 2 changes
 - [[chap27|27 Five energy plans for Britain]] — 31 changes
 - [[chap28|28 Putting costs in perspective]] — 1 change
+- [[chap29|29 What to do now]] — 2 changes
 - [[chap30|30 Energy plans for Europe, America, and the World]] — 4 changes
 - [[chap31|31 The last thing we should talk about]] — 2 changes
 - [[chap32|32 Saying yes]] — 1 change
@@ -43,6 +46,7 @@ hand-maintained, so it stays accurate as more chapters are revised.
 - [[chapD|D Solar II]] — 1 change
 - [[chapF|F Waves II]] — 2 changes
 - [[chapI|I Quick reference]] — 1 change
+- [[preface|Preface]] — 1 change
 
 ---
 
@@ -59,6 +63,10 @@ hand-maintained, so it stays accurate as more chapters are revised.
 ## [[chap01|1 Motivations]]
 
 &hellip;ome countries, including Britain, have committed to at least a 60% reduction in greenhouse-gas emissions by 2050*. Indeed, as I write, Britain’s commitment is being increased to an 80% reduction relative to 1990 levels. <ins style="color:#a3540f;background:#fbeee0;padding:0 3px;border-radius:2px;font-weight:600;">Updated, 2026: it went further still — in 2019 the UK amended the Climate Change Act to a 100% ("net zero") reduction target by 2050, the world's first major economy to set one in law.</ins> \[^u1\] \[^19\]: *Figure 1.8*. In the lower scenario, the chance that the temperature rise will exceed 2°C is estimated to be 9–26%; the cumulative carbon emissions from 2007 onwards are 309 GtC; CO2 concentrati&hellip;
+
+## [[chap02|2 The balance sheet]]
+
+&hellip;nal units that everyone can relate to. The unit of **energy** I have chosen is the kilowatt-hour (kWh). This quantity is called "one unit" on electricity bills, and it costs a domestic user about 10p in the UK in 2008. <ins style="color:#a3540f;background:#fbeee0;padding:0 3px;border-radius:2px;font-weight:600;">Updated, 2026: UK domestic electricity now costs roughly 26p per unit, about two and a half times the 2008 price, mainly from the 2021–22 energy crisis — see \[^u1\].</ins> As we’ll see, most individual daily choices involve amounts of energy equal to small numbers of kilowatt-hours. When we discuss **powers** (rates at which we use or produce energy), the main unit will be the kilowatt-h&hellip;
 
 ## [[chap03|3 Cars]]
 
@@ -135,6 +143,10 @@ hand-maintained, so it stays accurate as more chapters are revised.
 &hellip;ich means the energy contained in raw fuels, plus wind and hydroelectricity) is about 125 kWh per day per person. The UK average is also 125 kWh per day per person. \[^1\] <ins style="color:#a3540f;background:#fbeee0;padding:0 3px;border-radius:2px;font-weight:600;">Both figures have fallen a great deal since 2008: the UK's per-capita energy consumption was about 68 kWh/d in 2023, and a recent EU-wide estimate puts the European figure at roughly 90 kWh/d — driven by efficiency gains and deindustrialisation, not by people living smaller lives in any single visible way.</ins> \[^u1\] These official averages do not include two energy flows. First, the "embedded energy" in *imported* stuff (the energy expended in making the stuff) is not included at all. We estimated in Chapter 15 that the embe&hellip;
 
 &hellip;that we want to get off fossil fuels, for one or more of the reasons listed in Chapter 1 – climate change, security of supply, and so forth. Figure 18.9 shows how much power we currently get from renewables and nuclear. <del>They amount to just 4% of our total power consumption.</del> <ins style="color:#a3540f;background:#fbeee0;padding:0 3px;border-radius:2px;font-weight:600;">That 4% is now well out of date, at least for electricity specifically: renewables alone generated just over half of UK electricity for the first time in 2024 (50.8%), with nuclear adding a further 14%, so low-carbon sources together supplied nearly two-thirds of UK electricity. This chapter's "4%" was always a total-energy figure, not an electricity-only one, and total-energy decarbonisation (heating and transport still lean heavily on fossil fuels) remains far behind electricity's progress — the book's broader pessimism about the pace of change outside the power sector still holds even as this specific number has moved a long way.</ins> \[^u2\] The two conclusions we can draw from Part I are: 1. *To make a difference, renewable facilities have to be country-sized*. For any renewable facility to make a contribution comparable to our current consumpt&hellip;
+
+## [[chap19|19 Every BIG helps]]
+
+&hellip;nsumption is also 40 kWh per day per person (currently all supplied by fossil fuels); and the electricity consumption is 18 kWh(e) per day per person; the electricity is currently almost all generated from fossil fuels; <ins style="color:#a3540f;background:#fbeee0;padding:0 3px;border-radius:2px;font-weight:600;">Updated, 2026: no longer true — see \[^u1\].</ins> the conversion of fossil-fuel energy to electricity is 40% efficient, so supplying 18 kWh(e) of electricity in today’s cartoon-Britain requires a fossil-fuel input of 45 kWh per day per person. This simplification ignor&hellip;
 
 ## [[chap20|20 Better transport]]
 
@@ -258,6 +270,12 @@ hand-maintained, so it stays accurate as more chapters are revised.
 
 &hellip;on that this plan assumed; or that liquid fuels must be created in some other way. ## Cost of switching from fossil fuels to renewables Every wind farm costs a few million pounds to build and delivers a few megawatts. <del>As a very rough ballpark figure in 2008, installing one watt of capacity costs one pound; one kilowatt costs 1000 pounds; a megawatt of wind costs a million; a gigawatt of nuclear costs a billion or perhaps two. Other renewables are more expensive.</del> <ins style="color:#a3540f;background:#fbeee0;padding:0 3px;border-radius:2px;font-weight:600;">That "one pound per watt" ballpark has moved in opposite directions for renewables and nuclear since 2008. Solar and onshore wind capital costs have *fallen* to roughly 80p and 95p per watt respectively (£1,080/kW solar, £1,275/kW onshore wind — EIA 2024 data); offshore wind costs roughly £1.60–2.20 per watt. Nuclear has gone the other way: Hinkley Point C, the UK's only plant under construction, is now costing roughly £48bn for 3.26 GW — about £14.70 per watt, seven to fifteen times MacKay's "a billion or perhaps two" per GW.</ins> \[^u1\] We (the UK) currently consume a total power of roughly 300 GW, most of which is fossil fuel. So we can anticipate that a major switching from fossil fuel to renewables and/or nuclear is going to require roughly 30&hellip;
 
+## [[chap29|29 What to do now]]
+
+&hellip;ke is that sucking carbon dioxide from thin air will very probably be necessary to avoid dangerous climate change. Carbon is not even being captured at any coal power stations (except for one tiny prototype in Germany). <ins style="color:#a3540f;background:#fbeee0;padding:0 3px;border-radius:2px;font-weight:600;">Updated, 2026: CCS has since scaled to dozens of commercial facilities worldwide — see \[\[chap23|chapter 23's update\]\] — but at a rate still small next to global emissions, and no UK coal plant ever got one, because the UK phased out coal power entirely instead.</ins> Why not? The principal problem is that carbon pollution is not priced correctly. And there is no confidence that it’s going to be priced correctly in the future. When I say "correctly," I mean that the price of emitti&hellip;
+
+&hellip;going to be high enough for long enough that carbon-capturing facilities will pay for themselves. Experts say that a long-term guaranteed carbon price of something like $100 per ton of CO2 will do the trick. <ins style="color:#a3540f;background:#fbeee0;padding:0 3px;border-radius:2px;font-weight:600;">Updated, 2026: neither the EU nor the UK carbon price has reliably reached that level — see \[^u1\].</ins> So politicians need to agree long-term reductions in CO2 emissions that are sufficiently strong that investors have confidence that the price of carbon will rise permanently to at least $100 per ton of CO&lt;su&hellip;
+
 ## [[chap30|30 Energy plans for Europe, America, and the World]]
 
 &hellip;er 4. The area of these wind farms, 435 000 km2, is roughly the same as the area of California. The amount of wind hardware required (assuming a load factor of 20%) would be a capacity of about 2600 GW, which <del>would be a 200-fold increase in wind hardware in the USA.</del> <ins style="color:#a3540f;background:#fbeee0;padding:0 3px;border-radius:2px;font-weight:600;">is a much smaller multiple today: US wind capacity grew roughly 20–30-fold between 2008 and the mid-2020s on its own, from a few GW to well over 150 GW.</ins> \[^u2\] ### Offshore wind If we assume that shallow offshore waters with an area equal to the sum of Delaware and Connecticut (20 000 km2, a substantial chunk of all shallow waters on the east coast of the US&hellip;
@@ -303,3 +321,7 @@ hand-maintained, so it stays accurate as more chapters are revised.
 ## [[chapI|I Quick reference]]
 
 &hellip;652 | | Italy | 667 | | Ireland | 784 | | Greece | 864 | | Denmark | 881 | Figure I.9. Carbon intensity of electricity production (g CO2 per kWh of electricity). <ins style="color:#a3540f;background:#fbeee0;padding:0 3px;border-radius:2px;font-weight:600;">This whole table is a ~2007 snapshot and every entry in it has moved; the UK's figure in particular has fallen by more than three-quarters. Rather than re-source all eleven countries individually, here are updated figures for the three this book leans on most: UK, roughly 124–125 gCO2/kWh in 2024 (down from 580); France, roughly 22 gCO2/kWh in 2024 (down from 83, already the table's cleanest entry and now cleaner still); EU average, roughly 213 gCO2/kWh in 2024 (down from the 353 figure below).</ins> \[^u1\] Fuel type emissions (g CO2 per kWh of chemical energy) natural gas 190&hellip;
+
+## [[preface|Preface]]
+
+&hellip;ome of my numbers were off by a factor of two. While I hope that the errors that remain are smaller than that, I expect to further update some of the numbers in this book as I continue to learn about sustainable energy. <ins style="color:#a3540f;background:#fbeee0;padding:0 3px;border-radius:2px;font-weight:600;">Updated, 2026: MacKay died in 2016 and could not do this himself — see \[^u1\].</ins> How to cite this book: **David J.C. MacKay.** *Sustainable Energy – without the hot air.* UIT Cambridge, 2008. ISBN 978-0-9544529-3-3. Available free online from \[www.withouthotair.com&lt;/spa&hellip;

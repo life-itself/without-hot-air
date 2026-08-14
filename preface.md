@@ -30,10 +30,14 @@ At the end of each chapter are further notes and pointers to sources and referen
 
 The text also contains pointers to web resources. When a web-pointer is monstrously long, I’ve used the TinyURL ervice, and put the tiny code in the text like this – [<span class="websitetitle">yh8xse</span>] – which is shorthand for a tiny URL, in this case: <span class="websitetitle">http://tinyurl.com/yh8xse</span>. A complete list of all the URLs in this book is provided at <http://tinyurl.com/yh8xse>.
 
-I welcome feedback and corrections. I am aware that I sometimes make booboos, and in earlier drafts of this book some of my numbers were off by a factor of two. While I hope that the errors that remain are smaller than that, I expect to further update some of the numbers in this book as I continue to learn about sustainable energy.
+I welcome feedback and corrections. I am aware that I sometimes make booboos, and in earlier drafts of this book some of my numbers were off by a factor of two. While I hope that the errors that remain are smaller than that, I expect to further update some of the numbers in this book as I continue to learn about sustainable energy. <ins style="color:#a3540f;background:#fbeee0;padding:0 3px;border-radius:2px;font-weight:600;">Updated, 2026: MacKay died in 2016 and could not do this himself — see [^u1].</ins>
 
 How to cite this book:
 
 **David J.C. MacKay.** *Sustainable Energy – without the hot air.*
 
 UIT Cambridge, 2008. ISBN 978-0-9544529-3-3. Available free online from [<span class="websitetitle">www.withouthotair.com</span>](http://www.withouthotair.com).
+
+## <span style="color:#a3540f;font-weight:600;">Updates, 2026</span>
+
+[^u1]: <span style="color:#a3540f;font-weight:600;">*This is now a community edition.*</span> David MacKay died in 2016, so the updating he anticipated above never happened under his own hand. This edition — the one you're reading — is a community effort to continue it: MacKay's 2008 text unchanged, opened up so it can be corrected and updated collaboratively, with every change visibly dated and sourced. See [[about|About this edition]] and [[has-it-held-up|Has It Held Up?]] for what that has meant in practice.
