@@ -151,6 +151,23 @@ export async function check(rootDir) {
       }
     }
 
+    // Bare currency dollar signs are a rendering hazard: the site's math pipeline
+    // (remark-math, singleDollarTextMath: true) treats any $...$ pair as inline
+    // math with no currency heuristic, so "$61 per MWh ... $76/MWh" gets parsed
+    // as one math span and silently mis-renders. Real LaTeX in this book always
+    // contains a backslash command nearby; a bare "$" immediately followed by a
+    // digit with no backslash before the next "$" (or a short lookahead) is
+    // currency and must be escaped as "\$".
+    for (const m of body.matchAll(/(?<![\\$])\$(?=\d)/g)) {
+      const start = m.index;
+      const nextDollar = body.indexOf('$', start + 1);
+      const windowEnd = nextDollar === -1 ? start + 60 : Math.min(nextDollar, start + 60);
+      const window = body.slice(start, windowEnd);
+      if (window.includes('\\')) continue; // looks like real LaTeX, e.g. "$4 \times ...$"
+      const snippet = body.slice(start, start + 20).replace(/\s+/g, ' ');
+      errors.push(`${f.rel}: bare "$" before a digit ("${snippet}...") will be parsed as math — escape it as "\\$"`);
+    }
+
     // Internal markdown links and reference definitions must resolve to a page.
     const links = new Set();
     for (const m of body.matchAll(/(?<!!)\[[^\]]*\]\((\/[^)\s]*)\)/g)) links.add(m[1]);

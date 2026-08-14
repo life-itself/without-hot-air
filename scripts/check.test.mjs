@@ -83,3 +83,13 @@ test('external links are not checked', async () => {
   const { errors } = await check(fixture('clean'));
   assert.deepEqual(errors, []);
 });
+
+test('bare currency dollar before a digit is an error', async () => {
+  const { errors } = await check(fixture('bare-dollar'));
+  assert.match(errors.join('\n'), /will be parsed as math/);
+});
+
+test('escaped dollars and digit-leading LaTeX are not errors', async () => {
+  const { errors } = await check(fixture('escaped-dollar-ok'));
+  assert.deepEqual(errors, []);
+});
