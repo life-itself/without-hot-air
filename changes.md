@@ -9,6 +9,10 @@ description: Every dated-claim update made to this edition since MacKay's 2008 t
 in context — <del>struck-through</del> is MacKay's 2008 original, <ins style="color:#a3540f;background:#fbeee0;padding:0 3px;border-radius:2px;font-weight:600;">highlighted</ins> is ours, dated and sourced. Click a
 chapter heading to read it in full, including the citation for every change in that chapter's own "Updates" section.
 
+**New here?** [[has-it-held-up|Start with the synthesis]] — what's really changed
+since 2008 and what it means for the book's conclusions. This page is the detail
+underneath it.
+
 This page is generated from the chapter markdown by `scripts/changes-digest.mjs` — nothing here is
 hand-maintained, so it stays accurate as more chapters are revised.
 

@@ -10,6 +10,11 @@ David MacKay's *Sustainable Energy — Without the Hot Air*, as a **community ed
 > text unchanged, in an open and editable form, so that it *can* be corrected and
 > updated — collaboratively, in the open. See [[about|About this edition]].
 
+**Eighteen years on, has the book held up?** [[has-it-held-up|Read the synthesis]] —
+what's really changed since 2008, where MacKay's numbers moved, and where he was
+right all along. For the detailed, chapter-by-chapter list of edits, see
+[[changes|Changes]].
+
 ![cover](/assets/cover.jpg)
 
 ## Table of Contents
