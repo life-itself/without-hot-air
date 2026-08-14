@@ -17,7 +17,7 @@ President Dwight D. Eisenhower – April, 1953
 
 Let’s try to estimate how much energy we spend on our military.
 
-In 2007–8, the fraction of British central government expenditure that went to defence was £33 billion/£587 billion = 6%. [^1] If we include the UK’s spending on counter-terrorism and intelligence (£2.5 billion per year and rising), the total for defensive activities comes to £36 billion.
+In 2007–8, the fraction of British central government expenditure that went to defence was £33 billion/£587 billion = 6%. [^1] If we include the UK’s spending on counter-terrorism and intelligence (£2.5 billion per year and rising), the total for defensive activities comes to £36 billion. <ins style="color:#a3540f;background:#fbeee0;padding:0 3px;border-radius:2px;font-weight:600;">Updated, 2026: both figures have roughly doubled in nominal terms since — defence spending was about £63.6bn against total government spending of about £1.22 trillion in 2024/25 — leaving the ratio close to where it was, about 5%, see [^u1].</ins>
 
 As a crude estimate we might guess that 6% of this £36 billion is spent on energy at a cost of 2.7p per kWh. (6% is the fraction of GDP that is spent on energy, and 2.7p is the average price of energy.) That works out to about 80 TWh per year of energy going into defence: making bullets, bombs, nuclear weapons; making devices for delivering bullets, bombs, and nuclear weapons; and roaring around keeping in trim for the next game of good-against-evil. In our favourite units, this corresponds to <span class="red">4 kWh per day per person</span>.
 
@@ -29,7 +29,7 @@ Nuclear-weapons spending over this period exceeded the combined total federal sp
 
 If again we assume that 6% of this expenditure went to energy at a cost of 5¢ per kWh, we find that the energy cost of having nuclear weapons was 26 000 kWh per American, or <span class="red">1.4 kWh per day per American</span> (shared among 250 million Americans over 51 years).
 
-What energy would have been delivered to the lucky recipients, had all those nuclear weapons been used? The energies of the biggest thermonuclear weapons developed by the USA and USSR are measured in megatons of TNT. A ton of TNT is 1200 kWh. The bomb that destroyed Hiroshima had the energy of 15 000 tons of TNT (18 million kWh). A *megaton* bomb delivers an energy of 1.2 billion kWh. If dropped on a city of one million, a megaton bomb makes an energy donation of 1200 kWh per person, equivalent to 120 litres of petrol per person. The total energy of the USA’s nuclear arsenal today is 2400 megatons, contained in 10 000 warheads. In the good old days when folks really took defence seriously, the arsenal’s energy was 20 000 megatons. These bombs, if used, would have delivered an energy of about 100 000 kWh per American. That’s equivalent to 7 kWh per day per person for a duration of 40 years – similar to all the electrical energy supplied to America by nuclear power.
+What energy would have been delivered to the lucky recipients, had all those nuclear weapons been used? The energies of the biggest thermonuclear weapons developed by the USA and USSR are measured in megatons of TNT. A ton of TNT is 1200 kWh. The bomb that destroyed Hiroshima had the energy of 15 000 tons of TNT (18 million kWh). A *megaton* bomb delivers an energy of 1.2 billion kWh. If dropped on a city of one million, a megaton bomb makes an energy donation of 1200 kWh per person, equivalent to 120 litres of petrol per person. The total energy of the USA’s nuclear arsenal today is 2400 megatons, contained in 10 000 warheads. <ins style="color:#a3540f;background:#fbeee0;padding:0 3px;border-radius:2px;font-weight:600;">Updated, 2026: the US stockpile has since fallen to roughly 3,700 warheads, under New START and earlier post-Cold War arms reductions — see [^u1].</ins> In the good old days when folks really took defence seriously, the arsenal’s energy was 20 000 megatons. These bombs, if used, would have delivered an energy of about 100 000 kWh per American. That’s equivalent to 7 kWh per day per person for a duration of 40 years – similar to all the electrical energy supplied to America by nuclear power.
 
 ![](/assets/figure123.gif)
 
@@ -54,6 +54,10 @@ According to Times Higher Education Supplement (30 March 2007), UK universities 
 So higher education and research seem to have a much lower energy cost than defensive war-gaming.
 
 There may be other energy-consuming public services we could talk about, but at this point I’d like to wrap up our race between the red and green stacks.
+
+## <span style="color:#a3540f;font-weight:600;">Updates, 2026</span>
+
+[^u1]: <span style="color:#a3540f;font-weight:600;">*UK defence spending and US nuclear stockpile.*</span> UK defence spending was about £63.6bn against total government spending of about £1.22 trillion in 2024/25 (about 5%, close to this chapter's 2007–8 ratio), with a government commitment to raise defence to 2.5–3% of GDP by the late 2020s. The US nuclear stockpile has fallen to roughly 3,700 warheads (from about 10,000 in the mid-2000s), under New START and earlier arms-reduction agreements. Sources: UK public spending statistics, 2024/25; Federation of American Scientists, "United States Nuclear Weapons, 2024."
 
 ## Notes and further reading
 

@@ -37,7 +37,7 @@ What about the future’s electric cars? The power consumption of a typical elec
 
 ## The economics of low-energy bulbs
 
-Generally I avoid discussing economics, but I’d like to make an exception for lightbulbs. Osram’s 20 W low-energy bulb claims the same light output as a 100 W incandescent bulb. Moreover, its lifetime is said to be 15 000 hours (or "12 years," at 3 hours per day). In contrast a typical incandescent bulb might last 1000 hours. So during a 12-year period, you have this choice (figure 9.3): buy 15 incandescent bulbs and 1500 kWh of electricity (which costs roughly £150); or buy one low-energy bulb and 300 kWh of electricity (which costs roughly £30).
+Generally I avoid discussing economics, but I’d like to make an exception for lightbulbs. Osram’s 20 W low-energy bulb claims the same light output as a 100 W incandescent bulb. Moreover, its lifetime is said to be 15 000 hours (or "12 years," at 3 hours per day). In contrast a typical incandescent bulb might last 1000 hours. So during a 12-year period, you have this choice (figure 9.3): buy 15 incandescent bulbs and 1500 kWh of electricity (which costs roughly £150); or buy one low-energy bulb and 300 kWh of electricity (which costs roughly £30). <ins style="color:#a3540f;background:#fbeee0;padding:0 3px;border-radius:2px;font-weight:600;">Updated, 2026: this choice no longer exists in the UK/EU — incandescent bulbs were phased out by regulation, and LEDs have since superseded CFLs too — see [^u1].</ins>
 
 #### Should I wait until the old bulb dies before replacing it?
 
@@ -49,7 +49,7 @@ It feels like a waste, doesn’t it? Someone put resources into making the old i
 
 <span class="figurenumber">Figure 9.4</span>. Philips 11 W alongside Omicron 1.3 W LED bulb.
 
-Researchers say that LED (light-emitting diode) bulbs will soon be even more energy-efficient than compact fluorescent lights. The efficiency of a light is measured in *lumens per watt*. I checked the numbers on my latest purchases: the Philips Genie 11 W compact fluorescent bulb (figure 9.4) has a brightness of 600 lumens, which is an efficiency of **55 lumens per watt**; regular incandescent bulbs deliver **10 lumens per watt**; the Omicron 1.3 W lamp, which has 20 white LEDs hiding inside it, has a brightness of 46 lumens, which is an efficiency of **35 lumens per watt**. So this LED bulb is almost as efficient as the fluorescent bulb. The LED industry still has a little catching up to do. In its favour, the LED bulb has a life of 50 000 hours, eight times the life of the fluorescent bulb. As I write, I see that [<span class="websitetitle">www.cree.com</span>](http://www.cree.com) is selling LEDs with a power of **100 lumens per watt**. It’s projected that in the future, white LEDs will have an efficiency of over 150 lumens per watt [[<span class="websitetitle">ynjzej</span>](http://tinyurl.com/ynjzej)]. I expect that within another couple of years, the best advice, from the point of view of both energy efficiency and avoiding mercury pollution, will be to use LED bulbs.
+Researchers say that LED (light-emitting diode) bulbs will soon be even more energy-efficient than compact fluorescent lights. The efficiency of a light is measured in *lumens per watt*. I checked the numbers on my latest purchases: the Philips Genie 11 W compact fluorescent bulb (figure 9.4) has a brightness of 600 lumens, which is an efficiency of **55 lumens per watt**; regular incandescent bulbs deliver **10 lumens per watt**; the Omicron 1.3 W lamp, which has 20 white LEDs hiding inside it, has a brightness of 46 lumens, which is an efficiency of **35 lumens per watt**. So this LED bulb is almost as efficient as the fluorescent bulb. The LED industry still has a little catching up to do. In its favour, the LED bulb has a life of 50 000 hours, eight times the life of the fluorescent bulb. As I write, I see that [<span class="websitetitle">www.cree.com</span>](http://www.cree.com) is selling LEDs with a power of **100 lumens per watt**. It’s projected that in the future, white LEDs will have an efficiency of over 150 lumens per watt [[<span class="websitetitle">ynjzej</span>](http://tinyurl.com/ynjzej)]. I expect that within another couple of years, the best advice, from the point of view of both energy efficiency and avoiding mercury pollution, will be to use LED bulbs. <ins style="color:#a3540f;background:#fbeee0;padding:0 3px;border-radius:2px;font-weight:600;">Updated, 2026: this prediction came true — see [^u1].</ins>
 
 ### Mythconceptions
 
@@ -67,6 +67,10 @@ This myth is addressed in Chapter 11.
 | sodium street light | 150       |
 
 <span class="figurenumber">Table 9.5</span>. Lighting efficiencies of commercially-available bulbs. In the future, white LEDs are expected to deliver 150 lumens per watt.
+
+## <span style="color:#a3540f;font-weight:600;">Updates, 2026</span>
+
+[^u1]: <span style="color:#a3540f;font-weight:600;">*LED efficacy and incandescent phase-out.*</span> MacKay's "projected... over 150 lumens per watt" prediction came true: commercial LED bulbs now commonly reach 100–150 lm/W, with top commercial fixtures over 200 lm/W. LEDs have become the default bulb technology; incandescent bulbs were banned from sale in the UK and EU (2009–2012 phase-out), and CFLs — the "energy-saving bulb" this chapter compares against — have themselves been largely superseded by LEDs. Source: DOE / EIA lighting efficacy data, 2024.
 
 ## Notes and further reading
 

@@ -128,7 +128,7 @@ Pumped storage systems use cheap electricity to shove water from a downhill lake
 
 <span class="figurenumber">Figure 26.6</span>. Llyn Stwlan, the upper reservoir of the Ffestiniog pumped storage scheme in north Wales. Energy stored: 1.3 GWh. Photo by Adrian Pingstone.
 
-Britain has four pumped storage facilities, which can store 30 GWh between them (table 26.4, figure 26.6). They are typically used to store excess electricity at night, then return it during the day, especially at moments of peak demand – a profitable business, as figure 26.5 shows. The Dinorwig power station – an astonishing cathedral inside a mountain in Snowdonia – also plays an insurance role: it has enough oomph to restart the national grid in the event of a major failure. Dinorwig can switch on, from 0 to 1.3 GW power, in 12 seconds.
+Britain has four pumped storage facilities, which can store 30 GWh between them (table 26.4, figure 26.6). <ins style="color:#a3540f;background:#fbeee0;padding:0 3px;border-radius:2px;font-weight:600;">Updated, 2026: pumped storage is no longer the only serious grid-storage option — see [^u1] for how far grid-scale batteries have come since this chapter was written.</ins> They are typically used to store excess electricity at night, then return it during the day, especially at moments of peak demand – a profitable business, as figure 26.5 shows. The Dinorwig power station – an astonishing cathedral inside a mountain in Snowdonia – also plays an insurance role: it has enough oomph to restart the national grid in the event of a major failure. Dinorwig can switch on, from 0 to 1.3 GW power, in 12 seconds.
 
 Dinorwig is the Queen of the four facilities. Let’s review her vital statistics. The total energy that can be stored in Dinorwig is about 9 GWh. Its upper lake is about 500 m above the lower, and the working volume of 7 million m<sup>3</sup> flows at a maximum rate of 390 m<sup>3</sup>/s, allowing power delivery at 1.7 GW for 5 hours. The efficiency of this storage system is 75%. [^5]
 
@@ -444,7 +444,7 @@ High-speed flywheels made of composite materials have energy densities up to 100
 
 Supercapacitors are used to store small amounts of electrical energy (up to 1 kWh) where many cycles of operation are required, and charging must be completed quickly. For example, supercapacitors are favoured over batteries for regenerative braking in vehicles that do many stops and starts. You can buy supercapacitors with an energy density of 6 Wh/kg.
 
-A US company, EEStor, claims to be able to make much better supercapacitors, using barium titanate, with an energy density of 280 Wh/kg.
+A US company, EEStor, claims to be able to make much better supercapacitors, using barium titanate, with an energy density of 280 Wh/kg. <ins style="color:#a3540f;background:#fbeee0;padding:0 3px;border-radius:2px;font-weight:600;">Updated, 2026: EEStor never delivered — see [^u1].</ins>
 
 ##### Vanadium flow batteries
 
@@ -471,6 +471,10 @@ The fluctuations of supply and demand that have the longest timescale are season
 Some renewables also have yearly fluctuations – solar power is stronger in summer and wind power is weaker.
 
 How to ride through these very-long-timescale fluctuations? Electric vehicles and pumped storage are not going to help store the sort of quantities required. A useful technology will surely be long-term thermal storage. A big rock or a big vat of water can store a winter’s worth of heat for a building – Chapter E discusses this idea in more detail. In the Netherlands, summer heat from roads is stored in aquifers until the winter; and delivered to buildings via heat pumps. [^16]
+
+## <span style="color:#a3540f;font-weight:600;">Updates, 2026</span>
+
+[^u1]: <span style="color:#a3540f;font-weight:600;">*Grid-scale battery storage and EEStor.*</span> Global grid-scale battery storage reached roughly 124 GW of installed capacity by the end of 2024 (63 GW added that year alone), against pumped storage's roughly 2.8 GW British total — batteries have gone from barely existing as a grid-storage option in 2008 to the dominant one. EEStor, meanwhile, never delivered a commercial product; its claims were never independently substantiated. Sources: IEA, "Battery storage is scaling up and taking on a larger system role" (2024); *Wikipedia*, "EEStor" (company history).
 
 ## Notes
 

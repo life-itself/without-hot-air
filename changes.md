@@ -5,7 +5,7 @@ description: Every dated-claim update made to this edition since MacKay's 2008 t
 
 # Changes
 
-20 chapters revised so far, 89 individual updates. Each excerpt below shows a change
+27 chapters revised so far, 102 individual updates. Each excerpt below shows a change
 in context — <del>struck-through</del> is MacKay's 2008 original, <ins style="color:#a3540f;background:#fbeee0;padding:0 3px;border-radius:2px;font-weight:600;">highlighted</ins> is ours, dated and sourced. Click a
 chapter heading to read it in full, including the citation for every change in that chapter's own "Updates" section.
 
@@ -21,20 +21,27 @@ hand-maintained, so it stays accurate as more chapters are revised.
 - [[chap03|3 Cars]] — 2 changes
 - [[chap04|4 Wind]] — 2 changes
 - [[chap06|6 Solar]] — 11 changes
+- [[chap09|9 Light]] — 2 changes
 - [[chap10|10 Offshore wind]] — 4 changes
 - [[chap11|11 Gadgets]] — 1 change
+- [[chap12|12 Wave]] — 1 change
 - [[chap14|14 Tide]] — 1 change
+- [[chap17|17 Public services]] — 2 changes
 - [[chap18|18 Can we live on renewables?]] — 2 changes
+- [[chap20|20 Better transport]] — 2 changes
 - [[chap23|23 Sustainable fossil fuels?]] — 10 changes
 - [[chap24|24 Nuclear?]] — 5 changes
 - [[chap25|25 Living on other countries’ renewables?]] — 3 changes
+- [[chap26|26 Fluctuations and storage]] — 2 changes
 - [[chap27|27 Five energy plans for Britain]] — 31 changes
 - [[chap28|28 Putting costs in perspective]] — 1 change
 - [[chap30|30 Energy plans for Europe, America, and the World]] — 4 changes
+- [[chap31|31 The last thing we should talk about]] — 2 changes
 - [[chap32|32 Saying yes]] — 1 change
 - [[chapA|A Cars II]] — 2 changes
 - [[chapB|B Wind II]] — 2 changes
 - [[chapD|D Solar II]] — 1 change
+- [[chapF|F Waves II]] — 2 changes
 - [[chapI|I Quick reference]] — 1 change
 
 ---
@@ -89,6 +96,12 @@ hand-maintained, so it stays accurate as more chapters are revised.
 
 &hellip;asted 20 years without further expenditure, the wholesale cost of the electricity would be €0.25 per kWh. Further reading: David Carlson, BP solar \[\[2ahecp\](http://tinyurl.com/2ahecp)\]. <ins style="color:#a3540f;background:#fbeee0;padding:0 3px;border-radius:2px;font-weight:600;">Updated, 2026: utility-scale solar's wholesale cost is now roughly €0.05 per kWh, not €0.25 — see \[^u3\].</ins> \[^13\]: *People in Britain throw away about 300 g of food per day.* Source: Ventour (2008). \[^14\]: *Figure 6.10*. In the USA, *Miscanthus* grown without nitrogen fertilizer yields about 24 t/ha/y of dry matter. In Brit&hellip;
 
+## [[chap09|9 Light]]
+
+&hellip;ing a 12-year period, you have this choice (figure 9.3): buy 15 incandescent bulbs and 1500 kWh of electricity (which costs roughly £150); or buy one low-energy bulb and 300 kWh of electricity (which costs roughly £30). <ins style="color:#a3540f;background:#fbeee0;padding:0 3px;border-radius:2px;font-weight:600;">Updated, 2026: this choice no longer exists in the UK/EU — incandescent bulbs were phased out by regulation, and LEDs have since superseded CFLs too — see \[^u1\].</ins> #### Should I wait until the old bulb dies before replacing it? It feels like a waste, doesn’t it? Someone put resources into making the old incandescent lightbulb; shouldn’t we cash in that original investment by usi&hellip;
+
+&hellip;itle"&gt;ynjzej\](http://tinyurl.com/ynjzej)\]. I expect that within another couple of years, the best advice, from the point of view of both energy efficiency and avoiding mercury pollution, will be to use LED bulbs. <ins style="color:#a3540f;background:#fbeee0;padding:0 3px;border-radius:2px;font-weight:600;">Updated, 2026: this prediction came true — see \[^u1\].</ins> ### Mythconceptions #### "There is no point in my switching to energy-saving lights. The "wasted" energy they put out heats my home, so it’s not wasted." This myth is addressed in Chapter 11. | Bulb type | effic&hellip;
+
 ## [[chap10|10 Offshore wind]]
 
 &hellip;ow* offshore wind (depth less than 25– 30 m), while roughly twice as costly as land-based wind, is economically feasible, given modest subsidy; \[^2\] and *deep* offshore wind is at present not economically feasible. \[^3\] <del>As of 2008, there’s just one deep offshore windfarm in UK waters, an experimental prototype sending all its electricity to a nearby oilrig called Beatrice.</del> <ins style="color:#a3540f;background:#fbeee0;padding:0 3px;border-radius:2px;font-weight:600;">Deep and floating offshore wind became a substantial industry over the following decade: global offshore wind capacity reached roughly 83 GW by the end of 2024, much of it in UK waters.</ins> \[^u1\] ## Shallow offshore Within British territorial waters, the shallow area is about 40 000 km2, most of it off the coast of England and Wales. This area is about two Waleses. The average power available&hellip;
@@ -103,15 +116,31 @@ hand-maintained, so it stays accurate as more chapters are revised.
 
 &hellip;ering the hidden tendrils of the information age According to Jonathan Koomey (2007), the computer-servers in US datacentres and their associated plumbing (air conditioners, backup power systems, and so forth) consumed <del>0.4 kWh per day per person – just over 1% of US electricity consumption.</del> <ins style="color:#a3540f;background:#fbeee0;padding:0 3px;border-radius:2px;font-weight:600;">0.4 kWh per day per person in 2005 – just over 1% of US electricity consumption. By 2024, that had grown to roughly 1.5 kWh per day per person – just over 4% of US electricity – with AI workloads now a major and fast-growing share of the increase.</ins> \[^u1\] That’s the consumption figure for 2005, which, by the way, is twice as big as the consumption in 2000, because the number of servers grew from 5.6 million to 10 million. Gadget Power consumption (W) on and acti&hellip;
 
+## [[chap12|12 Wave]]
+
+&hellip;of the Pelamis ("designed with survival as the key objective before power capture efficiency") predict that a two-kilometre long wave-farm consisting of 40 of their sea-snakes would deliver 6 kW per metre of wave-farm. <ins style="color:#a3540f;background:#fbeee0;padding:0 3px;border-radius:2px;font-weight:600;">Updated, 2026: Pelamis Wave Power went into administration in 2014 and its devices were decommissioned — see \[^u1\].</ins> Using this number in the previous calculation, the power delivered by 500 kilometres of wave-farm is reduced to 1.2 kWh per day per person. While wave power may be useful for small communities&hellip;
+
 ## [[chap14|14 Tide]]
 
 &hellip;windmill, or "tidal-stream" generator, to be connected to the grid was a "300 kW" turbine, installed in 2003 near the northerly city of Hammerfest, Norway. Detailed power production results have not been published, and <del>no-one has yet built a tide farm with more than one turbine,</del> <ins style="color:#a3540f;background:#fbeee0;padding:0 3px;border-radius:2px;font-weight:600;">that changed within a decade: MeyGen, in Scotland's Pentland Firth, is now the world's largest tidal stream array, with 6 MW operating since 2024 and up to 398 MW consented for future phases — it had delivered over 68 GWh to the grid by September 2024, nearly two-thirds of all tidal-stream power generated globally to date.</ins> \[^u1\] so we’re going to have to rely on physics and guesswork to predict how much power tide farms could produce. Assuming that the rules for laying out a sensible tide farm are similar to those for wind farms, and that&hellip;
+
+## [[chap17|17 Public services]]
+
+&hellip;went to defence was £33 billion/£587 billion = 6%. \[^1\] If we include the UK’s spending on counter-terrorism and intelligence (£2.5 billion per year and rising), the total for defensive activities comes to £36 billion. <ins style="color:#a3540f;background:#fbeee0;padding:0 3px;border-radius:2px;font-weight:600;">Updated, 2026: both figures have roughly doubled in nominal terms since — defence spending was about £63.6bn against total government spending of about £1.22 trillion in 2024/25 — leaving the ratio close to where it was, about 5%, see \[^u1\].</ins> As a crude estimate we might guess that 6% of this £36 billion is spent on energy at a cost of 2.7p per kWh. (6% is the fraction of GDP that is spent on energy, and 2.7p is the average price of energy.) That works out&hellip;
+
+&hellip;million, a megaton bomb makes an energy donation of 1200 kWh per person, equivalent to 120 litres of petrol per person. The total energy of the USA’s nuclear arsenal today is 2400 megatons, contained in 10 000 warheads. <ins style="color:#a3540f;background:#fbeee0;padding:0 3px;border-radius:2px;font-weight:600;">Updated, 2026: the US stockpile has since fallen to roughly 3,700 warheads, under New START and earlier post-Cold War arms reductions — see \[^u1\].</ins> In the good old days when folks really took defence seriously, the arsenal’s energy was 20 000 megatons. These bombs, if used, would have delivered an energy of about 100 000 kWh per American. That’s equivalent to 7 kWh&hellip;
 
 ## [[chap18|18 Can we live on renewables?]]
 
 &hellip;ich means the energy contained in raw fuels, plus wind and hydroelectricity) is about 125 kWh per day per person. The UK average is also 125 kWh per day per person. \[^1\] <ins style="color:#a3540f;background:#fbeee0;padding:0 3px;border-radius:2px;font-weight:600;">Both figures have fallen a great deal since 2008: the UK's per-capita energy consumption was about 68 kWh/d in 2023, and a recent EU-wide estimate puts the European figure at roughly 90 kWh/d — driven by efficiency gains and deindustrialisation, not by people living smaller lives in any single visible way.</ins> \[^u1\] These official averages do not include two energy flows. First, the "embedded energy" in *imported* stuff (the energy expended in making the stuff) is not included at all. We estimated in Chapter 15 that the embe&hellip;
 
 &hellip;that we want to get off fossil fuels, for one or more of the reasons listed in Chapter 1 – climate change, security of supply, and so forth. Figure 18.9 shows how much power we currently get from renewables and nuclear. <del>They amount to just 4% of our total power consumption.</del> <ins style="color:#a3540f;background:#fbeee0;padding:0 3px;border-radius:2px;font-weight:600;">That 4% is now well out of date, at least for electricity specifically: renewables alone generated just over half of UK electricity for the first time in 2024 (50.8%), with nuclear adding a further 14%, so low-carbon sources together supplied nearly two-thirds of UK electricity. This chapter's "4%" was always a total-energy figure, not an electricity-only one, and total-energy decarbonisation (heating and transport still lean heavily on fossil fuels) remains far behind electricity's progress — the book's broader pessimism about the pace of change outside the power sector still holds even as this specific number has moved a long way.</ins> \[^u2\] The two conclusions we can draw from Part I are: 1. *To make a difference, renewable facilities have to be country-sized*. For any renewable facility to make a contribution comparable to our current consumpt&hellip;
+
+## [[chap20|20 Better transport]]
+
+&hellip;s – they’re listed in this chapter’s end-notes \[^16\] – and they seem to be consistent with this summary: electric vehicles can deliver transport at an energy cost of roughly 15 kWh per 100 km. <ins style="color:#a3540f;background:#fbeee0;padding:0 3px;border-radius:2px;font-weight:600;">Updated, 2026: this held up well — production EVs today typically use 15–20 kWh per 100 km, in the same range MacKay estimated from early prototypes — see \[^u1\].</ins> That’s five times better than our baseline fossil-car, and significantly better than any hybrid cars. Hurray\! To achieve economical transport, we don’t have to huddle together in public transport – we can still hurtle&hellip;
+
+&hellip;battery is 3% lithium. \[^21\] If we assume each vehicle has a 200 kg battery, then we need 6 kg of lithium per vehicle. So the estimated reserves in ore deposits are enough to make the batteries for 1.6 billion vehicles. <ins style="color:#a3540f;background:#fbeee0;padding:0 3px;border-radius:2px;font-weight:600;">Updated, 2026: identified world lithium reserves have since roughly tripled, to about 28 million tons (with broader identified resources around 105 million tons) — see \[^u1\].</ins> That’s more than the number of cars in the world today (roughly 1 billion) – but not much more, so the amount of lithium may be a concern, especially when we take into account the competing ambitions of the nuclear fusi&hellip;
 
 ## [[chap23|23 Sustainable fossil fuels?]]
 
@@ -154,6 +183,12 @@ hand-maintained, so it stays accurate as more chapters are revised.
 &hellip;’s, and its area is 7 times bigger. Other large, area-rich, countries are Kazakhstan, Saudi Arabia, Algeria, and Sudan. In all these countries, I think the most promising renewable is solar power <del>, *concentrating solar power* in particular, which uses mirrors or lenses to focus sunlight.</del> <ins style="color:#a3540f;background:#fbeee0;padding:0 3px;border-radius:2px;font-weight:600;">— but by 2026 it's flat photovoltaic panels, not the concentrating solar power (mirrors or lenses focusing sunlight) discussed through the rest of this chapter, that turned out to dominate. See the note after this chapter's "mirrors will still be cheaper" prediction, below.</ins> \[^u2\] Concentrating solar power stations come in several flavours, arranging their moving mirrors in various geometries, and putting various power conversion technologies at the focus – Stirling engines, pressurized wat&hellip;
 
 &hellip;have bigger power density, why don’t you describe covering the Sahara desert with them? Because I am trying to discuss practical options for large-scale sustainable power production for Europe and North Africa by 2050. <del>My guess is that by 2050, mirrors will still be cheaper than photovoltaic panels, so concentrating solar power is the technology on which we should focus.</del> <ins style="color:#a3540f;background:#fbeee0;padding:0 3px;border-radius:2px;font-weight:600;">That guess has already been falsified, decades early: flat photovoltaic panel costs fell roughly 80–90% between 2008 and the mid-2020s (see chapter 6's and chapter 30's updates), while concentrating solar power's costs fell much less, and PV rather than CSP now dominates solar deployment worldwide, including in desert regions. The geometry in this chapter — how much desert area a given power output needs — works the same way for PV as for CSP; it's the technology choice, not the arithmetic, that's changed.</ins> \[^u2\] #### What about solar chimneys? !\[\](/assets/figure210.gif) Figure 25.10. The Manzanares prototype solar chimney. Photos from \[solarmillennium.de&lt;/spa&hellip;
+
+## [[chap26|26 Fluctuations and storage]]
+
+&hellip;voir of the Ffestiniog pumped storage scheme in north Wales. Energy stored: 1.3 GWh. Photo by Adrian Pingstone. Britain has four pumped storage facilities, which can store 30 GWh between them (table 26.4, figure 26.6). <ins style="color:#a3540f;background:#fbeee0;padding:0 3px;border-radius:2px;font-weight:600;">Updated, 2026: pumped storage is no longer the only serious grid-storage option — see \[^u1\] for how far grid-scale batteries have come since this chapter was written.</ins> They are typically used to store excess electricity at night, then return it during the day, especially at moments of peak demand – a profitable business, as figure 26.5 shows. The Dinorwig power station – an astonishin&hellip;
+
+&hellip;stops and starts. You can buy supercapacitors with an energy density of 6 Wh/kg. A US company, EEStor, claims to be able to make much better supercapacitors, using barium titanate, with an energy density of 280 Wh/kg. <ins style="color:#a3540f;background:#fbeee0;padding:0 3px;border-radius:2px;font-weight:600;">Updated, 2026: EEStor never delivered — see \[^u1\].</ins> ##### Vanadium flow batteries VRB power systems \[^15\] have provided a 12 MWh energy storage system for the Sorne Hill wind farm in Ireland, whose current capacity is "32 MW," increasing to "39 MW." (VRB stands for van&hellip;
 
 ## [[chap27|27 Five energy plans for Britain]]
 
@@ -233,6 +268,12 @@ hand-maintained, so it stays accurate as more chapters are revised.
 
 &hellip;ar became some of the cheapest electricity in the world. The "too expensive" judgement this plan is built on no longer holds — this is arguably the single most consequential fact in this chapter to revisit. \[^u1\] <del>My guess is that in many regions, the best solar technology for electricity production will be the concentrating solar power that we discussed in \[chapter 25\](../Text/chap25.xhtml#solar) and earlier this chapter.</del> <ins style="color:#a3540f;background:#fbeee0;padding:0 3px;border-radius:2px;font-weight:600;">That guess didn't hold up: flat photovoltaic panels, not concentrating solar power, turned out to be the technology whose cost collapsed (see chapter 6's and this chapter's own updates), and PV rather than CSP now dominates deployment in sunny regions worldwide. The geometry below — how much desert area a given power output needs — still works the same way for PV as for CSP; it's the technology choice, not the arithmetic, that's changed.</ins> \[^u7\] There we already established that one billion people in Europe and North Africa could be sustained by country-sized solar power facilities in deserts near the Mediterranean; and that half a billion in North Americ&hellip;
 
+## [[chap31|31 The last thing we should talk about]]
+
+&hellip;e rate of fossil fuel burning was roughly 1 Gt C/y in 1920, 2 Gt C/y in 1955, and 8.4 Gt C in 2006. (These figures include a small contribution from cement production, which releases CO2 from limestone.) \[^3\] <ins style="color:#a3540f;background:#fbeee0;padding:0 3px;border-radius:2px;font-weight:600;">Updated, 2026: global fossil fuel and cement emissions reached a record 37.4 billion tonnes of CO2 (about 10.2 Gt C) in 2024, still rising — see \[^u1\].</ins> !\[\](/assets/figure247.gif) Figure 31.3. The arrows show two extra carbon flows produced by burning fossil fuels. There is an imbalance between the 8.4 Gt C/y emissions into the atmosp&hellip;
+
+&hellip;. \[^9\] In 2005, the best published methods for CO2 capture from thin air were quite inefficient: the energy cost was about 3.3 kWh per kg, with a financial cost of about $140 per ton of CO2. \[^10\] <ins style="color:#a3540f;background:#fbeee0;padding:0 3px;border-radius:2px;font-weight:600;">Updated, 2026: direct air capture is now commercially operating rather than just published research, but real-world costs remain higher than this 2005 estimate, typically $500–1,000 per tonne — see \[^u1\].</ins> At this energy cost, capturing a European’s 30 kg per day would cost 100 kWh per day – almost the same as the European’s energy consumption of 125 kWh per day. Can better vacuum cleaners be desi&hellip;
+
 ## [[chap32|32 Saying yes]]
 
 &hellip;--- title: "32 Saying yes" --- # 32 Saying yes Because Britain <del>currently gets 90% of its energy from fossil fuels,</del> <ins style="color:#a3540f;background:#fbeee0;padding:0 3px;border-radius:2px;font-weight:600;">got roughly 90% of its energy from fossil fuels when this was written, and still gets roughly 75% of its total energy from them today — the progress is real but lopsided: fossil fuels' share of UK *electricity* has fallen much further, to about 32%, while heating and transport have barely started to move,</ins> \[^u1\] it’s no surprise that getting off fossil fuels requires big, big changes – a total change in the transport fleet; a complete change of most building heating systems; and a 10- or 20-fold increase in green power.&hellip;
@@ -252,6 +293,12 @@ hand-maintained, so it stays accurate as more chapters are revised.
 ## [[chapD|D Solar II]]
 
 &hellip;uels. I’ll express the potential of each method in terms of its power per unit area (as in figure 6.11). ### Britain’s main biodiesel crop, rape Typically, rape is sown in September and harvested the following August. <del>Currently 450 000 hectares of oilseed rape are grown in the UK each year. (That’s 2% of the UK.)</del> <ins style="color:#a3540f;background:#fbeee0;padding:0 3px;border-radius:2px;font-weight:600;">UK oilseed rape area has since fallen to roughly 300 000–350 000 hectares (about 1.3% of the UK), down from a peak of over 600 000 ha around 2012 — flea-beetle damage and crop economics, not less demand for biodiesel.</ins> \[^u1\] Fields of rape produce 1200 litres of biodiesel per hectare per year; biodiesel has an energy of 9.8 kWh per litre; \[\[2\]\](#chDn02) so that’s a power per unit area of &lt;span class="green&hellip;
+
+## [[chapF|F Waves II]]
+
+&hellip;deliver 19 kW/m, including transmission to central Scotland (Mollison, 1986). The Pelamis device, created by Ocean Power Delivery, has taken over the Salter duck’s mantle as the leading floating deep-water wave device. <ins style="color:#a3540f;background:#fbeee0;padding:0 3px;border-radius:2px;font-weight:600;">Updated, 2026: Pelamis Wave Power went into administration in 2014 — see \[^u1\].</ins> Each snake-like device is 130 m long and is made of a chain of four segments, each 3.5 m in diameter. It has a maximum power output of 750 kW. The Pelamises are designed to be moored in a depth of about 50 m. In a wavef&hellip;
+
+&hellip;er than 15 kW/m. Its peak power is 600 kW. A single device would produce about 270 kW in wave heights greater than 3.5 m. It’s predicted that an Oyster would have a bigger power per unit mass of hardware than a Pelamis. <ins style="color:#a3540f;background:#fbeee0;padding:0 3px;border-radius:2px;font-weight:600;">Updated, 2026: Aquamarine Power ceased trading in November 2015 — see \[^u1\].</ins> Oysters could also be used to directly drive reverse-osmosis desalination facilities. "The peak freshwater output of an Oyster desalinator is between 2000 and 6000 m3/day." That production has a value, going&hellip;
 
 ## [[chapI|I Quick reference]]
 

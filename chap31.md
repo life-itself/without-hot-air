@@ -38,7 +38,7 @@ Figure 31.2 shows where the carbon is. Most of it – 40 000 Gt – is in the oc
 
 Until recently, all these pools of carbon were roughly in balance: all flows of carbon out of a pool (say, soils, vegetation, or atmosphere) were balanced by equal flows into that pool. The flows into and out of the fossil fuel pool were both negligible. Then humans started burning fossil fuels. This added two extra *unbalanced* flows, as shown in figure 31.3.
 
-The rate of fossil fuel burning was roughly 1 Gt C/y in 1920, 2 Gt C/y in 1955, and 8.4 Gt C in 2006. (These figures include a small contribution from cement production, which releases CO<sub>2</sub> from limestone.) [^3]
+The rate of fossil fuel burning was roughly 1 Gt C/y in 1920, 2 Gt C/y in 1955, and 8.4 Gt C in 2006. (These figures include a small contribution from cement production, which releases CO<sub>2</sub> from limestone.) [^3] <ins style="color:#a3540f;background:#fbeee0;padding:0 3px;border-radius:2px;font-weight:600;">Updated, 2026: global fossil fuel and cement emissions reached a record 37.4 billion tonnes of CO<sub>2</sub> (about 10.2 Gt C) in 2024, still rising — see [^u1].</ins>
 
 ![](/assets/figure247.gif)
 
@@ -103,7 +103,7 @@ First, they *concentrate* CO<sub>2</sub> from its low concentration in the atmos
 
 <span class="figurenumber">Table 31.5.</span> The inescapable energy-cost of concentrating and compressing CO2 from thin air. [^9]
 
-In 2005, the best published methods for CO<sub>2</sub> capture from thin air were quite inefficient: the energy cost was about 3.3 kWh per kg, with a financial cost of about $140 per ton of CO<sub>2</sub>. [^10] At this energy cost, capturing a European’s 30 kg per day would cost <span class="red">100 kWh per day</span> – almost the same as the European’s energy consumption of 125 kWh per day. Can better vacuum cleaners be designed?
+In 2005, the best published methods for CO<sub>2</sub> capture from thin air were quite inefficient: the energy cost was about 3.3 kWh per kg, with a financial cost of about $140 per ton of CO<sub>2</sub>. [^10] <ins style="color:#a3540f;background:#fbeee0;padding:0 3px;border-radius:2px;font-weight:600;">Updated, 2026: direct air capture is now commercially operating rather than just published research, but real-world costs remain higher than this 2005 estimate, typically $500–1,000 per tonne — see [^u1].</ins> At this energy cost, capturing a European’s 30 kg per day would cost <span class="red">100 kWh per day</span> – almost the same as the European’s energy consumption of 125 kWh per day. Can better vacuum cleaners be designed?
 
 Recently, Wallace Broecker, climate scientist, [^11] "perhaps the world’s foremost interpreter of the Earth’s operation as a biological, chemical, and physical system," has been promoting an as yet unpublished technology developed by physicist Klaus Lackner for capturing CO<sub>2</sub> from thin air. Broecker imagines that the world could carry on burning fossil fuels at much the same rate as it does now, and 60 million CO<sub>2</sub>-scrubbers (each the size of an up-ended shipping container) will vacuum up the CO<sub>2</sub>. What energy does Lackner’s process require? In June 2007 Lackner told me that his lab was achieving 1.3 kWh per kg, but since then they have developed a new process based on a resin that absorbs CO<sub>2</sub> when dry and releases CO<sub>2</sub> when moist. Lackner told me in June 2008 that, in a dry climate, the concentration cost has been reduced to about 0.18–0.37 kWh of low-grade heat per kg CO<sub>2</sub>. The compression cost is 0.11 kWh per kg. Thus Lackner’s total cost is 0.48 kWh or less per kg. For a European’s emissions of 30 kg CO<sub>2</sub> per day, we are still talking about a cost of <span class="red">14 kWh per day</span>, of which <span class="red">3.3 kWh per day</span> would be electricity, and the rest heat.
 
@@ -154,6 +154,10 @@ While it’s an untested idea, and currently illegal, I do find ocean nourishmen
 > *Avoiding dangerous climate change" is impossible – dangerous climate change is already here. The question is, can we avoid **catastrophic** climate change?*
 >
 > David King, UK Chief Scientist, 2007
+
+## <span style="color:#a3540f;font-weight:600;">Updates, 2026</span>
+
+[^u1]: <span style="color:#a3540f;font-weight:600;">*Global fossil fuel emissions and direct air capture.*</span> Global fossil fuel and cement CO<sub>2</sub> emissions reached a record 37.4 billion tonnes in 2024 (up from the 2006 figure this chapter cites), with no sign yet of a peak. Direct air capture has moved from published lab estimates to commercially operating plants (Climeworks, Carbon Engineering and others), but real-world costs remain well above this chapter's 2005 estimate — typically $500–1,000 per tonne today, versus long-term industry targets of $250–350/tonne by 2030. Sources: Global Carbon Project, *Global Carbon Budget 2024*; Forbes / industry DAC cost analyses, 2024.
 
 ## Notes
 

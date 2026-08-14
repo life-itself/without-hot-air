@@ -30,13 +30,17 @@ As the map shows, Britannia rules about 1000 km of Atlantic coastline (one milli
 
 Figure 12.1. A Pelamis wave energy collector is a sea snake made of four sections. It faces nose-on towards the incoming waves. The waves make the snake flex, and these motions are resisted by hydraulic generators. The peak power from one snake is 750 kW; in the best Atlantic location one snake would deliver 300 kW on average. Photo from Pelamis wave power [<span class="websitetitle">www.pelamiswave.com</span>](http://www.pelamiswave.com).
 
-How do the numbers assumed in this calculation compare with today’s technology? As I write, there are just three wave machines working in deep water: three Pelamis wave energy collectors (figure 12.1) built in Scotland and deployed off Portugal. No actual performance results have been published, but the makers of the Pelamis ("designed with survival as the key objective before power capture efficiency") predict that a two-kilometre long wave-farm consisting of 40 of their sea-snakes would deliver 6 kW per metre of wave-farm. Using this number in the previous calculation, the power delivered by 500 kilometres of wave-farm is reduced to <span class="green">1.2 kWh per day per person</span>. While wave power may be useful for small communities on remote islands, I suspect it can’t play a significant role in the solution to Britain’s sustainable energy problem.
+How do the numbers assumed in this calculation compare with today’s technology? As I write, there are just three wave machines working in deep water: three Pelamis wave energy collectors (figure 12.1) built in Scotland and deployed off Portugal. No actual performance results have been published, but the makers of the Pelamis ("designed with survival as the key objective before power capture efficiency") predict that a two-kilometre long wave-farm consisting of 40 of their sea-snakes would deliver 6 kW per metre of wave-farm. <ins style="color:#a3540f;background:#fbeee0;padding:0 3px;border-radius:2px;font-weight:600;">Updated, 2026: Pelamis Wave Power went into administration in 2014 and its devices were decommissioned — see [^u1].</ins> Using this number in the previous calculation, the power delivered by 500 kilometres of wave-farm is reduced to <span class="green">1.2 kWh per day per person</span>. While wave power may be useful for small communities on remote islands, I suspect it can’t play a significant role in the solution to Britain’s sustainable energy problem.
 
 What’s the weight of a Pelamis, and how much steel does it contain? One snake with a maximum power of 750 kW weighs 700 tons, including 350 tons of ballast. So it has about 350 tons of steel. That’s a weight-to-power ratio of roughly 500 kg per kW (peak). We can compare this with the steel requirements for offshore wind: an offshore wind-turbine with a maximum power of 3 MW weighs 500 tons, including its foundation. That’s a weight-to-power ratio of about 170 kg per kW, one third of the wave machine’s. The Pelamis is a first prototype; presumably with further investment and development in wave technology, the weight-to-power ratio would fall.
 
 ![](/assets/figure86.gif)
 
 <span class="figurenumber">Figure 12.2</span>. Wave.
+
+## <span style="color:#a3540f;font-weight:600;">Updates, 2026</span>
+
+[^u1]: <span style="color:#a3540f;font-weight:600;">*Pelamis Wave Power.*</span> The company went into administration on 21 November 2014, unable to secure further funding; Wave Energy Scotland took ownership of its assets and IP. No commercial Pelamis wave-farm was ever built. Source: EMEC (European Marine Energy Centre); Wave Energy Scotland.
 
 ## <span id="notes">Notes</span> and further reading
 
