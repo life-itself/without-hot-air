@@ -247,6 +247,32 @@ separate amber/copper tone instead for that reason.
       **The human read-through is now even further behind.** 21 chapters
       carry unreviewed edits. This is the single biggest open risk to the
       whole project — read them before scaling up further.
+- [x] **Human read-through happened** — 2026-08-14, Rufus read `/changes` live
+      and confirmed it looked good, explicitly lifting the "don't scale up
+      further" hold from the previous entry.
+- [x] Added [`has-it-held-up.md`](https://withouthotair.org/has-it-held-up) —
+      2026-08-14, per Rufus's request for something beyond the mechanical
+      `/changes` digest: a synthesis essay answering "has the book held up?"
+      thematically (solar, wind, cars/EVs, nuclear, fossil fuels/CCS, the
+      energy plans, and what he couldn't have seen coming), built entirely
+      from citations already gathered in `docs/audit.yaml` and the chapters'
+      own "Updates, 2026" sections — no new research. Linked from `index.md`,
+      the nav bar, and the top of `/changes`.
+- [x] Continued the sweep into the remaining ~20 lower-priority
+      `docs/audit.yaml` chapters — 2026-08-14, per an explicit "keep rolling"
+      instruction after the read-through above. Unlike the previous sweep
+      pass, this one did fresh web research per claim rather than relying on
+      audit.yaml's (mostly unsourced) sweep-tier entries: chap09 (LEDs),
+      chap12 + chapF (Pelamis/Aquamarine wave companies' administration),
+      chap17 (defence spending, US nuclear stockpile), chap20 (EV efficiency,
+      lithium reserves), chap26 (grid battery storage, EEStor), chap31 (global
+      emissions, direct air capture costs), chap02 (electricity price), chap19
+      (electricity generation mix), chap29 (carbon price benchmark), chapJ
+      (population table, contextual note not row-by-row), preface (MacKay's
+      death), chap16 (Iceland), chap21 + chapE (heat pump CoP). Left alone:
+      chap05, 07, 08, 13, 15, chapC, chapH, chapK, acknowledgments — no solid
+      primary source surfaced on this pass, and chapK's datedness is by
+      design. Four commits, each verified live via smoke.mjs.
 
 Standing constraints (also in `AGENTS.md`):
 
