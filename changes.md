@@ -5,7 +5,7 @@ description: Every dated-claim update made to this edition since MacKay's 2008 t
 
 # Changes
 
-31 chapters revised so far, 107 individual updates. Each excerpt below shows a change
+34 chapters revised so far, 111 individual updates. Each excerpt below shows a change
 in context — <del>struck-through</del> is MacKay's 2008 original, <ins style="color:#a3540f;background:#fbeee0;padding:0 3px;border-radius:2px;font-weight:600;">highlighted</ins> is ours, dated and sourced. Click a
 chapter heading to read it in full, including the citation for every change in that chapter's own "Updates" section.
 
@@ -27,10 +27,12 @@ hand-maintained, so it stays accurate as more chapters are revised.
 - [[chap11|11 Gadgets]] — 1 change
 - [[chap12|12 Wave]] — 1 change
 - [[chap14|14 Tide]] — 1 change
+- [[chap16|16 Geothermal]] — 1 change
 - [[chap17|17 Public services]] — 2 changes
 - [[chap18|18 Can we live on renewables?]] — 2 changes
 - [[chap19|19 Every BIG helps]] — 1 change
 - [[chap20|20 Better transport]] — 2 changes
+- [[chap21|21 Smarter heating]] — 1 change
 - [[chap23|23 Sustainable fossil fuels?]] — 10 changes
 - [[chap24|24 Nuclear?]] — 5 changes
 - [[chap25|25 Living on other countries’ renewables?]] — 3 changes
@@ -44,6 +46,7 @@ hand-maintained, so it stays accurate as more chapters are revised.
 - [[chapA|A Cars II]] — 2 changes
 - [[chapB|B Wind II]] — 2 changes
 - [[chapD|D Solar II]] — 1 change
+- [[chapE|E Heating II]] — 2 changes
 - [[chapF|F Waves II]] — 2 changes
 - [[chapI|I Quick reference]] — 1 change
 - [[preface|Preface]] — 1 change
@@ -132,6 +135,10 @@ hand-maintained, so it stays accurate as more chapters are revised.
 
 &hellip;windmill, or "tidal-stream" generator, to be connected to the grid was a "300 kW" turbine, installed in 2003 near the northerly city of Hammerfest, Norway. Detailed power production results have not been published, and <del>no-one has yet built a tide farm with more than one turbine,</del> <ins style="color:#a3540f;background:#fbeee0;padding:0 3px;border-radius:2px;font-weight:600;">that changed within a decade: MeyGen, in Scotland's Pentland Firth, is now the world's largest tidal stream array, with 6 MW operating since 2024 and up to 398 MW consented for future phases — it had delivered over 68 GWh to the grid by September 2024, nearly two-thirds of all tidal-stream power generated globally to date.</ins> \[^u1\] so we’re going to have to rely on physics and guesswork to predict how much power tide farms could produce. Assuming that the rules for laying out a sensible tide farm are similar to those for wind farms, and that&hellip;
 
+## [[chap16|16 Geothermal]]
+
+&hellip;Geothermal power in Iceland. Average geothermal electricity generation in Iceland (population, 300 000) in 2006 was 300 MW (24 kWh/d per person). More than half of Iceland’s electricity is used for aluminium production. <ins style="color:#a3540f;background:#fbeee0;padding:0 3px;border-radius:2px;font-weight:600;">Updated, 2026: Iceland's population has since grown to about 390,000 and its geothermal generating capacity to roughly 786 MW — see \[^u1\].</ins> Photo by Gretar Ívarsson. ## Geothermal power that would be sustainable forever First imagine using geothermal energy sustainably by sticking down straws to an appropriate depth, and sucking *gently*. Sucking at such&hellip;
+
 ## [[chap17|17 Public services]]
 
 &hellip;went to defence was £33 billion/£587 billion = 6%. \[^1\] If we include the UK’s spending on counter-terrorism and intelligence (£2.5 billion per year and rising), the total for defensive activities comes to £36 billion. <ins style="color:#a3540f;background:#fbeee0;padding:0 3px;border-radius:2px;font-weight:600;">Updated, 2026: both figures have roughly doubled in nominal terms since — defence spending was about £63.6bn against total government spending of about £1.22 trillion in 2024/25 — leaving the ratio close to where it was, about 5%, see \[^u1\].</ins> As a crude estimate we might guess that 6% of this £36 billion is spent on energy at a cost of 2.7p per kWh. (6% is the fraction of GDP that is spent on energy, and 2.7p is the average price of energy.) That works out&hellip;
@@ -153,6 +160,10 @@ hand-maintained, so it stays accurate as more chapters are revised.
 &hellip;s – they’re listed in this chapter’s end-notes \[^16\] – and they seem to be consistent with this summary: electric vehicles can deliver transport at an energy cost of roughly 15 kWh per 100 km. <ins style="color:#a3540f;background:#fbeee0;padding:0 3px;border-radius:2px;font-weight:600;">Updated, 2026: this held up well — production EVs today typically use 15–20 kWh per 100 km, in the same range MacKay estimated from early prototypes — see \[^u1\].</ins> That’s five times better than our baseline fossil-car, and significantly better than any hybrid cars. Hurray\! To achieve economical transport, we don’t have to huddle together in public transport – we can still hurtle&hellip;
 
 &hellip;battery is 3% lithium. \[^21\] If we assume each vehicle has a 200 kg battery, then we need 6 kg of lithium per vehicle. So the estimated reserves in ore deposits are enough to make the batteries for 1.6 billion vehicles. <ins style="color:#a3540f;background:#fbeee0;padding:0 3px;border-radius:2px;font-weight:600;">Updated, 2026: identified world lithium reserves have since roughly tripled, to about 28 million tons (with broader identified resources around 105 million tons) — see \[^u1\].</ins> That’s more than the number of cars in the world today (roughly 1 billion) – but not much more, so the amount of lithium may be a concern, especially when we take into account the competing ambitions of the nuclear fusi&hellip;
+
+## [[chap21|21 Smarter heating]]
+
+&hellip;has greatly improved the performance of air-conditioners; thanks to this drive, there are now air-source heat pumps with a coefficient of performance of 4.9; these heat pumps can make hot water as well as hot air. \[^5\] <ins style="color:#a3540f;background:#fbeee0;padding:0 3px;border-radius:2px;font-weight:600;">Updated, 2026: a CoP of 4.9 is no longer exceptional — see \[^u1\].</ins> Another objection to heat pumps is "oh, we can’t approve of people fitting efficient air-source heaters, because they might use them for air-conditioning in the summer." Come on – I hate gratuitous air-conditioning as&hellip;
 
 ## [[chap23|23 Sustainable fossil fuels?]]
 
@@ -311,6 +322,12 @@ hand-maintained, so it stays accurate as more chapters are revised.
 ## [[chapD|D Solar II]]
 
 &hellip;uels. I’ll express the potential of each method in terms of its power per unit area (as in figure 6.11). ### Britain’s main biodiesel crop, rape Typically, rape is sown in September and harvested the following August. <del>Currently 450 000 hectares of oilseed rape are grown in the UK each year. (That’s 2% of the UK.)</del> <ins style="color:#a3540f;background:#fbeee0;padding:0 3px;border-radius:2px;font-weight:600;">UK oilseed rape area has since fallen to roughly 300 000–350 000 hectares (about 1.3% of the UK), down from a peak of over 600 000 ha around 2012 — flea-beetle damage and crop economics, not less demand for biodiesel.</ins> \[^u1\] Fields of rape produce 1200 litres of biodiesel per hectare per year; biodiesel has an energy of 9.8 kWh per litre; \[\[2\]\](#chDn02) so that’s a power per unit area of &lt;span class="green&hellip;
+
+## [[chapE|E Heating II]]
+
+&hellip;talled ground-source heat pumps and the best air-source heat pumps usually have a coefficient of performance of 3 or 4; however, government regulations in Japan have driven the coefficient of performance as high as 6.6. <ins style="color:#a3540f;background:#fbeee0;padding:0 3px;border-radius:2px;font-weight:600;">Updated, 2026: this 3–4 range is still typical, but is now achieved routinely rather than only by the best installations — see \[\[chap21|chapter 21's update\]\].</ins> These theoretical limits could only be achieved by systems that pump heat infinitely slowly. Notice that the ideal efficiency is bigger, the closer the inside temperature *T*2&hellip;
+
+&hellip;talled ground-source heat pumps and the best air-source heat pumps usually have a coefficient of performance of 3 or 4; however, government regulations in Japan have driven the coefficient of performance as high as 6.6. <ins style="color:#a3540f;background:#fbeee0;padding:0 3px;border-radius:2px;font-weight:600;">Updated, 2026: this 3–4 range is still typical, but is now achieved routinely rather than only by the best installations — see \[\[chap21|chapter 21's update\]\].</ins> While in theory ground-source heat pumps might have better performance than air-source, because the ground temperature is usually closer than the air temperature to the indoor temperature, in practice an air-source hea&hellip;
 
 ## [[chapF|F Waves II]]
 

@@ -24,7 +24,7 @@ If you stick a straw down a 15-km hole in the earth, you’ll find it’s nice a
 
 ![](/assets/figure115.gif)
 
-<span class="figurenumber">Figure 16.3</span>. Geothermal power in Iceland. Average geothermal electricity generation in Iceland (population, 300 000) in 2006 was 300 MW (24 kWh/d per person). More than half of Iceland’s electricity is used for aluminium production. Photo by Gretar Ívarsson.
+<span class="figurenumber">Figure 16.3</span>. Geothermal power in Iceland. Average geothermal electricity generation in Iceland (population, 300 000) in 2006 was 300 MW (24 kWh/d per person). More than half of Iceland’s electricity is used for aluminium production. <ins style="color:#a3540f;background:#fbeee0;padding:0 3px;border-radius:2px;font-weight:600;">Updated, 2026: Iceland's population has since grown to about 390,000 and its geothermal generating capacity to roughly 786 MW — see [^u1].</ins> Photo by Gretar Ívarsson.
 
 ## Geothermal power that would be sustainable forever
 
@@ -63,6 +63,10 @@ Yes, Southampton Geothermal District Heating Scheme [^5] was, in 2004 at least, 
 ![](/assets/figure120.gif)
 
 <span class="figurenumber">Figure 16.6</span>. Geothermal.
+
+## <span style="color:#a3540f;font-weight:600;">Updates, 2026</span>
+
+[^u1]: <span style="color:#a3540f;font-weight:600;">*Iceland's population and geothermal capacity.*</span> Population roughly 390,000 as of the mid-2020s, up from 300,000 in 2006; geothermal generating capacity roughly 786 MW, up from 300 MW, still around a quarter of Iceland's total generating capacity (hydro remains the larger share). Sources: ThinkGeoEnergy, "Top 10 Geothermal Countries 2024 – Power"; Statistics Iceland.
 
 ## Notes and further reading
 
