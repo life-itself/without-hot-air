@@ -88,7 +88,7 @@ Going on emotions alone, I would like to live in a country with virtually no car
 
 [^u2]: <span style="color:#a3540f;font-weight:600;">*UK offshore wind capacity.*</span> Roughly 15 GW operational by the end of 2024, with a government target of 50 GW (including floating wind) by 2030. Source: RenewableUK, "2024 in review."
 
-[^u3]: <span style="color:#a3540f;font-weight:600;">*Solar PV and offshore wind costs.*</span> Unsubsidised utility-scale solar LCOE was about $61/MWh (~£48/MWh) globally in 2024; the 2024 UK offshore wind CfD auction cleared at roughly £73–91/MWh. Sources: Lazard, *Levelized Cost of Energy+* (June 2024); UK CfD Allocation Round 7 results, 2024.
+[^u3]: <span style="color:#a3540f;font-weight:600;">*Solar PV and offshore wind costs.*</span> Unsubsidised utility-scale solar LCOE was about \$61/MWh (~£48/MWh) globally in 2024; the 2024 UK offshore wind CfD auction cleared at roughly £73–91/MWh. Sources: Lazard, *Levelized Cost of Energy+* (June 2024); UK CfD Allocation Round 7 results, 2024.
 
 ## Notes and further reading
 

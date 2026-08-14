@@ -248,7 +248,7 @@ Another good comparison to make is with our annual expenditure on insurance: som
 
 ![](/assets/figure237.gif)
 
-<span class="figurenumber"><span id="fig5">Figure 28.5</span>.</span> Things that run into billions. The scale down the centre has large ticks at $10 billion intervals and small ticks at $1 billion intervals.
+<span class="figurenumber"><span id="fig5">Figure 28.5</span>.</span> Things that run into billions. The scale down the centre has large ticks at \$10 billion intervals and small ticks at \$1 billion intervals.
 
 ### Special occasions
 
@@ -264,11 +264,11 @@ Cost of the London 2012 Olympics: £2.4 billion; no, I’m sorry, £5 billion [[
 
 £13 billion/y: Royal Dutch Shell’s profits (2006).
 
-$40 billion/y. Exxon’s profits (2006).
+\$40 billion/y. Exxon’s profits (2006).
 
-$33 billion/y. World expenditure on perfumes and make-up. [^3]
+\$33 billion/y. World expenditure on perfumes and make-up. [^3]
 
-$700 billion per year: USA’s expenditure on foreign oil (2008). ($2300 per year per person in the USA.)
+\$700 billion per year: USA’s expenditure on foreign oil (2008). (\$2300 per year per person in the USA.)
 
 ### Government business as usual
 
@@ -286,11 +286,11 @@ $700 billion per year: USA’s expenditure on foreign oil (2008). ($2300 per yea
 
 £8 billion/y: annual revenue from tobacco taxes in the UK [[<span class="websitetitle">y7kg26</span>](http://tinyurl.com/y7kg26)]. (£130 per year per person in the UK.) The European Union spends almost e1 billion a year subsidising tobacco farming. [<span class="websitetitle">www.ash.org.uk</span>](http://www.ash.org.uk/)
 
-$46 billion/y: Annual cost of the USA’s "War on drugs." [[<span class="websitetitle">r9fcf</span>](http://tinyurl.com/r9fcf)] ($150 per year per person in the USA.)
+\$46 billion/y: Annual cost of the USA’s "War on drugs." [[<span class="websitetitle">r9fcf</span>](http://tinyurl.com/r9fcf)] (\$150 per year per person in the USA.)
 
 ### Space
 
-$1.7 billion: the cost of one space shuttle. ($6 per person in the USA.)
+\$1.7 billion: the cost of one space shuttle. (\$6 per person in the USA.)
 
 ![](/assets/figure238.gif)
 
@@ -298,7 +298,7 @@ $1.7 billion: the cost of one space shuttle. ($6 per person in the USA.)
 
 ### Banks
 
-$700 billion: in October 2008, the US government committed $700 billion to bailing out Wall Street, and ...
+\$700 billion: in October 2008, the US government committed \$700 billion to bailing out Wall Street, and ...
 
 £500 billion: the UK government committed £500 billion to bailing out British banks.
 
@@ -310,17 +310,17 @@ $700 billion: in October 2008, the US government committed $700 billion to baili
 
 £3.8 billion: the cost of two new aircraft carriers (£63 per person in the UK). [<span class="websitetitle">news.bbc.co.uk/1/low/scotland/6914788.stm</span>](http://news.bbc.co.uk/1/low/scotland/6914788.stm)
 
-$4.5 billion per year: the cost of not making nuclear weapons – the US Department of Energy’s budget allocates at least $4.5 billion per year to "stockpile stewardship" activities to maintain the nuclear stockpile *without* nuclear testing and *without* large-scale production of new weapons. ($15 per year per person in America.)
+\$4.5 billion per year: the cost of not making nuclear weapons – the US Department of Energy’s budget allocates at least \$4.5 billion per year to "stockpile stewardship" activities to maintain the nuclear stockpile *without* nuclear testing and *without* large-scale production of new weapons. (\$15 per year per person in America.)
 
 £10–25 billion: the cost of replacing Trident, the British nuclear weapon system. (£170–420 per person in the UK.) [[<span class="websitetitle">ysncks</span>](http://tinyurl.com/ysncks)].
 
-$63 billion: American donation of "military aid" (i.e. weapons) to the Middle East over 10 years – roughly half to Israel, and half to Arab states. [[<span class="websitetitle">2vq59t</span>](http://tinyurl.com/2vq59t)] ($210 per person in the USA.)
+\$63 billion: American donation of "military aid" (i.e. weapons) to the Middle East over 10 years – roughly half to Israel, and half to Arab states. [[<span class="websitetitle">2vq59t</span>](http://tinyurl.com/2vq59t)] (\$210 per person in the USA.)
 
-$1200 billion per year: world expenditure on arms [[<span class="websitetitle">ym46a9</span>](http://tinyurl.com/ym46a9)]. ($200 per year per person in the world.)
+\$1200 billion per year: world expenditure on arms [[<span class="websitetitle">ym46a9</span>](http://tinyurl.com/ym46a9)]. (\$200 per year per person in the world.)
 
-$2000 billion or more: the cost, to the USA, of the [[<span class="websitetitle">99bpt</span>](http://tinyurl.com/99bpt)] Iraq war according to Nobel prize-winning economist Joseph Stiglitz. ($7000 per person in America.) [^4]
+\$2000 billion or more: the cost, to the USA, of the [[<span class="websitetitle">99bpt</span>](http://tinyurl.com/99bpt)] Iraq war according to Nobel prize-winning economist Joseph Stiglitz. (\$7000 per person in America.) [^4]
 
-According to the Stern review, the global cost of averting dangerous climate change (if we act now) is $440 billion per year ($440 per year per person, if shared equally between the 1 billion richest people). In 2005, the US government alone spent $480 billion on wars and preparation for wars. The total military expenditure of the 15 biggest military-spending countries was $840 billion.
+According to the Stern review, the global cost of averting dangerous climate change (if we act now) is \$440 billion per year (\$440 per year per person, if shared equally between the 1 billion richest people). In 2005, the US government alone spent \$480 billion on wars and preparation for wars. The total military expenditure of the 15 biggest military-spending countries was \$840 billion.
 
 ### Expenditure that does **not** run into billions
 
@@ -330,7 +330,7 @@ According to the Stern review, the global cost of averting dangerous climate cha
 
 This section updates the chapter's headline cost-per-watt framing, not the full plan M cost table below (table 28.3) — recomputing every line of a sixth, illustrative plan is a bigger job than this pass attempts; treat the table's absolute figures as 2008-era and the relative framing above as the current one.
 
-[^u1]: <span style="color:#a3540f;font-weight:600;">*Capital costs per watt, 2024.*</span> Solar PV: $1,379/kW; onshore wind: $1,626/kW (EIA 2024 data, converted at roughly $1.28 = £1). Offshore wind: $2,600–3,675/kW (Lazard). Hinkley Point C: total cost now estimated at £41–48bn (2024 prices) for 3.26 GW of capacity, versus an original ~£18bn estimate when first planned. Sources: EIA; Lazard, *Levelized Cost of Energy+*; World Nuclear News / Yahoo Finance reporting on EDF cost updates.
+[^u1]: <span style="color:#a3540f;font-weight:600;">*Capital costs per watt, 2024.*</span> Solar PV: \$1,379/kW; onshore wind: \$1,626/kW (EIA 2024 data, converted at roughly \$1.28 = £1). Offshore wind: \$2,600–3,675/kW (Lazard). Hinkley Point C: total cost now estimated at £41–48bn (2024 prices) for 3.26 GW of capacity, versus an original ~£18bn estimate when first planned. Sources: EIA; Lazard, *Levelized Cost of Energy+*; World Nuclear News / Yahoo Finance reporting on EDF cost updates.
 
 ## Notes and further reading
 

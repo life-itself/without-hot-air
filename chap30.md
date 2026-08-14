@@ -193,7 +193,7 @@ The non-solar numbers add up as follows. Wind: 24 kWh/d/p; hydro: 3.6 kWh/d/p; t
 
 ## <span style="color:#a3540f;font-weight:600;">Updates, 2026</span>
 
-[^u1]: <span style="color:#a3540f;font-weight:600;">*Solar PV cost decline.*</span> Unsubsidised utility-scale solar LCOE fell to roughly $61/MWh by 2024, versus $76/MWh for new combined-cycle gas. Source: Lazard, *Levelized Cost of Energy+* (June 2024).
+[^u1]: <span style="color:#a3540f;font-weight:600;">*Solar PV cost decline.*</span> Unsubsidised utility-scale solar LCOE fell to roughly \$61/MWh by 2024, versus \$76/MWh for new combined-cycle gas. Source: Lazard, *Levelized Cost of Energy+* (June 2024).
 
 [^u2]: <span style="color:#a3540f;font-weight:600;">*US wind capacity.*</span> From a few GW in 2008 to well over 150 GW by the mid-2020s. Source: American Clean Power Association / IRENA capacity statistics.
 

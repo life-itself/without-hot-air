@@ -31,8 +31,8 @@ than 100 times all the photovoltaics in the whole world*. World solar capacity
 in 2007 was about 10 GW.
 
 By 2024, world solar capacity was around 1,900 GW — roughly 180 times bigger —
-and unsubsidised utility-scale solar cost about $61 per MWh, *cheaper* than new
-gas generation at $76/MWh.[^solar-lcoe] Panel efficiency, which MacKay put at
+and unsubsidised utility-scale solar cost about \$61 per MWh, *cheaper* than new
+gas generation at \$76/MWh.[^solar-lcoe] Panel efficiency, which MacKay put at
 "about 10%, expensive ones 20%," is now 20–22% for a standard panel. The
 100-times-the-world comparison that structured his whole skepticism about
 solar's *scale* is now inverted: the capacity his UK scenario needs is
@@ -185,7 +185,7 @@ chapter-by-chapter edits this overview draws on.
 
 ### Sources
 
-[^solar-lcoe]: Lazard, *Levelized Cost of Energy+*, June 2024: unsubsidised utility-scale solar PV ≈ $61/MWh vs. $76/MWh for new combined-cycle gas, 2024.
+[^solar-lcoe]: Lazard, *Levelized Cost of Energy+*, June 2024: unsubsidised utility-scale solar PV ≈ \$61/MWh vs. \$76/MWh for new combined-cycle gas, 2024.
 
 [^offshore-cfd]: UK Contracts for Difference Allocation Round 7 results, 2024; World Nuclear News, Hinkley Point C cost coverage, 2024.
 

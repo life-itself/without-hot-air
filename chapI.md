@@ -258,7 +258,7 @@ An annoying unit loved by the oil community, along with the ton of oil. Why can�
 
 Barrels are doubly annoying because there are multiple definitions of barrels, all having different volumes.
 
-Here’s everything you need to know about barrels of oil. One barrel is 42 U.S. gallons, or 159 litres. One barrel of oil is 0.1364 tons of oil. One barrel of crude oil has an energy of 5.75 GJ. One barrel of oil weighs 136 kg. One ton of crude oil is 7.33 barrels and 42.1 GJ. The carbon-pollution rate of crude oil is 400 kg of CO<sub>2</sub> per barrel. [<span class="websitetitle">www.chemlink.com.au/conversions.htm</span>](http://www.chemlink.com.au/conversions.htm). This means that when the price of oil is $100 per barrel, oil energy costs 6¢ per kWh. If there were a carbon tax of $250 per ton of CO<sub>2</sub> on fossil fuels, that tax would increase the price of a barrel of oil by $100.
+Here’s everything you need to know about barrels of oil. One barrel is 42 U.S. gallons, or 159 litres. One barrel of oil is 0.1364 tons of oil. One barrel of crude oil has an energy of 5.75 GJ. One barrel of oil weighs 136 kg. One ton of crude oil is 7.33 barrels and 42.1 GJ. The carbon-pollution rate of crude oil is 400 kg of CO<sub>2</sub> per barrel. [<span class="websitetitle">www.chemlink.com.au/conversions.htm</span>](http://www.chemlink.com.au/conversions.htm). This means that when the price of oil is \$100 per barrel, oil energy costs 6¢ per kWh. If there were a carbon tax of \$250 per ton of CO<sub>2</sub> on fossil fuels, that tax would increase the price of a barrel of oil by \$100.
 
 #### Gallons
 
@@ -483,7 +483,7 @@ Atmospheric pressure: 1 bar ≅ 10<sup>5</sup> Pa (pascal). Pressure under 1000 
 
 ## Money
 
-I assumed the following exchange rates when discussing money: €1 = $1.26; £1 = $1.85 ; $1 = $1.12 Canadian. These exchange rates were correct in mid-2006.
+I assumed the following exchange rates when discussing money: €1 = \$1.26; £1 = \$1.85 ; \$1 = \$1.12 Canadian. These exchange rates were correct in mid-2006.
 
 ## Greenhouse gas conversion factors
 

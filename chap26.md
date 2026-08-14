@@ -450,7 +450,7 @@ A US company, EEStor, claims to be able to make much better supercapacitors, usi
 
 VRB power systems [^15] have provided a 12 MWh energy storage system for the Sorne Hill wind farm in Ireland, whose current capacity is "32 MW," increasing to "39 MW." (VRB stands for vanadium redox battery.) This storage system is a big "flow battery," a redox regenerative fuel cell, with a couple of tanks full of vanadium in different chemical states. This storage system can smooth the output of its wind farm on a time-scale of minutes, but the longest time for which it could deliver one third of the capacity (during a lull in the wind) is one hour.
 
-A 1.5 MWh vanadium system costing $480 000 occupies 70 m<sup>2</sup> with a mass of 107 tons. The vanadium redox battery has a life of more than 10 000 cycles. It can be charged at the same rate that it is discharged (in contrast to lead-acid batteries which must be charged 5 times as slowly). Its efficiency is 70–75%, round-trip. The volume required is about 1 m<sup>3</sup> of 2-molar vanadium in sulphuric acid to store 20 kWh. (That’s 20 Wh/kg.)
+A 1.5 MWh vanadium system costing \$480 000 occupies 70 m<sup>2</sup> with a mass of 107 tons. The vanadium redox battery has a life of more than 10 000 cycles. It can be charged at the same rate that it is discharged (in contrast to lead-acid batteries which must be charged 5 times as slowly). Its efficiency is 70–75%, round-trip. The volume required is about 1 m<sup>3</sup> of 2-molar vanadium in sulphuric acid to store 20 kWh. (That’s 20 Wh/kg.)
 
 So to store 10 GWh would require 500 000 m<sup>3</sup> (170 swimming pools) – for example, tanks 2 m high covering a floor area of 500 m × 500 m.
 

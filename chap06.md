@@ -164,7 +164,7 @@ The chapter above carries five inline updates (marked <del>struck-through</del> 
 
 [^u2]: <span style="color:#a3540f;font-weight:600;">*PV vs. solar-thermal installed cost.*</span> Module costs fell roughly 90% between 2008 and the mid-2020s (the well-documented PV cost-learning curve). Source: Lazard, *Levelized Cost of Energy+* (June 2024).
 
-[^u3]: <span style="color:#a3540f;font-weight:600;">*Solar vs. market electricity price.*</span> Unsubsidised utility-scale solar LCOE was about $61/MWh in 2024, versus $76/MWh for new combined-cycle gas — solar had become cheaper than new fossil generation, the reverse of the 2008 comparison. Source: Lazard, *Levelized Cost of Energy+* (June 2024).
+[^u3]: <span style="color:#a3540f;font-weight:600;">*Solar vs. market electricity price.*</span> Unsubsidised utility-scale solar LCOE was about \$61/MWh in 2024, versus \$76/MWh for new combined-cycle gas — solar had become cheaper than new fossil generation, the reverse of the 2008 comparison. Source: Lazard, *Levelized Cost of Energy+* (June 2024).
 
 [^u4]: <span style="color:#a3540f;font-weight:600;">*World installed solar PV capacity.*</span> Roughly 10 GW (peak) at the end of 2007 rising to roughly 1873 GW by the end of 2024, a roughly 180-fold increase. Source: IRENA, *Renewable Capacity Statistics 2025*.
 
