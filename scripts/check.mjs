@@ -151,21 +151,19 @@ export async function check(rootDir) {
       }
     }
 
-    // Bare currency dollar signs are a rendering hazard: the site's math pipeline
-    // (remark-math, singleDollarTextMath: true) treats any $...$ pair as inline
-    // math with no currency heuristic, so "$61 per MWh ... $76/MWh" gets parsed
-    // as one math span and silently mis-renders. Real LaTeX in this book always
-    // contains a backslash command nearby; a bare "$" immediately followed by a
-    // digit with no backslash before the next "$" (or a short lookahead) is
-    // currency and must be escaped as "\$".
-    for (const m of body.matchAll(/(?<![\\$])\$(?=\d)/g)) {
-      const start = m.index;
-      const nextDollar = body.indexOf('$', start + 1);
-      const windowEnd = nextDollar === -1 ? start + 60 : Math.min(nextDollar, start + 60);
-      const window = body.slice(start, windowEnd);
-      if (window.includes('\\')) continue; // looks like real LaTeX, e.g. "$4 \times ...$"
-      const snippet = body.slice(start, start + 20).replace(/\s+/g, ' ');
-      errors.push(`${f.rel}: bare "$" before a digit ("${snippet}...") will be parsed as math — escape it as "\\$"`);
+    // Single-dollar inline math ($...$) does not render on this site: Flowershow
+    // runs remark-math with singleDollarTextMath: false (flowershow#1359 --
+    // filed after bare currency like "$61 ... $76" was getting parsed as one
+    // math span under the old default). That fix means single "$" is now always
+    // literal text, so currency needs no escaping any more -- but it also means
+    // genuine LaTeX written with single "$" (this book's technical chapters had
+    // several) silently stops rendering and shows raw backslash commands
+    // instead. Flag any single-line, single-"$"-delimited span that contains a
+    // backslash command -- that's real math, and needs "$$...$$" instead.
+    for (const m of body.matchAll(/(?<![\\$])\$([^$\n]+)\$(?!\$)/g)) {
+      if (!m[1].includes('\\')) continue; // plain text in single $, not math
+      const snippet = m[0].length > 40 ? `${m[0].slice(0, 40)}...` : m[0];
+      errors.push(`${f.rel}: "${snippet}" is single-$ math, which no longer renders — use "$$...$$"`);
     }
 
     // Internal markdown links and reference definitions must resolve to a page.

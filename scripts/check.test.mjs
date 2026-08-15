@@ -84,12 +84,17 @@ test('external links are not checked', async () => {
   assert.deepEqual(errors, []);
 });
 
-test('bare currency dollar before a digit is an error', async () => {
-  const { errors } = await check(fixture('bare-dollar'));
-  assert.match(errors.join('\n'), /will be parsed as math/);
+test('bare currency dollar is not an error (single-$ math no longer renders at all)', async () => {
+  const { errors } = await check(fixture('currency-dollar-ok'));
+  assert.deepEqual(errors, []);
 });
 
-test('escaped dollars and digit-leading LaTeX are not errors', async () => {
+test('single-dollar math is an error', async () => {
+  const { errors } = await check(fixture('single-dollar-math'));
+  assert.match(errors.join('\n'), /no longer renders/);
+});
+
+test('escaped currency and double-dollar LaTeX are not errors', async () => {
   const { errors } = await check(fixture('escaped-dollar-ok'));
   assert.deepEqual(errors, []);
 });

@@ -95,7 +95,7 @@ Let’s work out the special distance *d*\* between stop signs, below which the 
 
 $$A_{\text{car}} = \text{2\ m\ wide} \times \text{1.5\ m\ high} = \text{3\ m}^{\text{2}}$$
 
-and the drag coefficient is $c_{\text{d}} = \frac{1}{3}$ and the mass is $m_{\text{c}} = 1000\text{~kg}$ then the special distance is:
+and the drag coefficient is $$c_{\text{d}} = \frac{1}{3}$$ and the mass is $$m_{\text{c}} = 1000\text{~kg}$$ then the special distance is:
 
 $$d^{*} = \frac{m_{\text{c}}}{\rho c_{\text{d}}A_{\text{car}}} = \frac{\text{1000\ kg}}{\text{1.3~}{\text{kg}/{\text{m}^{\text{3}} \times \frac{\text{1}}{\text{3}} \times \text{3~}\text{m}^{\text{2}}}}} = \text{750\ m}$$
 
@@ -137,7 +137,7 @@ The actual energy consumption of the car will be the energy dissipation in equat
 
 $$\text{total\ power\ of\ car} \simeq 4\left\lbrack {\frac{\text{1}}{\text{2}}m_{\text{c}}v^{3}/d + \frac{\text{1}}{\text{2}}\rho Av^{3}} \right\rbrack$$
 
-Let’s check this theory of cars by plugging in plausible numbers for motorway driving. Let *v* = 70 miles per hour = 110 km/h = 31 m/s and ${A = c_{\text{d}}A_{\text{car}} = \text{1\ m}^{2}}\text{.}$ The power consumed by the engine is estimated to be <span id="chA-80kW">roughly</span>
+Let’s check this theory of cars by plugging in plausible numbers for motorway driving. Let *v* = 70 miles per hour = 110 km/h = 31 m/s and $${A = c_{\text{d}}A_{\text{car}} = \text{1\ m}^{2}}\text{.}$$ The power consumed by the engine is estimated to be <span id="chA-80kW">roughly</span>
 
 $$4 \times \frac{\text{1}}{\text{2}}\rho Av^{3} = 2 \times 1.3{\text{~kg}/\text{m}}^{\text{3}} \times \text{1}\text{~m}^{\text{2}} \times \left( 31\text{~m}/\text{s} \right)^{\text{3}} = 80\text{~kW}$$
 
@@ -253,7 +253,7 @@ divided by the speed, *v*; that is,
 
 $$\text{energy\ per\ distance} = 4 \times \frac{\text{1}}{\text{2}}\rho Av^{2}$$
 
-The "4" came from engine inefficiency; *ρ* is the density of air; the area $A = c_{\text{d}}A_{\text{car}}$ is the effective frontal area of a car; and *v* is its speed. Now, we can compare a bicycle with a car by dividing $4 \times \frac{\text{1}}{\text{2}}\rho Av^{2}$ for the bicycle by $4 \times \frac{\text{1}}{\text{2}}\rho Av^{2}$ for the car. All the fractions and *ρ* cancel, if the efficiency of the carbon-powered bicyclist’s engine is similar to the efficiency of the carbon-powered car engine (which it is). The ratio is:
+The "4" came from engine inefficiency; *ρ* is the density of air; the area $$A = c_{\text{d}}A_{\text{car}}$$ is the effective frontal area of a car; and *v* is its speed. Now, we can compare a bicycle with a car by dividing $$4 \times \frac{\text{1}}{\text{2}}\rho Av^{2}$$ for the bicycle by $$4 \times \frac{\text{1}}{\text{2}}\rho Av^{2}$$ for the car. All the fractions and *ρ* cancel, if the efficiency of the carbon-powered bicyclist’s engine is similar to the efficiency of the carbon-powered car engine (which it is). The ratio is:
 
 $$\frac{\text{energy\ per\ distance\ of\ bike}}{\text{energy\ per\ distance\ of\ car}} = \frac{c_{\text{d}}^{\text{bike}}A_{\text{bike}}v_{\text{bike}}^{2}}{c_{\text{d}}^{\text{car}}A_{\text{car}}v_{\text{car}}^{2}}$$
 
