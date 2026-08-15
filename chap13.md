@@ -46,7 +46,7 @@ A "layer" (a chicken that lays eggs) eats about 110 g of chicken feed per day. A
 
 ### The energy cost of eating meat
 
-Let’s say an enthusiastic meat-eater eats about half a pound a day (227 g). (This is the average meat consumption of Americans.) To work out the power required to maintain the meat-eater’s animals as they mature and wait for the chop, we need to know for how long the animals are around, consuming energy. Chicken, pork, or beef?
+Let’s say an enthusiastic meat-eater eats about half a pound a day (227 g). (This is the average meat consumption of Americans.) <ins style="color:#a3540f;background:#fbeee0;padding:0 3px;border-radius:2px;font-weight:600;">Updated, 2026: American meat consumption has since risen further, to roughly 279 g/day (224.6 lb/year) — see [^u1].</ins> To work out the power required to maintain the meat-eater’s animals as they mature and wait for the chop, we need to know for how long the animals are around, consuming energy. Chicken, pork, or beef?
 
 Chicken, sir? Every chicken you eat was clucking around being a chicken for roughly 50 days. So the steady consumption of half a pound a day of chicken requires about 25 pounds of chicken to be alive, preparing to be eaten. And those 25 pounds of chicken consume energy.
 
@@ -98,13 +98,17 @@ Shadowfax the horse weighs about 400 kg and consumes <span class="red">17 kWh pe
 
 Whether this is true depends on your diet. It’s certainly possible to find food whose fossil-fuel energy footprint is bigger than the energy delivered to the human. A bag of crisps, for example, has an embodied energy of 1.4 kWh of fossil fuel per kWh of chemical energy eaten. [^7] The embodied energy of meat is higher. According to a study from the University of Exeter, the typical diet has an embodied energy of roughly 6 kWh per kWh eaten. [^8] To figure out whether driving a car or walking uses less energy, we need to know the transport efficiency of each mode. For the typical car of Chapter 3, the energy cost was 80 kWh per 100 km. Walking uses a net energy of 3.6 kWh per 100 km [^9] – 22 times less. So if you live entirely on food whose footprint is greater than 22 kWh per kWh then, yes, the energy cost of getting you from A to B in a fossil-fuel-powered vehicle is less than if you go under your own steam. But if you have a typical diet (6 kWh per kWh) then "it’s better to drive than to walk" is a myth. Walking uses one quarter as much energy.
 
+## <span style="color:#a3540f;font-weight:600;">Updates, 2026</span>
+
+[^u1]: <span style="color:#a3540f;font-weight:600;">*US meat consumption.*</span> The USDA's current estimate is 224.6 lb (roughly 279 g/day) of meat per capita per year — beef, pork, and poultry — up from the 251 g/day (108 g chicken, 81 g beef, 62 g pork) MacKay cites from 2008-era USDA data. Source: USDA Economic Research Service, 2023 data.
+
 ## Notes and further reading
 
 [^1]: *A typical dairy cow produces 16 litres of milk per day*. There are 2.3 million dairy cows in the UK, each producing around 5900 litres per year. Half of all milk produced by cows is sold as liquid milk. [<span class="websitetitle">www.ukagriculture.com</span>](http://www.ukagriculture.com/), [<span class="websitetitle">www.vegsoc.org/info/cattle.html</span>](http://www.vegsoc.org/info/cattle.html)
 
 [^2]: *It takes about 1000 days of cow-time to create a steak*. 33 months from conception to slaughterhouse: 9 months’ gestation and 24 months’ rearing. [<span class="websitetitle">www.shabdenparkfarm.com/farming/cattle.htm</span>](http://www.shabdenparkfarm.com/farming/cattle.htm)
 
-[^3]: *let’s assume you eat half a pound (227 g) a day of meat, made up of equal quantities of chicken, pork, and beef*. This is close to the average meat consumption in America, which is 251 g per day – made up of 108 g chicken, 81 g beef, and 62 g pork (MacDonald, 2008).
+[^3]: *let’s assume you eat half a pound (227 g) a day of meat, made up of equal quantities of chicken, pork, and beef*. This is close to the average meat consumption in America, which is 251 g per day – made up of 108 g chicken, 81 g beef, and 62 g pork (MacDonald, 2008). <ins style="color:#a3540f;background:#fbeee0;padding:0 3px;border-radius:2px;font-weight:600;">Updated, 2026: risen further since — see [^u1].</ins>
 
 [^4]: *Chicken*. A full-grown (20-week old) layer weighs 1.5 or 1.6 kg. Its feed has an energy content of 2850 kcal per kg, which is 3.3 kWh per kg, and its feed consumption rises to 340 g per week when 6 weeks old, and to 500 g per week when aged 20 weeks. Once laying, the typical feed required is 110 g per day. Meat chickens’ feed has an energy content of 3.7 kWh per kg. Energy consumption is 400–450 kcal per day per hen (0.5 kWh/d per hen), with 2 kg being a typical body weight. A meat chicken weighing 2.95 kg consumes a total of 5.32 kg of feed [[<span class="websitetitle">5h69fm</span>](http://tinyurl.com/5h69fm)]. So the embodied energy of a meat chicken is about 6.7 kWh per kg of animal, or 10 kWh per kg of eaten meat.
 

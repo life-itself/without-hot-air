@@ -5,7 +5,7 @@ description: Every dated-claim update made to this edition since MacKay's 2008 t
 
 # Changes
 
-34 chapters revised so far, 111 individual updates. Each excerpt below shows a change
+35 chapters revised so far, 113 individual updates. Each excerpt below shows a change
 in context — <del>struck-through</del> is MacKay's 2008 original, <ins style="color:#a3540f;background:#fbeee0;padding:0 3px;border-radius:2px;font-weight:600;">highlighted</ins> is ours, dated and sourced. Click a
 chapter heading to read it in full, including the citation for every change in that chapter's own "Updates" section.
 
@@ -26,6 +26,7 @@ hand-maintained, so it stays accurate as more chapters are revised.
 - [[chap10|10 Offshore wind]] — 4 changes
 - [[chap11|11 Gadgets]] — 1 change
 - [[chap12|12 Wave]] — 1 change
+- [[chap13|13 Food and farming]] — 2 changes
 - [[chap14|14 Tide]] — 1 change
 - [[chap16|16 Geothermal]] — 1 change
 - [[chap17|17 Public services]] — 2 changes
@@ -130,6 +131,12 @@ hand-maintained, so it stays accurate as more chapters are revised.
 ## [[chap12|12 Wave]]
 
 &hellip;of the Pelamis ("designed with survival as the key objective before power capture efficiency") predict that a two-kilometre long wave-farm consisting of 40 of their sea-snakes would deliver 6 kW per metre of wave-farm. <ins style="color:#a3540f;background:#fbeee0;padding:0 3px;border-radius:2px;font-weight:600;">Updated, 2026: Pelamis Wave Power went into administration in 2014 and its devices were decommissioned — see \[^u1\].</ins> Using this number in the previous calculation, the power delivered by 500 kilometres of wave-farm is reduced to 1.2 kWh per day per person. While wave power may be useful for small communities&hellip;
+
+## [[chap13|13 Food and farming]]
+
+&hellip;queue of animals lining up to be eaten by the human. ### The energy cost of eating meat Let’s say an enthusiastic meat-eater eats about half a pound a day (227 g). (This is the average meat consumption of Americans.) <ins style="color:#a3540f;background:#fbeee0;padding:0 3px;border-radius:2px;font-weight:600;">Updated, 2026: American meat consumption has since risen further, to roughly 279 g/day (224.6 lb/year) — see \[^u1\].</ins> To work out the power required to maintain the meat-eater’s animals as they mature and wait for the chop, we need to know for how long the animals are around, consuming energy. Chicken, pork, or beef? Chicken, sir? Eve&hellip;
+
+&hellip;of meat, made up of equal quantities of chicken, pork, and beef*. This is close to the average meat consumption in America, which is 251 g per day – made up of 108 g chicken, 81 g beef, and 62 g pork (MacDonald, 2008). <ins style="color:#a3540f;background:#fbeee0;padding:0 3px;border-radius:2px;font-weight:600;">Updated, 2026: risen further since — see \[^u1\].</ins> \[^4\]: *Chicken*. A full-grown (20-week old) layer weighs 1.5 or 1.6 kg. Its feed has an energy content of 2850 kcal per kg, which is 3.3 kWh per kg, and its feed consumption rises to 340 g per week when 6 weeks old, an&hellip;
 
 ## [[chap14|14 Tide]]
 
