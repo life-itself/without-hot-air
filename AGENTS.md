@@ -73,7 +73,12 @@ climate repo.
   wherever it sits in the file, and is idempotent. Flowershow only falls back to
   a level-1 heading when it leads the file, which most chapters' do not.
 - No Git LFS.
-- Commit messages: `[scope/N][size]: subject`.
+- Commit messages: `[scope/N][size]: subject`, where `N` is a rough 1–3
+  priority, not a sequence counter. Scopes in use: `content` (chapter/page
+  edits), `tooling` (scripts, `extract.py`), `docs` (plan/handoff files), and
+  `marketing` (announcement drafts, sharing plans, launch copy — kept
+  separate from `content` so marketing work is easy to filter out of `git
+  log` from dev/content work).
 
 ## Current work
 
