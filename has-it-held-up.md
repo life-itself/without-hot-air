@@ -22,8 +22,7 @@ sections below go through the book's major bets one at a time.
 
 ## Solar: the single biggest miss in the book
 
-MacKay's solar chapter is the one that has aged the most, and it isn't close.
-In 2008 he compared solar to the biggest farm he could find — a 6.3 MW site in
+MacKay's solar chapter is the one that has aged the most. In 2008 he compared solar to the biggest farm he could find — a 6.3 MW site in
 Bavaria — and concluded that covering enough of Britain to matter was "beyond
 the bounds of plausibility," that solar electricity cost four times the market
 rate, and that the panel capacity you'd need for 50 kWh/d per person was *more
